@@ -21,6 +21,8 @@ class ARViewController: UIViewController {
     var z:Float = 0.0
     var originalX:Float = 0.0
     
+    var timer = Timer()
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         setUpSceneView()
@@ -34,6 +36,8 @@ class ARViewController: UIViewController {
     func setUpSceneView() {
         let configuration = ARWorldTrackingConfiguration()
         configuration.planeDetection = .horizontal
+        
+        configuration.isLightEstimationEnabled = true;  //enable lighting
         
         sceneView.session.run(configuration)
         
@@ -74,13 +78,28 @@ class ARViewController: UIViewController {
         sceneView.showsStatistics = true
         
         // Create a new scene
-        let scene = SCNScene(named: "art.scnassets/ship.scn")!
+        //let scene = SCNScene(named: "art.scnassets/ship.scn")!
         
         // Set the scene to the view
-        sceneView.scene = scene
+        //sceneView.scene = scene
         
         addTapGestureToSceneView()
         configureLighting()
+        
+        startTimer()
+    }
+    
+    func startTimer() {
+        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(self.updateCounting), userInfo: nil, repeats: true)
+    }
+    
+    @objc func updateCounting() {
+        if let estimate = self.sceneView.session.currentFrame?.lightEstimate {
+            print("Light estimation: ")
+            print(estimate)
+        } else {
+            print("Light estimation not found")
+        }
     }
     
     override func didReceiveMemoryWarning() {

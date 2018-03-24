@@ -14,7 +14,6 @@
 		894840982066CA540012BB27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 894840972066CA540012BB27 /* Assets.xcassets */; };
 		8948409B2066CA540012BB27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 894840992066CA540012BB27 /* LaunchScreen.storyboard */; };
 		894840A82066D5550012BB27 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894840A72066D5550012BB27 /* ARViewController.swift */; };
-		894840AD2066D5A60012BB27 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 894840AB2066D5A60012BB27 /* Info.plist */; };
 		894840AE2066D5A60012BB27 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 894840AC2066D5A60012BB27 /* GoogleService-Info.plist */; };
 		894840B02066D5F10012BB27 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894840AF2066D5F10012BB27 /* HomeViewController.swift */; };
 		894840B42066DAFE0012BB27 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894840B32066DAFE0012BB27 /* Constants.swift */; };
@@ -192,7 +191,6 @@
 				894840912066CA540012BB27 /* art.scnassets in Resources */,
 				8948409B2066CA540012BB27 /* LaunchScreen.storyboard in Resources */,
 				894840982066CA540012BB27 /* Assets.xcassets in Resources */,
-				894840AD2066D5A60012BB27 /* Info.plist in Resources */,
 				894840962066CA540012BB27 /* Main.storyboard in Resources */,
 				894840AE2066D5A60012BB27 /* GoogleService-Info.plist in Resources */,
 			);
