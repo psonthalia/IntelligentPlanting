@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54244548F92496E8DB04FA8C /* Pods_IntelligentPlanting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFCD18FB142E5DB24B8A1C8B /* Pods_IntelligentPlanting.framework */; };
 		8948408F2066CA540012BB27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8948408E2066CA540012BB27 /* AppDelegate.swift */; };
 		894840912066CA540012BB27 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 894840902066CA540012BB27 /* art.scnassets */; };
 		894840932066CA540012BB27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894840922066CA540012BB27 /* ViewController.swift */; };
 		894840962066CA540012BB27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 894840942066CA540012BB27 /* Main.storyboard */; };
 		894840982066CA540012BB27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 894840972066CA540012BB27 /* Assets.xcassets */; };
 		8948409B2066CA540012BB27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 894840992066CA540012BB27 /* LaunchScreen.storyboard */; };
+		894840A32066D01A0012BB27 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 894840A22066D01A0012BB27 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,10 @@
 		894840972066CA540012BB27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8948409A2066CA540012BB27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8948409C2066CA540012BB27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		894840A22066D01A0012BB27 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D5667683CD6E9622A889C174 /* Pods-IntelligentPlanting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntelligentPlanting.release.xcconfig"; path = "Pods/Target Support Files/Pods-IntelligentPlanting/Pods-IntelligentPlanting.release.xcconfig"; sourceTree = "<group>"; };
+		EFCD18FB142E5DB24B8A1C8B /* Pods_IntelligentPlanting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IntelligentPlanting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB26856CE1D98340E94D7598 /* Pods-IntelligentPlanting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntelligentPlanting.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IntelligentPlanting/Pods-IntelligentPlanting.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54244548F92496E8DB04FA8C /* Pods_IntelligentPlanting.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,8 @@
 			children = (
 				8948408D2066CA540012BB27 /* IntelligentPlanting */,
 				8948408C2066CA540012BB27 /* Products */,
+				A36440D7506E492120BBDE84 /* Pods */,
+				CEFEDFC2E52CE27841906693 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +72,26 @@
 				894840972066CA540012BB27 /* Assets.xcassets */,
 				894840992066CA540012BB27 /* LaunchScreen.storyboard */,
 				8948409C2066CA540012BB27 /* Info.plist */,
+				894840A22066D01A0012BB27 /* GoogleService-Info.plist */,
 			);
 			path = IntelligentPlanting;
+			sourceTree = "<group>";
+		};
+		A36440D7506E492120BBDE84 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB26856CE1D98340E94D7598 /* Pods-IntelligentPlanting.debug.xcconfig */,
+				D5667683CD6E9622A889C174 /* Pods-IntelligentPlanting.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CEFEDFC2E52CE27841906693 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD18FB142E5DB24B8A1C8B /* Pods_IntelligentPlanting.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8948409F2066CA540012BB27 /* Build configuration list for PBXNativeTarget "IntelligentPlanting" */;
 			buildPhases = (
+				91DF407A77556DD5D961A691 /* [CP] Check Pods Manifest.lock */,
 				894840872066CA540012BB27 /* Sources */,
 				894840882066CA540012BB27 /* Frameworks */,
 				894840892066CA540012BB27 /* Resources */,
+				CC811F1406E98E7F6C49D421 /* [CP] Embed Pods Frameworks */,
+				AD5D788B6BAA5B5879629265 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -128,12 +158,71 @@
 			files = (
 				894840912066CA540012BB27 /* art.scnassets in Resources */,
 				8948409B2066CA540012BB27 /* LaunchScreen.storyboard in Resources */,
+				894840A32066D01A0012BB27 /* GoogleService-Info.plist in Resources */,
 				894840982066CA540012BB27 /* Assets.xcassets in Resources */,
 				894840962066CA540012BB27 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		91DF407A77556DD5D961A691 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IntelligentPlanting-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD5D788B6BAA5B5879629265 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IntelligentPlanting/Pods-IntelligentPlanting-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC811F1406E98E7F6C49D421 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-IntelligentPlanting/Pods-IntelligentPlanting-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IntelligentPlanting/Pods-IntelligentPlanting-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		894840872066CA540012BB27 /* Sources */ = {
@@ -276,10 +365,11 @@
 		};
 		894840A02066CA540012BB27 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB26856CE1D98340E94D7598 /* Pods-IntelligentPlanting.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 65777GTD95;
+				DEVELOPMENT_TEAM = 84R2JMF96C;
 				INFOPLIST_FILE = IntelligentPlanting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hwang.IntelligentPlanting;
@@ -291,10 +381,11 @@
 		};
 		894840A12066CA540012BB27 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5667683CD6E9622A889C174 /* Pods-IntelligentPlanting.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 65777GTD95;
+				DEVELOPMENT_TEAM = 84R2JMF96C;
 				INFOPLIST_FILE = IntelligentPlanting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hwang.IntelligentPlanting;
