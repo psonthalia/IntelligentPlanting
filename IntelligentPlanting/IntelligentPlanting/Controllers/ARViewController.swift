@@ -14,6 +14,10 @@ class ARViewController: UIViewController {
 
     @IBOutlet var sceneView: ARSCNView!
     
+    @IBOutlet weak var brightnessLabel: UILabel!
+    
+    @IBOutlet weak var colorTemperatureLabel: UILabel!
+    
     var displayPlane = true
 
     var x:Float = 0.0
@@ -75,7 +79,7 @@ class ARViewController: UIViewController {
         sceneView.delegate = self
         
         // Show statistics such as fps and timing information
-        sceneView.showsStatistics = true
+        //sceneView.showsStatistics = true
         
         // Create a new scene
         //let scene = SCNScene(named: "art.scnassets/ship.scn")!
@@ -95,6 +99,12 @@ class ARViewController: UIViewController {
     
     @objc func updateCounting() {
         if let estimate = self.sceneView.session.currentFrame?.lightEstimate {
+            let brightness = estimate.ambientIntensity
+            let colorTemperature = estimate.ambientColorTemperature
+            
+            brightnessLabel.text = "Brightness: \(brightness)"
+            colorTemperatureLabel.text = "Color Temperature: \(colorTemperature)"
+            
             print("Light estimation: ")
             print(estimate)
         } else {
