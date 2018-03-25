@@ -90,10 +90,6 @@ class ARViewController: UIViewController {
         addTapGestureToSceneView()
         configureLighting()
         
-        startTimer()
-    }
-    
-    func startTimer() {
         timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(self.updateCounting), userInfo: nil, repeats: true)
     }
     
