@@ -14,9 +14,8 @@ class QRScannerViewController: UIViewController, AVCaptureMetadataOutputObjectsD
     var captureSession = AVCaptureSession()
     var videoPreviewLayer: AVCaptureVideoPreviewLayer?
     var qrCodeFrameView: UIView?
-    
-    static var customLevel: String?
-    
+    var addedData = false
+        
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -91,9 +90,21 @@ class QRScannerViewController: UIViewController, AVCaptureMetadataOutputObjectsD
             qrCodeFrameView?.frame = barCodeObject!.bounds
             
             if let text = metadataObj.stringValue {
-                print("QR Text: " + text)
+                if(!addedData) {
+                    print("QR Text: " + text)
+                    let fullNameArr = text.components(separatedBy: " : ")
+                    let name = fullNameArr[0]
+                    let moisture = fullNameArr[1]
+                    
+                    print(name)
+                    print(moisture)
+                    
+                    AppDelegate.addedItems.append(name)
+                    self.dismiss(animated: true, completion: nil)
+                    
+                    addedData = true
+                }
                 
-                QRScannerViewController.customLevel = text
             }
         }
     }

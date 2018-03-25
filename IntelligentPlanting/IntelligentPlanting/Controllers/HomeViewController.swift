@@ -14,7 +14,7 @@ import UserNotifications
 class HomeViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
-    
+        
     var locationManager = CLLocationManager()
     
     var plantData = [String]()
@@ -144,7 +144,7 @@ extension HomeViewController: CLLocationManagerDelegate {
                         let state = self.stateDictionary[abbreviation],
                         let plantArray = plantDict[state] as? [[String : String]] {
                         
-                        var array = [String]()
+                        var array = AppDelegate.addedItems
                         for dict in plantArray {
                             if let name = dict["Name"] {
                                 array.append(name)
