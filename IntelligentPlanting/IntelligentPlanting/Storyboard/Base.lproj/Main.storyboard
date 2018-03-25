@@ -30,7 +30,7 @@
         <!--Home View Controller-->
         <scene sceneID="W6S-94-2kI">
             <objects>
-                <viewController id="96A-DF-2Hf" customClass="HomeViewController" customModule="IntelligentPlanting" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="96A-DF-2Hf" customClass="HomeViewController" customModule="RoBotany" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MLP-sc-HsH">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -80,7 +80,7 @@
         <!--Scanner View Controller-->
         <scene sceneID="Wf3-aU-Shp">
             <objects>
-                <viewController id="0qs-1H-e3L" customClass="QRScannerViewController" customModule="IntelligentPlanting" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="0qs-1H-e3L" customClass="QRScannerViewController" customModule="RoBotany" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="13C-E3-GuT">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -95,7 +95,7 @@
         <!--VisionAPI-->
         <scene sceneID="HbU-Mc-U0z">
             <objects>
-                <viewController id="gQu-4t-FEM" customClass="VisionAPI" customModule="IntelligentPlanting" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="gQu-4t-FEM" customClass="VisionAPI" customModule="RoBotany" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WAU-5C-gXb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -110,7 +110,7 @@
         <!--ARViewController-->
         <scene sceneID="tXr-a1-R10">
             <objects>
-                <viewController id="BV1-FR-VrT" userLabel="ARViewController" customClass="ARViewController" customModule="IntelligentPlanting" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BV1-FR-VrT" userLabel="ARViewController" customClass="ARViewController" customModule="RoBotany" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3Bh-AL-jPc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -154,15 +154,39 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="8qb-bN-Lib"/>
                     </view>
+                    <navigationItem key="navigationItem" id="8uz-fo-qVR">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="48d-rx-yJ6">
+                            <connections>
+                                <action selector="addButtonTapped:" destination="BV1-FR-VrT" id="dZf-pY-9MJ"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
+                        <outlet property="addButton" destination="48d-rx-yJ6" id="HY9-I8-52L"/>
                         <outlet property="brightnessLabel" destination="Uu7-wL-itj" id="2OH-dS-90A"/>
                         <outlet property="plantNameLabel" destination="8X8-sx-mMG" id="f8x-K3-7Fq"/>
                         <outlet property="sceneView" destination="BkL-EY-X1c" id="tdu-gR-I2T"/>
+                        <segue destination="R4o-Zm-Igg" kind="show" identifier="toMyPlants" id="wJq-Op-oYP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-562" y="108"/>
+            <point key="canvasLocation" x="-562.39999999999998" y="107.49625187406298"/>
+        </scene>
+        <!--My Plants View Controller-->
+        <scene sceneID="xv3-wF-wn9">
+            <objects>
+                <viewController id="R4o-Zm-Igg" customClass="MyPlantsViewController" customModule="RoBotany" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iMa-Mc-DXI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="ePq-oI-HfG"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g0X-xO-aES" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="322" y="108"/>
         </scene>
     </scenes>
 </document>

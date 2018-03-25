@@ -17,6 +17,8 @@ class ARViewController: UIViewController {
     @IBOutlet weak var brightnessLabel: UILabel!
     @IBOutlet weak var plantNameLabel: UILabel!
     
+    @IBOutlet weak var addButton: UIBarButtonItem!
+    
     var displayPlane = true
 
     var x:Float = 0.0
@@ -36,6 +38,11 @@ class ARViewController: UIViewController {
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         sceneView.session.pause()
+    }
+    
+    @IBAction func addButtonTapped(_ sender: Any) {
+        //add plant to MyPlants
+        self.performSegue(withIdentifier: "toMyPlants", sender: nil)
     }
     
     func setUpSceneView() {
@@ -104,6 +111,12 @@ class ARViewController: UIViewController {
             //let colorTemperature = estimate.ambientColorTemperature
             
             brightnessLabel.text = "Brightness: \(brightness)"
+            
+            if brightness > 1000 {
+                addButton.isEnabled = false
+            } else {
+                addButton.isEnabled = true
+            }
             
             //print("Light estimation: ")
             //print(estimate)

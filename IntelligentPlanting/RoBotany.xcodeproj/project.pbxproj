@@ -18,7 +18,7 @@
 		894840B42066DAFE0012BB27 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894840B32066DAFE0012BB27 /* Constants.swift */; };
 		894840B6206725010012BB27 /* ServerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894840B5206725010012BB27 /* ServerService.swift */; };
 		89F191B82067AF6300D9B5CB /* PlantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F191B72067AF6300D9B5CB /* PlantTableViewCell.swift */; };
-		A2132CD42067DB600001A275 /* logo2.png in Resources */ = {isa = PBXBuildFile; fileRef = A2132CD32067DB600001A275 /* logo2.png */; };
+		89F191BA2067DC8800D9B5CB /* MyPlantsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F191B92067DC8800D9B5CB /* MyPlantsViewController.swift */; };
 		A2800B752067852600AE25D1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A2800B742067852500AE25D1 /* GoogleService-Info.plist */; };
 		A2800B7C2067AFAE00AE25D1 /* demo-image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A2800B7B2067AFAE00AE25D1 /* demo-image.jpg */; };
 		A2800B7E2067B0E200AE25D1 /* VisionAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2800B7D2067B0E200AE25D1 /* VisionAPI.swift */; };
@@ -38,7 +38,7 @@
 		894840B32066DAFE0012BB27 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = IntelligentPlanting/Supporting/Constants.swift; sourceTree = "<group>"; };
 		894840B5206725010012BB27 /* ServerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerService.swift; sourceTree = "<group>"; };
 		89F191B72067AF6300D9B5CB /* PlantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantTableViewCell.swift; sourceTree = "<group>"; };
-		A2132CD32067DB600001A275 /* logo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo2.png; path = ../Web/ui/logo2.png; sourceTree = "<group>"; };
+		89F191B92067DC8800D9B5CB /* MyPlantsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MyPlantsViewController.swift; path = IntelligentPlanting/Controllers/MyPlantsViewController.swift; sourceTree = SOURCE_ROOT; };
 		A2800B73206781E400AE25D1 /* IntelligentPlanting.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IntelligentPlanting.entitlements; sourceTree = "<group>"; };
 		A2800B742067852500AE25D1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A2800B7B2067AFAE00AE25D1 /* demo-image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "demo-image.jpg"; sourceTree = "<group>"; };
@@ -102,6 +102,7 @@
 				894840AF2066D5F10012BB27 /* HomeViewController.swift */,
 				A2800B7D2067B0E200AE25D1 /* VisionAPI.swift */,
 				A2800B7F2067D11000AE25D1 /* QRScannerViewController.swift */,
+				89F191B92067DC8800D9B5CB /* MyPlantsViewController.swift */,
 			);
 			name = Controllers;
 			path = "New Group";
@@ -305,6 +306,7 @@
 				89F191B82067AF6300D9B5CB /* PlantTableViewCell.swift in Sources */,
 				894840B6206725010012BB27 /* ServerService.swift in Sources */,
 				A2800B7E2067B0E200AE25D1 /* VisionAPI.swift in Sources */,
+				89F191BA2067DC8800D9B5CB /* MyPlantsViewController.swift in Sources */,
 				A2800B802067D11000AE25D1 /* QRScannerViewController.swift in Sources */,
 				894840A82066D5550012BB27 /* ARViewController.swift in Sources */,
 				894840B02066D5F10012BB27 /* HomeViewController.swift in Sources */,
