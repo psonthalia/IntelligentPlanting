@@ -19,6 +19,8 @@ class HomeViewController: UIViewController {
     
     var plantData = [String]()
     
+    static var array : [String] = []
+    
     let stateDictionary: [String : String] = [
         "AK" : "Alaska",
         "AL" : "Alabama",
@@ -76,6 +78,9 @@ class HomeViewController: UIViewController {
         "WV" : "West Virginia",
         "WY" : "Wyoming"]
     
+    override func viewDidAppear(_ animated: Bool) {
+        self.tableView.reloadData()
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -144,13 +149,13 @@ extension HomeViewController: CLLocationManagerDelegate {
                         let state = self.stateDictionary[abbreviation],
                         let plantArray = plantDict[state] as? [[String : String]] {
                         
-                        var array = AppDelegate.addedItems
+                        HomeViewController.array = AppDelegate.addedItems
                         for dict in plantArray {
                             if let name = dict["Name"] {
-                                array.append(name)
+                                HomeViewController.array.append(name)
                             }
                         }
-                        self.plantData = array
+                        self.plantData = HomeViewController.array
                         print(self.plantData)
                     }
                     

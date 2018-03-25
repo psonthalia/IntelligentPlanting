@@ -100,6 +100,7 @@ class QRScannerViewController: UIViewController, AVCaptureMetadataOutputObjectsD
                     print(moisture)
                     
                     AppDelegate.addedItems.append(name)
+                    HomeViewController.array.append(name)
                     self.dismiss(animated: true, completion: nil)
                     
                     addedData = true
