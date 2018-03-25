@@ -101,8 +101,8 @@ class ARViewController: UIViewController {
             brightnessLabel.text = "Brightness: \(brightness)"
             colorTemperatureLabel.text = "Color Temperature: \(colorTemperature)"
             
-            print("Light estimation: ")
-            print(estimate)
+            //print("Light estimation: ")
+            //print(estimate)
         } else {
             print("Light estimation not found")
         }
