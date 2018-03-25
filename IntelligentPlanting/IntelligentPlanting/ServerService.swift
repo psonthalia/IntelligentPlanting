@@ -19,7 +19,16 @@ struct ServerService {
             }
             completion(plantDict)
         }
+    }
+    
+    static func retrieveMoistureData(completion: @escaping ([String: Any]) -> Void) {
+        let ref = Database.database().reference().child(Constants.moisture)
         
-        
+        ref.observeSingleEvent(of: .value) { (snapshot) in
+            guard let plantDict = snapshot.value as? [String: Any] else {
+                return
+            }
+            completion(plantDict)
+        }
     }
 }
