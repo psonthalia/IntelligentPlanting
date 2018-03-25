@@ -39,7 +39,10 @@ class HomeViewController: UIViewController {
     @IBAction func cameraButtonTapped(_ sender: Any) {
         self.performSegue(withIdentifier: Constants.toAR, sender: nil)
     }
-
+    @IBAction func notificationButtonTapped(_ sender: Any) {
+        self.performSegue(withIdentifier: "toNotification", sender: nil)
+    }
+    
 }
 
 extension HomeViewController: CLLocationManagerDelegate {
