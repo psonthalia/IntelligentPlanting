@@ -17,9 +17,7 @@
 		894840B02066D5F10012BB27 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894840AF2066D5F10012BB27 /* HomeViewController.swift */; };
 		894840B42066DAFE0012BB27 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894840B32066DAFE0012BB27 /* Constants.swift */; };
 		894840B6206725010012BB27 /* ServerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894840B5206725010012BB27 /* ServerService.swift */; };
-		A2800B72206781C000AE25D1 /* NotificationSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2800B71206781C000AE25D1 /* NotificationSender.swift */; };
 		A2800B752067852600AE25D1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A2800B742067852500AE25D1 /* GoogleService-Info.plist */; };
-		A2800B782067870200AE25D1 /* Notification.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2800B762067870200AE25D1 /* Notification.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,10 +32,8 @@
 		894840AF2066D5F10012BB27 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = IntelligentPlanting/Controllers/HomeViewController.swift; sourceTree = SOURCE_ROOT; };
 		894840B32066DAFE0012BB27 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = IntelligentPlanting/Supporting/Constants.swift; sourceTree = "<group>"; };
 		894840B5206725010012BB27 /* ServerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerService.swift; sourceTree = "<group>"; };
-		A2800B71206781C000AE25D1 /* NotificationSender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NotificationSender.swift; path = IntelligentPlanting/Controllers/NotificationSender.swift; sourceTree = SOURCE_ROOT; };
 		A2800B73206781E400AE25D1 /* IntelligentPlanting.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IntelligentPlanting.entitlements; sourceTree = "<group>"; };
 		A2800B742067852500AE25D1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		A2800B772067870200AE25D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Notification.storyboard; sourceTree = "<group>"; };
 		D5667683CD6E9622A889C174 /* Pods-IntelligentPlanting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntelligentPlanting.release.xcconfig"; path = "Pods/Target Support Files/Pods-IntelligentPlanting/Pods-IntelligentPlanting.release.xcconfig"; sourceTree = "<group>"; };
 		EFCD18FB142E5DB24B8A1C8B /* Pods_IntelligentPlanting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IntelligentPlanting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB26856CE1D98340E94D7598 /* Pods-IntelligentPlanting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntelligentPlanting.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IntelligentPlanting/Pods-IntelligentPlanting.debug.xcconfig"; sourceTree = "<group>"; };
@@ -93,7 +89,6 @@
 			children = (
 				894840A72066D5550012BB27 /* ARViewController.swift */,
 				894840AF2066D5F10012BB27 /* HomeViewController.swift */,
-				A2800B71206781C000AE25D1 /* NotificationSender.swift */,
 			);
 			name = Controllers;
 			path = "New Group";
@@ -104,7 +99,6 @@
 			children = (
 				894840942066CA540012BB27 /* Main.storyboard */,
 				894840992066CA540012BB27 /* LaunchScreen.storyboard */,
-				A2800B762067870200AE25D1 /* Notification.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -212,7 +206,6 @@
 				A2800B752067852600AE25D1 /* GoogleService-Info.plist in Resources */,
 				894840982066CA540012BB27 /* Assets.xcassets in Resources */,
 				894840962066CA540012BB27 /* Main.storyboard in Resources */,
-				A2800B782067870200AE25D1 /* Notification.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +277,6 @@
 				8948408F2066CA540012BB27 /* AppDelegate.swift in Sources */,
 				894840B6206725010012BB27 /* ServerService.swift in Sources */,
 				894840A82066D5550012BB27 /* ARViewController.swift in Sources */,
-				A2800B72206781C000AE25D1 /* NotificationSender.swift in Sources */,
 				894840B02066D5F10012BB27 /* HomeViewController.swift in Sources */,
 				894840B42066DAFE0012BB27 /* Constants.swift in Sources */,
 			);
@@ -307,14 +299,6 @@
 				8948409A2066CA540012BB27 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		A2800B762067870200AE25D1 /* Notification.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A2800B772067870200AE25D1 /* Base */,
-			);
-			name = Notification.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

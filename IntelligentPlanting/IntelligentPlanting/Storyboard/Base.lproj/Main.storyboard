@@ -33,18 +33,6 @@
                     <view key="view" contentMode="scaleToFill" id="MLP-sc-HsH">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rAk-Sd-x9u">
-                                <rect key="frame" x="103" y="546" width="168" height="77"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                <state key="normal" title="Parana"/>
-                                <connections>
-                                    <action selector="notificationButtonTapped:" destination="96A-DF-2Hf" eventType="touchUpInside" id="6UL-MU-2Pn"/>
-                                    <segue destination="HrQ-8n-fex" kind="show" identifier="toNotification" id="2Ss-aJ-Fen"/>
-                                </connections>
-                            </button>
-                        </subviews>
                         <color key="backgroundColor" red="0.31372549019607843" green="0.6470588235294118" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <viewLayoutGuide key="safeArea" id="y5u-4K-Aya"/>
                     </view>
@@ -62,14 +50,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ir2-Fn-JlY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1311.2" y="108.39580209895054"/>
-        </scene>
-        <!--Notification-->
-        <scene sceneID="x0L-g2-Bp5">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Notification" id="HrQ-8n-fex" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="xHb-nK-g0O" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1311" y="593"/>
         </scene>
         <!--ARViewController-->
         <scene sceneID="tXr-a1-R10">
