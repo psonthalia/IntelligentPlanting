@@ -58,13 +58,13 @@ void loop() {
     val = analogRead(A0);
     
     String str;
-    str=String(val);
+    str=String(val*10);
     char charBuf[50];
     str.toCharArray(charBuf, 50);
     
     client.publish("esp/test", charBuf);
 //  }
-  Serial.println(analogRead(A0));
+  Serial.println(analogRead(A0)*10);
   client.loop();
   delay(10000);
 }
