@@ -12,6 +12,7 @@ import UIKit
 
 class VisionAPITest: UIViewController {
     override func viewDidLoad() {
+        var image = UIImage(#imageLiteral(resourceName: "demo-image.jpg"))
         let binaryImageData = base64EncodeImage(image as! UIImage)
         callAPI(with: binaryImageData)
     }
@@ -41,7 +42,7 @@ class VisionAPITest: UIViewController {
                 }
                 
                 let responseLowecased = response.description.lowercased()
-                
+                print(responseLowecased)
         }
     }
 }
