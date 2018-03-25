@@ -1,0 +1,7913 @@
+{
+	"Plants": {
+		"Alabama": [{
+				"Name": "Jack in the pulpit"
+			},
+			{
+				"Name": "butterfly milkweed"
+			},
+			{
+				"Name": "bearded beggarticks"
+			},
+			{
+				"Name": "marsh bellflower"
+			},
+			{
+				"Name": "red goosefoot"
+			},
+			{
+				"Name": "lanceleaf tickseed"
+			},
+			{
+				"Name": "showy rattlebox"
+			},
+			{
+				"Name": "panicledleaf ticktrefoil"
+			},
+			{
+				"Name": "dixie ticktrefoil"
+			},
+			{
+				"Name": "clasping coneflower"
+			},
+			{
+				"Name": "common sunflower"
+			},
+			{
+				"Name": "comfortroot"
+			},
+			{
+				"Name": "Caley pea"
+			},
+			{
+				"Name": "hairy lespedeza"
+			},
+			{
+				"Name": "Virginia water horehound"
+			},
+			{
+				"Name": "lanceleaf loosestrife"
+			},
+			{
+				"Name": "climbing hempvine"
+			},
+			{
+				"Name": "American lotus"
+			},
+			{
+				"Name": "yellow passionflower"
+			},
+			{
+				"Name": "American pokeweed"
+			},
+			{
+				"Name": "upright prairie coneflower"
+			},
+			{
+				"Name": "pinnate prairie coneflower"
+			},
+			{
+				"Name": "stalkless yellowcress"
+			},
+			{
+				"Name": "small white clover"
+			},
+			{
+				"Name": "smooth yellow vetch"
+			},
+			{
+				"Name": "cowpea"
+			}
+		],
+		"Alaska": [{
+				"Name": "pale agoseris"
+			},
+			{
+				"Name": "western columbine"
+			},
+			{
+				"Name": "thrift seapink"
+			},
+			{
+				"Name": "chickpea milkvetch"
+			},
+			{
+				"Name": "fireweed"
+			},
+			{
+				"Name": "red goosefoot"
+			},
+			{
+				"Name": "western water hemlock"
+			},
+			{
+				"Name": "bunchberry dogwood"
+			},
+			{
+				"Name": "Sierra larkspur"
+			},
+			{
+				"Name": "darkthroat shootingstar"
+			},
+			{
+				"Name": "eightpetal mountain-avens"
+			},
+			{
+				"Name": "beach strawberry"
+			},
+			{
+				"Name": "woolly geranium"
+			},
+			{
+				"Name": "common sunflower"
+			},
+			{
+				"Name": "beach pea"
+			},
+			{
+				"Name": "arctic lupine"
+			},
+			{
+				"Name": "Pacific lupine"
+			},
+			{
+				"Name": "Nootka lupine"
+			},
+			{
+				"Name": "arrowleaf sweet coltsfoot"
+			},
+			{
+				"Name": "curvepod yellowcress"
+			},
+			{
+				"Name": "cloudberry"
+			},
+			{
+				"Name": "yellow salsify"
+			},
+			{
+				"Name": "cows clover"
+			}
+		],
+		"Arizona": [{
+				"Name": "pale agoseris"
+			},
+			{
+				"Name": "showy milkweed"
+			},
+			{
+				"Name": "butterfly milkweed"
+			},
+			{
+				"Name": "freckled milkvetch"
+			},
+			{
+				"Name": "red goosefoot"
+			},
+			{
+				"Name": "Missouri gourd"
+			},
+			{
+				"Name": "Sierra larkspur"
+			},
+			{
+				"Name": "darkthroat shootingstar"
+			},
+			{
+				"Name": "American licorice"
+			},
+			{
+				"Name": "common sunflower"
+			},
+			{
+				"Name": "Nuttall's sunflower"
+			},
+			{
+				"Name": "chaparral yucca"
+			},
+			{
+				"Name": "Rocky Mountain iris"
+			},
+			{
+				"Name": "fernleaf biscuitroot"
+			},
+			{
+				"Name": "silvery lupine"
+			},
+			{
+				"Name": "tailcup lupine"
+			},
+			{
+				"Name": "broadleaf lupine"
+			},
+			{
+				"Name": "silky lupine"
+			},
+			{
+				"Name": "purple bushbean"
+			},
+			{
+				"Name": "rough menodora"
+			},
+			{
+				"Name": "broadbeard beardtongue"
+			},
+			{
+				"Name": "firecracker penstemon"
+			},
+			{
+				"Name": "Rocky Mountain penstemon"
+			},
+			{
+				"Name": "Whipple's penstemon"
+			},
+			{
+				"Name": "American pokeweed"
+			},
+			{
+				"Name": "upright prairie coneflower"
+			},
+			{
+				"Name": "curvepod yellowcress"
+			},
+			{
+				"Name": "scarlet globemallow"
+			},
+			{
+				"Name": "gooseberryleaf globemallow"
+			},
+			{
+				"Name": "yellow salsify"
+			},
+			{
+				"Name": "salsify"
+			},
+			{
+				"Name": "cows clover"
+			},
+			{
+				"Name": "banana yucca"
+			}
+		],
+		"Arkansas": [{
+				"Name": "butterfly milkweed"
+			},
+			{
+				"Name": "bearded beggarticks"
+			},
+			{
+				"Name": "lanceleaf tickseed"
+			},
+			{
+				"Name": "showy rattlebox"
+			},
+			{
+				"Name": "Missouri gourd"
+			},
+			{
+				"Name": "panicledleaf ticktrefoil"
+			},
+			{
+				"Name": "dixie ticktrefoil"
+			},
+			{
+				"Name": "clasping coneflower"
+			},
+			{
+				"Name": "American licorice"
+			},
+			{
+				"Name": "common sunflower"
+			},
+			{
+				"Name": "Caley pea"
+			},
+			{
+				"Name": "hairy lespedeza"
+			},
+			{
+				"Name": "Virginia water horehound"
+			},
+			{
+				"Name": "lanceleaf loosestrife"
+			},
+			{
+				"Name": "climbing hempvine"
+			},
+			{
+				"Name": "American lotus"
+			},
+			{
+				"Name": "yellow passionflower"
+			},
+			{
+				"Name": "American pokeweed"
+			},
+			{
+				"Name": "upright prairie coneflower"
+			},
+			{
+				"Name": "pinnate prairie coneflower"
+			},
+			{
+				"Name": "stalkless yellowcress"
+			},
+			{
+				"Name": "yellow salsify"
+			},
+			{
+				"Name": "salsify"
+			},
+			{
+				"Name": "narrowleaf cattail"
+			},
+			{
+				"Name": "cowpea"
+			},
+			{
+				"Name": "soapweed yucca"
+			}
+		],
+		"California": [{
+				"Name": "pale agoseris"
+			},
+			{
+				"Name": "Tolmie's onion"
+			},
+			{
+				"Name": "Pacific onion"
+			},
+			{
+				"Name": "rush pussytoes"
+			},
+			{
+				"Name": "western columbine"
+			},
+			{
+				"Name": "thrift seapink"
+			},
+			{
+				"Name": "showy milkweed"
+			},
+			{
+				"Name": "butterfly milkweed"
+			},
+			{
+				"Name": "purple milkvetch"
+			},
+			{
+				"Name": "chickpea milkvetch"
+			},
+			{
+				"Name": "curvepod milkvetch"
+			},
+			{
+				"Name": "freckled milkvetch"
+			},
+			{
+				"Name": "red goosefoot"
+			},
+			{
+				"Name": "western water hemlock"
+			},
+			{
+				"Name": "lanceleaf tickseed"
+			},
+			{
+				"Name": "Missouri gourd"
+			},
+			{
+				"Name": "Sierra larkspur"
+			},
+			{
+				"Name": "darkthroat shootingstar"
+			},
+			{
+				"Name": "longbeak stork's bill"
+			},
+			{
+				"Name": "beach strawberry"
+			},
+			{
+				"Name": "Oregon geranium"
+			},
+			{
+				"Name": "sticky purple geranium"
+			},
+			{
+				"Name": "American licorice"
+			},
+			{
+				"Name": "common sunflower"
+			},
+			{
+				"Name": "Nuttall's sunflower"
+			},
+			{
+				"Name": "chaparral yucca"
+			},
+			{
+				"Name": "scarlet gilia"
+			},
+			{
+				"Name": "Rocky Mountain iris"
+			},
+			{
+				"Name": "Caley pea"
+			},
+			{
+				"Name": "beach pea"
+			},
+			{
+				"Name": "silky beach pea"
+			},
+			{
+				"Name": "fernleaf biscuitroot"
+			},
+			{
+				"Name": "sicklekeel lupine"
+			},
+			{
+				"Name": "silvery lupine"
+			},
+			{
+				"Name": "tailcup lupine"
+			},
+			{
+				"Name": "shaggy lupine"
+			},
+			{
+				"Name": "broadleaf lupine"
+			},
+			{
+				"Name": "rough menodora"
+			},
+			{
+				"Name": "nodding microseris"
+			},
+			{
+				"Name": "American lotus"
+			},
+			{
+				"Name": "Hooker's evening primrose"
+			},
+			{
+				"Name": "firecracker penstemon"
+			},
+			{
+				"Name": "Rocky Mountain penstemon"
+			},
+			{
+				"Name": "Venus penstemon"
+			},
+			{
+				"Name": "American pokeweed"
+			},
+			{
+				"Name": "Davis' knotweed"
+			},
+			{
+				"Name": "upright prairie coneflower"
+			},
+			{
+				"Name": "curvepod yellowcress"
+			},
+			{
+				"Name": "gooseberryleaf globemallow"
+			},
+			{
+				"Name": "yellow salsify"
+			},
+			{
+				"Name": "salsify"
+			},
+			{
+				"Name": "cows clover"
+			},
+			{
+				"Name": "narrowleaf cattail"
+			},
+			{
+				"Name": "purple vetch"
+			},
+			{
+				"Name": "smooth yellow vetch"
+			},
+			{
+				"Name": "banana yucca"
+			}
+		],
+		"Colorado": [{
+				"Name": "pale agoseris"
+			},
+			{
+				"Name": "textile onion"
+			},
+			{
+				"Name": "rush pussytoes"
+			},
+			{
+				"Name": "wild sarsaparilla"
+			},
+			{
+				"Name": "crested pricklypoppy"
+			},
+			{
+				"Name": "thrift seapink"
+			},
+			{
+				"Name": "showy milkweed"
+			},
+			{
+				"Name": "butterfly milkweed"
+			},
+			{
+				"Name": "purple milkvetch"
+			},
+			{
+				"Name": "chickpea milkvetch"
+			},
+			{
+				"Name": "freckled milkvetch"
+			},
+			{
+				"Name": "bearded beggarticks"
+			},
+			{
+				"Name": "marsh bellflower"
+			},
+			{
+				"Name": "fireweed"
+			},
+			{
+				"Name": "red goosefoot"
+			},
+			{
+				"Name": "lanceleaf tickseed"
+			},
+			{
+				"Name": "bunchberry dogwood"
+			},
+			{
+				"Name": "Missouri gourd"
+			},
+			{
+				"Name": "Sierra larkspur"
+			},
+			{
+				"Name": "darkthroat shootingstar"
+			},
+			{
+				"Name": "eightpetal mountain-avens"
+			},
+			{
+				"Name": "sticky purple geranium"
+			},
+			{
+				"Name": "American licorice"
+			},
+			{
+				"Name": "common sunflower"
+			},
+			{
+				"Name": "Nuttall's sunflower"
+			},
+			{
+				"Name": "scarlet gilia"
+			},
+			{
+				"Name": "Rocky Mountain iris"
+			},
+			{
+				"Name": "fernleaf biscuitroot"
+			},
+			{
+				"Name": "silvery lupine"
+			},
+			{
+				"Name": "tailcup lupine"
+			},
+			{
+				"Name": "silky lupine"
+			},
+			{
+				"Name": "rough menodora"
+			},
+			{
+				"Name": "nodding microseris"
+			},
+			{
+				"Name": "broadbeard beardtongue"
+			},
+			{
+				"Name": "firecracker penstemon"
+			},
+			{
+				"Name": "Rocky Mountain penstemon"
+			},
+			{
+				"Name": "Whipple's penstemon"
+			},
+			{
+				"Name": "arrowleaf sweet coltsfoot"
+			},
+			{
+				"Name": "upright prairie coneflower"
+			},
+			{
+				"Name": "scarlet globemallow"
+			},
+			{
+				"Name": "yellow salsify"
+			},
+			{
+				"Name": "salsify"
+			},
+			{
+				"Name": "cows clover"
+			},
+			{
+				"Name": "narrowleaf cattail"
+			},
+			{
+				"Name": "banana yucca"
+			},
+			{
+				"Name": "soapweed yucca"
+			}
+		],
+		"Connecticut": [{
+				"Name": "Jack in the pulpit"
+			},
+			{
+				"Name": "butterfly milkweed"
+			},
+			{
+				"Name": "bearded beggarticks"
+			},
+			{
+				"Name": "marsh bellflower"
+			},
+			{
+				"Name": "red goosefoot"
+			},
+			{
+				"Name": "lanceleaf tickseed"
+			},
+			{
+				"Name": "bunchberry dogwood"
+			},
+			{
+				"Name": "panicledleaf ticktrefoil"
+			},
+			{
+				"Name": "American licorice"
+			},
+			{
+				"Name": "common sunflower"
+			},
+			{
+				"Name": "beach pea"
+			},
+			{
+				"Name": "hairy lespedeza"
+			},
+			{
+				"Name": "Virginia water horehound"
+			},
+			{
+				"Name": "lanceleaf loosestrife"
+			},
+			{
+				"Name": "climbing hempvine"
+			},
+			{
+				"Name": "American lotus"
+			},
+			{
+				"Name": "American pokeweed"
+			},
+			{
+				"Name": "upright prairie coneflower"
+			},
+			{
+				"Name": "pinnate prairie coneflower"
+			},
+			{
+				"Name": "yellow salsify"
+			},
+			{
+				"Name": "salsify"
+			},
+			{
+				"Name": "narrowleaf cattail"
+			}
+		],
+		"Delaware": [{
+				"Name": "Jack in the pulpit"
+			},
+			{
+				"Name": "butterfly milkweed"
+			},
+			{
+				"Name": "bearded beggarticks"
+			},
+			{
+				"Name": "marsh bellflower"
+			},
+			{
+				"Name": "lanceleaf tickseed"
+			},
+			{
+				"Name": "panicledleaf ticktrefoil"
+			},
+			{
+				"Name": "common sunflower"
+			},
+			{
+				"Name": "hairy lespedeza"
+			},
+			{
+				"Name": "Virginia water horehound"
+			},
+			{
+				"Name": "climbing hempvine"
+			},
+			{
+				"Name": "American lotus"
+			},
+			{
+				"Name": "yellow passionflower"
+			},
+			{
+				"Name": "American pokeweed"
+			},
+			{
+				"Name": "yellow salsify"
+			},
+			{
+				"Name": "salsify"
+			},
+			{
+				"Name": "narrowleaf cattail"
+			},
+			{
+				"Name": "cowpea"
+			}
+		],
+		"Florida": [{
+				"Name": "butterfly milkweed"
+			},
+			{
+				"Name": "pinguin"
+			},
+			{
+				"Name": "lanceleaf tickseed"
+			},
+			{
+				"Name": "sunn hemp"
+			},
+			{
+				"Name": "showy rattlebox"
+			},
+			{
+				"Name": "Missouri gourd"
+			},
+			{
+				"Name": "panicledleaf ticktrefoil"
+			},
+			{
+				"Name": "dixie ticktrefoil"
+			},
+			{
+				"Name": "clasping coneflower"
+			},
+			{
+				"Name": "common sunflower"
+			},
+			{
+				"Name": "comfortroot"
+			},
+			{
+				"Name": "hyacinthbean"
+			},
+			{
+				"Name": "Caley pea"
+			},
+			{
+				"Name": "hairy lespedeza"
+			},
+			{
+				"Name": "white lupine"
+			},
+			{
+				"Name": "narrowleaf lupine"
+			},
+			{
+				"Name": "European yellow lupine"
+			},
+			{
+				"Name": "Virginia water horehound"
+			},
+			{
+				"Name": "lanceleaf loosestrife"
+			},
+			{
+				"Name": "purple bushbean"
+			},
+			{
+				"Name": "climbing hempvine"
+			},
+			{
+				"Name": "American lotus"
+			},
+			{
+				"Name": "yellow passionflower"
+			},
+			{
+				"Name": "American pokeweed"
+			},
+			{
+				"Name": "upright prairie coneflower"
+			},
+			{
+				"Name": "pinnate prairie coneflower"
+			},
+			{
+				"Name": "stalkless yellowcress"
+			},
+			{
+				"Name": "small white clover"
+			},
+			{
+				"Name": "cowpea"
+			}
+		],
+		"Georgia": [{
+				"Name": "Jack in the pulpit"
+			},
+			{
+				"Name": "butterfly milkweed"
+			},
+			{
+				"Name": "bearded beggarticks"
+			},
+			{
+				"Name": "marsh bellflower"
+			},
+			{
+				"Name": "lanceleaf tickseed"
+			},
+			{
+				"Name": "showy rattlebox"
+			},
+			{
+				"Name": "panicledleaf ticktrefoil"
+			},
+			{
+				"Name": "dixie ticktrefoil"
+			},
+			{
+				"Name": "clasping coneflower"
+			},
+			{
+				"Name": "common sunflower"
+			},
+			{
+				"Name": "comfortroot"
+			},
+			{
+				"Name": "hyacinthbean"
+			},
+			{
+				"Name": "Caley pea"
+			},
+			{
+				"Name": "hairy lespedeza"
+			},
+			{
+				"Name": "narrowleaf lupine"
+			},
+			{
+				"Name": "Virginia water horehound"
+			},
+			{
+				"Name": "lanceleaf loosestrife"
+			},
+			{
+				"Name": "climbing hempvine"
+			},
+			{
+				"Name": "American lotus"
+			},
+			{
+				"Name": "yellow passionflower"
+			},
+			{
+				"Name": "American pokeweed"
+			},
+			{
+				"Name": "upright prairie coneflower"
+			},
+			{
+				"Name": "pinnate prairie coneflower"
+			},
+			{
+				"Name": "stalkless yellowcress"
+			},
+			{
+				"Name": "yellow salsify"
+			},
+			{
+				"Name": "salsify"
+			},
+			{
+				"Name": "small white clover"
+			},
+			{
+				"Name": "cowpea"
+			}
+		],
+		"Hawaii": [{
+				"Name": "sunn hemp"
+			},
+			{
+				"Name": "showy rattlebox"
+			},
+			{
+				"Name": "dixie ticktrefoil"
+			},
+			{
+				"Name": "beach strawberry"
+			},
+			{
+				"Name": "common sunflower"
+			},
+			{
+				"Name": "hyacinthbean"
+			},
+			{
+				"Name": "purple bushbean"
+			},
+			{
+				"Name": "salsify"
+			}
+		],
+		"Idaho": [{
+				"Name": "pale agoseris"
+			},
+			{
+				"Name": "Douglas' onion"
+			},
+			{
+				"Name": "textile onion"
+			},
+			{
+				"Name": "Tolmie's onion"
+			},
+			{
+				"Name": "Pacific onion"
+			},
+			{
+				"Name": "rush pussytoes"
+			},
+			{
+				"Name": "western columbine"
+			},
+			{
+				"Name": "wild sarsaparilla"
+			},
+			{
+				"Name": "crested pricklypoppy"
+			},
+			{
+				"Name": "showy milkweed"
+			},
+			{
+				"Name": "purple milkvetch"
+			},
+			{
+				"Name": "chickpea milkvetch"
+			},
+			{
+				"Name": "curvepod milkvetch"
+			},
+			{
+				"Name": "freckled milkvetch"
+			},
+			{
+				"Name": "red goosefoot"
+			},
+			{
+				"Name": "western water hemlock"
+			},
+			{
+				"Name": "bunchberry dogwood"
+			},
+			{
+				"Name": "Sierra larkspur"
+			},
+			{
+				"Name": "darkthroat shootingstar"
+			},
+			{
+				"Name": "eightpetal mountain-avens"
+			},
+			{
+				"Name": "hidden buckwheat"
+			},
+			{
+				"Name": "sticky purple geranium"
+			},
+			{
+				"Name": "American licorice"
+			},
+			{
+				"Name": "common sunflower"
+			},
+			{
+				"Name": "Nuttall's sunflower"
+			},
+			{
+				"Name": "scarlet gilia"
+			},
+			{
+				"Name": "Rocky Mountain iris"
+			},
+			{
+				"Name": "fernleaf biscuitroot"
+			},
+			{
+				"Name": "silvery lupine"
+			},
+			{
+				"Name": "tailcup lupine"
+			},
+			{
+				"Name": "silky lupine"
+			},
+			{
+				"Name": "nodding microseris"
+			},
+			{
+				"Name": "yellow penstemon"
+			},
+			{
+				"Name": "firecracker penstemon"
+			},
+			{
+				"Name": "Venus penstemon"
+			},
+			{
+				"Name": "Whipple's penstemon"
+			},
+			{
+				"Name": "arrowleaf sweet coltsfoot"
+			},
+			{
+				"Name": "Davis' knotweed"
+			},
+			{
+				"Name": "upright prairie coneflower"
+			},
+			{
+				"Name": "curvepod yellowcress"
+			},
+			{
+				"Name": "scarlet globemallow"
+			},
+			{
+				"Name": "gooseberryleaf globemallow"
+			},
+			{
+				"Name": "yellow salsify"
+			},
+			{
+				"Name": "salsify"
+			},
+			{
+				"Name": "cows clover"
+			},
+			{
+				"Name": "narrowleaf cattail"
+			}
+		],
+		"Illinois": [{
+				"Name": "crested pricklypoppy"
+			},
+			{
+				"Name": "Jack in the pulpit"
+			},
+			{
+				"Name": "showy milkweed"
+			},
+			{
+				"Name": "butterfly milkweed"
+			},
+			{
+				"Name": "purple milkvetch"
+			},
+			{
+				"Name": "bearded beggarticks"
+			},
+			{
+				"Name": "marsh bellflower"
+			},
+			{
+				"Name": "red goosefoot"
+			},
+			{
+				"Name": "lanceleaf tickseed"
+			},
+			{
+				"Name": "bunchberry dogwood"
+			},
+			{
+				"Name": "showy rattlebox"
+			},
+			{
+				"Name": "Missouri gourd"
+			},
+			{
+				"Name": "panicledleaf ticktrefoil"
+			},
+			{
+				"Name": "clasping coneflower"
+			},
+			{
+				"Name": "American licorice"
+			},
+			{
+				"Name": "common sunflower"
+			},
+			{
+				"Name": "Caley pea"
+			},
+			{
+				"Name": "beach pea"
+			},
+			{
+				"Name": "hairy lespedeza"
+			},
+			{
+				"Name": "Virginia water horehound"
+			},
+			{
+				"Name": "lanceleaf loosestrife"
+			},
+			{
+				"Name": "climbing hempvine"
+			},
+			{
+				"Name": "American lotus"
+			},
+			{
+				"Name": "yellow passionflower"
+			},
+			{
+				"Name": "American pokeweed"
+			},
+			{
+				"Name": "upright prairie coneflower"
+			},
+			{
+				"Name": "pinnate prairie coneflower"
+			},
+			{
+				"Name": "stalkless yellowcress"
+			},
+			{
+				"Name": "yellow salsify"
+			},
+			{
+				"Name": "salsify"
+			},
+			{
+				"Name": "narrowleaf cattail"
+			},
+			{
+				"Name": "cowpea"
+			}
+		],
+		"Indiana": [{
+				"Name": "crested pricklypoppy"
+			},
+			{
+				"Name": "Jack in the pulpit"
+			},
+			{
+				"Name": "butterfly milkweed"
+			},
+			{
+				"Name": "chickpea milkvetch"
+			},
+			{
+				"Name": "bearded beggarticks"
+			},
+			{
+				"Name": "marsh bellflower"
+			},
+			{
+				"Name": "fireweed"
+			},
+			{
+				"Name": "lanceleaf tickseed"
+			},
+			{
+				"Name": "bunchberry dogwood"
+			},
+			{
+				"Name": "Missouri gourd"
+			},
+			{
+				"Name": "panicledleaf ticktrefoil"
+			},
+			{
+				"Name": "American licorice"
+			},
+			{
+				"Name": "common sunflower"
+			},
+			{
+				"Name": "beach pea"
+			},
+			{
+				"Name": "hairy lespedeza"
+			},
+			{
+				"Name": "Virginia water horehound"
+			},
+			{
+				"Name": "lanceleaf loosestrife"
+			},
+			{
+				"Name": "climbing hempvine"
+			},
+			{
+				"Name": "American lotus"
+			},
+			{
+				"Name": "yellow passionflower"
+			},
+			{
+				"Name": "American pokeweed"
+			},
+			{
+				"Name": "upright prairie coneflower"
+			},
+			{
+				"Name": "pinnate prairie coneflower"
+			},
+			{
+				"Name": "stalkless yellowcress"
+			},
+			{
+				"Name": "yellow salsify"
+			},
+			{
+				"Name": "salsify"
+			},
+			{
+				"Name": "narrowleaf cattail"
+			},
+			{
+				"Name": "cowpea"
+			}
+		],
+		"Iowa": [{
+				"Name": "textile onion"
+			},
+			{
+				"Name": "wild sarsaparilla"
+			},
+			{
+				"Name": "crested pricklypoppy"
+			},
+			{
+				"Name": "Jack in the pulpit"
+			},
+			{
+				"Name": "showy milkweed"
+			},
+			{
+				"Name": "butterfly milkweed"
+			},
+			{
+				"Name": "purple milkvetch"
+			},
+			{
+				"Name": "bearded beggarticks"
+			},
+			{
+				"Name": "marsh bellflower"
+			},
+			{
+				"Name": "red goosefoot"
+			},
+			{
+				"Name": "lanceleaf tickseed"
+			},
+			{
+				"Name": "bunchberry dogwood"
+			},
+			{
+				"Name": "Missouri gourd"
+			},
+			{
+				"Name": "panicledleaf ticktrefoil"
+			},
+			{
+				"Name": "American licorice"
+			},
+			{
+				"Name": "common sunflower"
+			},
+			{
+				"Name": "Nuttall's sunflower"
+			},
+			{
+				"Name": "Virginia water horehound"
+			},
+			{
+				"Name": "lanceleaf loosestrife"
+			},
+			{
+				"Name": "American lotus"
+			},
+			{
+				"Name": "American pokeweed"
+			},
+			{
+				"Name": "upright prairie coneflower"
+			},
+			{
+				"Name": "pinnate prairie coneflower"
+			},
+			{
+				"Name": "stalkless yellowcress"
+			},
+			{
+				"Name": "scarlet globemallow"
+			},
+			{
+				"Name": "yellow salsify"
+			},
+			{
+				"Name": "salsify"
+			},
+			{
+				"Name": "narrowleaf cattail"
+			},
+			{
+				"Name": "soapweed yucca"
+			}
+		],
+		"Kansas": [{
+				"Name": "textile onion"
+			},
+			{
+				"Name": "crested pricklypoppy"
+			},
+			{
+				"Name": "Jack in the pulpit"
+			},
+			{
+				"Name": "showy milkweed"
+			},
+			{
+				"Name": "butterfly milkweed"
+			},
+			{
+				"Name": "bearded beggarticks"
+			},
+			{
+				"Name": "red goosefoot"
+			},
+			{
+				"Name": "lanceleaf tickseed"
+			},
+			{
+				"Name": "Missouri gourd"
+			},
+			{
+				"Name": "panicledleaf ticktrefoil"
+			},
+			{
+				"Name": "clasping coneflower"
+			},
+			{
+				"Name": "American licorice"
+			},
+			{
+				"Name": "common sunflower"
+			},
+			{
+				"Name": "Nuttall's sunflower"
+			},
+			{
+				"Name": "hairy lespedeza"
+			},
+			{
+				"Name": "silvery lupine"
+			},
+			{
+				"Name": "Virginia water horehound"
+			},
+			{
+				"Name": "American lotus"
+			},
+			{
+				"Name": "yellow passionflower"
+			},
+			{
+				"Name": "broadbeard beardtongue"
+			},
+			{
+				"Name": "American pokeweed"
+			},
+			{
+				"Name": "upright prairie coneflower"
+			},
+			{
+				"Name": "pinnate prairie coneflower"
+			},
+			{
+				"Name": "stalkless yellowcress"
+			},
+			{
+				"Name": "scarlet globemallow"
+			},
+			{
+				"Name": "yellow salsify"
+			},
+			{
+				"Name": "salsify"
+			},
+			{
+				"Name": "narrowleaf cattail"
+			},
+			{
+				"Name": "soapweed yucca"
+			}
+		],
+		"Kentucky": [{
+				"Name": "Jack in the pulpit"
+			},
+			{
+				"Name": "butterfly milkweed"
+			},
+			{
+				"Name": "bearded beggarticks"
+			},
+			{
+				"Name": "marsh bellflower"
+			},
+			{
+				"Name": "lanceleaf tickseed"
+			},
+			{
+				"Name": "showy rattlebox"
+			},
+			{
+				"Name": "Missouri gourd"
+			},
+			{
+				"Name": "panicledleaf ticktrefoil"
+			},
+			{
+				"Name": "common sunflower"
+			},
+			{
+				"Name": "Caley pea"
+			},
+			{
+				"Name": "hairy lespedeza"
+			},
+			{
+				"Name": "Virginia water horehound"
+			},
+			{
+				"Name": "lanceleaf loosestrife"
+			},
+			{
+				"Name": "climbing hempvine"
+			},
+			{
+				"Name": "American lotus"
+			},
+			{
+				"Name": "yellow passionflower"
+			},
+			{
+				"Name": "American pokeweed"
+			},
+			{
+				"Name": "pinnate prairie coneflower"
+			},
+			{
+				"Name": "stalkless yellowcress"
+			},
+			{
+				"Name": "yellow salsify"
+			},
+			{
+				"Name": "salsify"
+			},
+			{
+				"Name": "narrowleaf cattail"
+			}
+		],
+		"Louisiana": [{
+				"Name": "butterfly milkweed"
+			},
+			{
+				"Name": "bearded beggarticks"
+			},
+			{
+				"Name": "lanceleaf tickseed"
+			},
+			{
+				"Name": "showy rattlebox"
+			},
+			{
+				"Name": "panicledleaf ticktrefoil"
+			},
+			{
+				"Name": "dixie ticktrefoil"
+			},
+			{
+				"Name": "clasping coneflower"
+			},
+			{
+				"Name": "common sunflower"
+			},
+			{
+				"Name": "comfortroot"
+			},
+			{
+				"Name": "Caley pea"
+			},
+			{
+				"Name": "hairy lespedeza"
+			},
+			{
+				"Name": "Virginia water horehound"
+			},
+			{
+				"Name": "lanceleaf loosestrife"
+			},
+			{
+				"Name": "climbing hempvine"
+			},
+			{
+				"Name": "American lotus"
+			},
+			{
+				"Name": "yellow passionflower"
+			},
+			{
+				"Name": "American pokeweed"
+			},
+			{
+				"Name": "upright prairie coneflower"
+			},
+			{
+				"Name": "pinnate prairie coneflower"
+			},
+			{
+				"Name": "stalkless yellowcress"
+			},
+			{
+				"Name": "yellow salsify"
+			},
+			{
+				"Name": "small white clover"
+			},
+			{
+				"Name": "narrowleaf cattail"
+			},
+			{
+				"Name": "smooth yellow vetch"
+			},
+			{
+				"Name": "cowpea"
+			}
+		],
+		"Maine": [{
+				"Name": "Jack in the pulpit"
+			},
+			{
+				"Name": "butterfly milkweed"
+			},
+			{
+				"Name": "bearded beggarticks"
+			},
+			{
+				"Name": "marsh bellflower"
+			},
+			{
+				"Name": "red goosefoot"
+			},
+			{
+				"Name": "lanceleaf tickseed"
+			},
+			{
+				"Name": "bunchberry dogwood"
+			},
+			{
+				"Name": "panicledleaf ticktrefoil"
+			},
+			{
+				"Name": "longbeak stork's bill"
+			},
+			{
+				"Name": "American licorice"
+			},
+			{
+				"Name": "common sunflower"
+			},
+			{
+				"Name": "beach pea"
+			},
+			{
+				"Name": "hairy lespedeza"
+			},
+			{
+				"Name": "narrowleaf lupine"
+			},
+			{
+				"Name": "Virginia water horehound"
+			},
+			{
+				"Name": "lanceleaf loosestrife"
+			},
+			{
+				"Name": "climbing hempvine"
+			},
+			{
+				"Name": "American lotus"
+			},
+			{
+				"Name": "American pokeweed"
+			},
+			{
+				"Name": "cloudberry"
+			},
+			{
+				"Name": "yellow salsify"
+			},
+			{
+				"Name": "salsify"
+			},
+			{
+				"Name": "narrowleaf cattail"
+			}
+		],
+		"Maryland": [{
+				"Name": "Jack in the pulpit"
+			},
+			{
+				"Name": "butterfly milkweed"
+			},
+			{
+				"Name": "bearded beggarticks"
+			},
+			{
+				"Name": "marsh bellflower"
+			},
+			{
+				"Name": "red goosefoot"
+			},
+			{
+				"Name": "lanceleaf tickseed"
+			},
+			{
+				"Name": "bunchberry dogwood"
+			},
+			{
+				"Name": "panicledleaf ticktrefoil"
+			},
+			{
+				"Name": "common sunflower"
+			},
+			{
+				"Name": "hyacinthbean"
+			},
+			{
+				"Name": "Caley pea"
+			},
+			{
+				"Name": "hairy lespedeza"
+			},
+			{
+				"Name": "Virginia water horehound"
+			},
+			{
+				"Name": "lanceleaf loosestrife"
+			},
+			{
+				"Name": "climbing hempvine"
+			},
+			{
+				"Name": "American lotus"
+			},
+			{
+				"Name": "yellow passionflower"
+			},
+			{
+				"Name": "American pokeweed"
+			},
+			{
+				"Name": "stalkless yellowcress"
+			},
+			{
+				"Name": "yellow salsify"
+			},
+			{
+				"Name": "salsify"
+			},
+			{
+				"Name": "narrowleaf cattail"
+			},
+			{
+				"Name": "cowpea"
+			}
+		],
+		"Massachusetts": [{
+				"Name": "Jack in the pulpit"
+			},
+			{
+				"Name": "butterfly milkweed"
+			},
+			{
+				"Name": "bearded beggarticks"
+			},
+			{
+				"Name": "marsh bellflower"
+			},
+			{
+				"Name": "red goosefoot"
+			},
+			{
+				"Name": "lanceleaf tickseed"
+			},
+			{
+				"Name": "bunchberry dogwood"
+			},
+			{
+				"Name": "panicledleaf ticktrefoil"
+			},
+			{
+				"Name": "longbeak stork's bill"
+			},
+			{
+				"Name": "American licorice"
+			},
+			{
+				"Name": "common sunflower"
+			},
+			{
+				"Name": "hyacinthbean"
+			},
+			{
+				"Name": "beach pea"
+			},
+			{
+				"Name": "hairy lespedeza"
+			},
+			{
+				"Name": "Virginia water horehound"
+			},
+			{
+				"Name": "climbing hempvine"
+			},
+			{
+				"Name": "American lotus"
+			},
+			{
+				"Name": "American pokeweed"
+			},
+			{
+				"Name": "upright prairie coneflower"
+			},
+			{
+				"Name": "pinnate prairie coneflower"
+			},
+			{
+				"Name": "stalkless yellowcress"
+			},
+			{
+				"Name": "yellow salsify"
+			},
+			{
+				"Name": "salsify"
+			},
+			{
+				"Name": "narrowleaf cattail"
+			}
+		],
+		"Michigan": [{
+				"Name": "wild sarsaparilla"
+			},
+			{
+				"Name": "Jack in the pulpit"
+			},
+			{
+				"Name": "showy milkweed"
+			},
+			{
+				"Name": "butterfly milkweed"
+			},
+			{
+				"Name": "chickpea milkvetch"
+			},
+			{
+				"Name": "bearded beggarticks"
+			},
+			{
+				"Name": "marsh bellflower"
+			},
+			{
+				"Name": "red goosefoot"
+			},
+			{
+				"Name": "lanceleaf tickseed"
+			},
+			{
+				"Name": "bunchberry dogwood"
+			},
+			{
+				"Name": "Missouri gourd"
+			},
+			{
+				"Name": "panicledleaf ticktrefoil"
+			},
+			{
+				"Name": "common sunflower"
+			},
+			{
+				"Name": "Caley pea"
+			},
+			{
+				"Name": "beach pea"
+			},
+			{
+				"Name": "hairy lespedeza"
+			},
+			{
+				"Name": "Virginia water horehound"
+			},
+			{
+				"Name": "lanceleaf loosestrife"
+			},
+			{
+				"Name": "climbing hempvine"
+			},
+			{
+				"Name": "American lotus"
+			},
+			{
+				"Name": "arrowleaf sweet coltsfoot"
+			},
+			{
+				"Name": "American pokeweed"
+			},
+			{
+				"Name": "upright prairie coneflower"
+			},
+			{
+				"Name": "pinnate prairie coneflower"
+			},
+			{
+				"Name": "yellow salsify"
+			},
+			{
+				"Name": "salsify"
+			},
+			{
+				"Name": "narrowleaf cattail"
+			},
+			{
+				"Name": "cowpea"
+			}
+		],
+		"Minnesota": [{
+				"Name": "textile onion"
+			},
+			{
+				"Name": "wild sarsaparilla"
+			},
+			{
+				"Name": "Jack in the pulpit"
+			},
+			{
+				"Name": "showy milkweed"
+			},
+			{
+				"Name": "butterfly milkweed"
+			},
+			{
+				"Name": "purple milkvetch"
+			},
+			{
+				"Name": "chickpea milkvetch"
+			},
+			{
+				"Name": "bearded beggarticks"
+			},
+			{
+				"Name": "marsh bellflower"
+			},
+			{
+				"Name": "fireweed"
+			},
+			{
+				"Name": "red goosefoot"
+			},
+			{
+				"Name": "lanceleaf tickseed"
+			},
+			{
+				"Name": "bunchberry dogwood"
+			},
+			{
+				"Name": "American licorice"
+			},
+			{
+				"Name": "common sunflower"
+			},
+			{
+				"Name": "Nuttall's sunflower"
+			},
+			{
+				"Name": "Rocky Mountain iris"
+			},
+			{
+				"Name": "beach pea"
+			},
+			{
+				"Name": "Virginia water horehound"
+			},
+			{
+				"Name": "American lotus"
+			},
+			{
+				"Name": "arrowleaf sweet coltsfoot"
+			},
+			{
+				"Name": "American pokeweed"
+			},
+			{
+				"Name": "upright prairie coneflower"
+			},
+			{
+				"Name": "pinnate prairie coneflower"
+			},
+			{
+				"Name": "stalkless yellowcress"
+			},
+			{
+				"Name": "cloudberry"
+			},
+			{
+				"Name": "scarlet globemallow"
+			},
+			{
+				"Name": "yellow salsify"
+			},
+			{
+				"Name": "narrowleaf cattail"
+			}
+		],
+		"Mississippi": [{
+				"Name": "butterfly milkweed"
+			},
+			{
+				"Name": "bearded beggarticks"
+			},
+			{
+				"Name": "lanceleaf tickseed"
+			},
+			{
+				"Name": "showy rattlebox"
+			},
+			{
+				"Name": "panicledleaf ticktrefoil"
+			},
+			{
+				"Name": "dixie ticktrefoil"
+			},
+			{
+				"Name": "clasping coneflower"
+			},
+			{
+				"Name": "common sunflower"
+			},
+			{
+				"Name": "comfortroot"
+			},
+			{
+				"Name": "Caley pea"
+			},
+			{
+				"Name": "hairy lespedeza"
+			},
+			{
+				"Name": "Virginia water horehound"
+			},
+			{
+				"Name": "lanceleaf loosestrife"
+			},
+			{
+				"Name": "climbing hempvine"
+			},
+			{
+				"Name": "American lotus"
+			},
+			{
+				"Name": "yellow passionflower"
+			},
+			{
+				"Name": "American pokeweed"
+			},
+			{
+				"Name": "upright prairie coneflower"
+			},
+			{
+				"Name": "pinnate prairie coneflower"
+			},
+			{
+				"Name": "stalkless yellowcress"
+			},
+			{
+				"Name": "small white clover"
+			},
+			{
+				"Name": "narrowleaf cattail"
+			},
+			{
+				"Name": "cowpea"
+			}
+		],
+		"Missouri": [{
+				"Name": "Jack in the pulpit"
+			},
+			{
+				"Name": "butterfly milkweed"
+			},
+			{
+				"Name": "bearded beggarticks"
+			},
+			{
+				"Name": "marsh bellflower"
+			},
+			{
+				"Name": "red goosefoot"
+			},
+			{
+				"Name": "lanceleaf tickseed"
+			},
+			{
+				"Name": "showy rattlebox"
+			},
+			{
+				"Name": "Missouri gourd"
+			},
+			{
+				"Name": "panicledleaf ticktrefoil"
+			},
+			{
+				"Name": "clasping coneflower"
+			},
+			{
+				"Name": "American licorice"
+			},
+			{
+				"Name": "common sunflower"
+			},
+			{
+				"Name": "Nuttall's sunflower"
+			},
+			{
+				"Name": "Caley pea"
+			},
+			{
+				"Name": "hairy lespedeza"
+			},
+			{
+				"Name": "Virginia water horehound"
+			},
+			{
+				"Name": "lanceleaf loosestrife"
+			},
+			{
+				"Name": "climbing hempvine"
+			},
+			{
+				"Name": "American lotus"
+			},
+			{
+				"Name": "yellow passionflower"
+			},
+			{
+				"Name": "American pokeweed"
+			},
+			{
+				"Name": "upright prairie coneflower"
+			},
+			{
+				"Name": "pinnate prairie coneflower"
+			},
+			{
+				"Name": "stalkless yellowcress"
+			},
+			{
+				"Name": "yellow salsify"
+			},
+			{
+				"Name": "salsify"
+			},
+			{
+				"Name": "narrowleaf cattail"
+			},
+			{
+				"Name": "cowpea"
+			},
+			{
+				"Name": "soapweed yucca"
+			}
+		],
+		"Montana": [{
+				"Name": "pale agoseris"
+			},
+			{
+				"Name": "textile onion"
+			},
+			{
+				"Name": "rush pussytoes"
+			},
+			{
+				"Name": "western columbine"
+			},
+			{
+				"Name": "wild sarsaparilla"
+			},
+			{
+				"Name": "crested pricklypoppy"
+			},
+			{
+				"Name": "showy milkweed"
+			},
+			{
+				"Name": "purple milkvetch"
+			},
+			{
+				"Name": "chickpea milkvetch"
+			},
+			{
+				"Name": "freckled milkvetch"
+			},
+			{
+				"Name": "fireweed"
+			},
+			{
+				"Name": "red goosefoot"
+			},
+			{
+				"Name": "western water hemlock"
+			},
+			{
+				"Name": "bunchberry dogwood"
+			},
+			{
+				"Name": "Sierra larkspur"
+			},
+			{
+				"Name": "darkthroat shootingstar"
+			},
+			{
+				"Name": "eightpetal mountain-avens"
+			},
+			{
+				"Name": "hidden buckwheat"
+			},
+			{
+				"Name": "Oregon geranium"
+			},
+			{
+				"Name": "sticky purple geranium"
+			},
+			{
+				"Name": "American licorice"
+			},
+			{
+				"Name": "common sunflower"
+			},
+			{
+				"Name": "Nuttall's sunflower"
+			},
+			{
+				"Name": "scarlet gilia"
+			},
+			{
+				"Name": "Rocky Mountain iris"
+			},
+			{
+				"Name": "fernleaf biscuitroot"
+			},
+			{
+				"Name": "silvery lupine"
+			},
+			{
+				"Name": "tailcup lupine"
+			},
+			{
+				"Name": "silky lupine"
+			},
+			{
+				"Name": "nodding microseris"
+			},
+			{
+				"Name": "broadbeard beardtongue"
+			},
+			{
+				"Name": "yellow penstemon"
+			},
+			{
+				"Name": "Whipple's penstemon"
+			},
+			{
+				"Name": "arrowleaf sweet coltsfoot"
+			},
+			{
+				"Name": "upright prairie coneflower"
+			},
+			{
+				"Name": "curvepod yellowcress"
+			},
+			{
+				"Name": "scarlet globemallow"
+			},
+			{
+				"Name": "yellow salsify"
+			},
+			{
+				"Name": "salsify"
+			},
+			{
+				"Name": "cows clover"
+			},
+			{
+				"Name": "narrowleaf cattail"
+			},
+			{
+				"Name": "soapweed yucca"
+			}
+		],
+		"Nebraska": [{
+				"Name": "textile onion"
+			},
+			{
+				"Name": "wild sarsaparilla"
+			},
+			{
+				"Name": "crested pricklypoppy"
+			},
+			{
+				"Name": "Jack in the pulpit"
+			},
+			{
+				"Name": "showy milkweed"
+			},
+			{
+				"Name": "butterfly milkweed"
+			},
+			{
+				"Name": "purple milkvetch"
+			},
+			{
+				"Name": "chickpea milkvetch"
+			},
+			{
+				"Name": "bearded beggarticks"
+			},
+			{
+				"Name": "marsh bellflower"
+			},
+			{
+				"Name": "red goosefoot"
+			},
+			{
+				"Name": "lanceleaf tickseed"
+			},
+			{
+				"Name": "Missouri gourd"
+			},
+			{
+				"Name": "panicledleaf ticktrefoil"
+			},
+			{
+				"Name": "darkthroat shootingstar"
+			},
+			{
+				"Name": "sticky purple geranium"
+			},
+			{
+				"Name": "American licorice"
+			},
+			{
+				"Name": "common sunflower"
+			},
+			{
+				"Name": "Nuttall's sunflower"
+			},
+			{
+				"Name": "Rocky Mountain iris"
+			},
+			{
+				"Name": "silvery lupine"
+			},
+			{
+				"Name": "tailcup lupine"
+			},
+			{
+				"Name": "Virginia water horehound"
+			},
+			{
+				"Name": "American lotus"
+			},
+			{
+				"Name": "broadbeard beardtongue"
+			},
+			{
+				"Name": "American pokeweed"
+			},
+			{
+				"Name": "upright prairie coneflower"
+			},
+			{
+				"Name": "pinnate prairie coneflower"
+			},
+			{
+				"Name": "stalkless yellowcress"
+			},
+			{
+				"Name": "scarlet globemallow"
+			},
+			{
+				"Name": "yellow salsify"
+			},
+			{
+				"Name": "salsify"
+			},
+			{
+				"Name": "narrowleaf cattail"
+			},
+			{
+				"Name": "soapweed yucca"
+			}
+		],
+		"Nevada": [{
+				"Name": "pale agoseris"
+			},
+			{
+				"Name": "textile onion"
+			},
+			{
+				"Name": "Tolmie's onion"
+			},
+			{
+				"Name": "Pacific onion"
+			},
+			{
+				"Name": "rush pussytoes"
+			},
+			{
+				"Name": "western columbine"
+			},
+			{
+				"Name": "showy milkweed"
+			},
+			{
+				"Name": "purple milkvetch"
+			},
+			{
+				"Name": "chickpea milkvetch"
+			},
+			{
+				"Name": "curvepod milkvetch"
+			},
+			{
+				"Name": "freckled milkvetch"
+			},
+			{
+				"Name": "red goosefoot"
+			},
+			{
+				"Name": "western water hemlock"
+			},
+			{
+				"Name": "Missouri gourd"
+			},
+			{
+				"Name": "Sierra larkspur"
+			},
+			{
+				"Name": "darkthroat shootingstar"
+			},
+			{
+				"Name": "sticky purple geranium"
+			},
+			{
+				"Name": "American licorice"
+			},
+			{
+				"Name": "common sunflower"
+			},
+			{
+				"Name": "Nuttall's sunflower"
+			},
+			{
+				"Name": "scarlet gilia"
+			},
+			{
+				"Name": "Rocky Mountain iris"
+			},
+			{
+				"Name": "fernleaf biscuitroot"
+			},
+			{
+				"Name": "silvery lupine"
+			},
+			{
+				"Name": "tailcup lupine"
+			},
+			{
+				"Name": "broadleaf lupine"
+			},
+			{
+				"Name": "silky lupine"
+			},
+			{
+				"Name": "rough menodora"
+			},
+			{
+				"Name": "nodding microseris"
+			},
+			{
+				"Name": "firecracker penstemon"
+			},
+			{
+				"Name": "curvepod yellowcress"
+			},
+			{
+				"Name": "scarlet globemallow"
+			},
+			{
+				"Name": "gooseberryleaf globemallow"
+			},
+			{
+				"Name": "yellow salsify"
+			},
+			{
+				"Name": "salsify"
+			},
+			{
+				"Name": "cows clover"
+			},
+			{
+				"Name": "narrowleaf cattail"
+			},
+			{
+				"Name": "banana yucca"
+			}
+		],
+		"New Hampshire": [{
+				"Name": "Jack in the pulpit"
+			},
+			{
+				"Name": "butterfly milkweed"
+			},
+			{
+				"Name": "bearded beggarticks"
+			},
+			{
+				"Name": "marsh bellflower"
+			},
+			{
+				"Name": "red goosefoot"
+			},
+			{
+				"Name": "lanceleaf tickseed"
+			},
+			{
+				"Name": "bunchberry dogwood"
+			},
+			{
+				"Name": "panicledleaf ticktrefoil"
+			},
+			{
+				"Name": "common sunflower"
+			},
+			{
+				"Name": "beach pea"
+			},
+			{
+				"Name": "hairy lespedeza"
+			},
+			{
+				"Name": "Virginia water horehound"
+			},
+			{
+				"Name": "climbing hempvine"
+			},
+			{
+				"Name": "American pokeweed"
+			},
+			{
+				"Name": "cloudberry"
+			},
+			{
+				"Name": "yellow salsify"
+			},
+			{
+				"Name": "salsify"
+			},
+			{
+				"Name": "narrowleaf cattail"
+			}
+		],
+		"New Jersey": [{
+				"Name": "Jack in the pulpit"
+			},
+			{
+				"Name": "butterfly milkweed"
+			},
+			{
+				"Name": "bearded beggarticks"
+			},
+			{
+				"Name": "marsh bellflower"
+			},
+			{
+				"Name": "red goosefoot"
+			},
+			{
+				"Name": "lanceleaf tickseed"
+			},
+			{
+				"Name": "bunchberry dogwood"
+			},
+			{
+				"Name": "panicledleaf ticktrefoil"
+			},
+			{
+				"Name": "common sunflower"
+			},
+			{
+				"Name": "hyacinthbean"
+			},
+			{
+				"Name": "beach pea"
+			},
+			{
+				"Name": "hairy lespedeza"
+			},
+			{
+				"Name": "Virginia water horehound"
+			},
+			{
+				"Name": "lanceleaf loosestrife"
+			},
+			{
+				"Name": "climbing hempvine"
+			},
+			{
+				"Name": "American lotus"
+			},
+			{
+				"Name": "American pokeweed"
+			},
+			{
+				"Name": "upright prairie coneflower"
+			},
+			{
+				"Name": "pinnate prairie coneflower"
+			},
+			{
+				"Name": "yellow salsify"
+			},
+			{
+				"Name": "salsify"
+			},
+			{
+				"Name": "narrowleaf cattail"
+			}
+		],
+		"New Mexico": [{
+				"Name": "pale agoseris"
+			},
+			{
+				"Name": "textile onion"
+			},
+			{
+				"Name": "southwestern pricklypoppy"
+			},
+			{
+				"Name": "crested pricklypoppy"
+			},
+			{
+				"Name": "showy milkweed"
+			},
+			{
+				"Name": "butterfly milkweed"
+			},
+			{
+				"Name": "purple milkvetch"
+			},
+			{
+				"Name": "chickpea milkvetch"
+			},
+			{
+				"Name": "freckled milkvetch"
+			},
+			{
+				"Name": "red goosefoot"
+			},
+			{
+				"Name": "lanceleaf tickseed"
+			},
+			{
+				"Name": "bunchberry dogwood"
+			},
+			{
+				"Name": "Missouri gourd"
+			},
+			{
+				"Name": "darkthroat shootingstar"
+			},
+			{
+				"Name": "clasping coneflower"
+			},
+			{
+				"Name": "sticky purple geranium"
+			},
+			{
+				"Name": "American licorice"
+			},
+			{
+				"Name": "common sunflower"
+			},
+			{
+				"Name": "Nuttall's sunflower"
+			},
+			{
+				"Name": "scarlet gilia"
+			},
+			{
+				"Name": "Rocky Mountain iris"
+			},
+			{
+				"Name": "Caley pea"
+			},
+			{
+				"Name": "fernleaf biscuitroot"
+			},
+			{
+				"Name": "silvery lupine"
+			},
+			{
+				"Name": "tailcup lupine"
+			},
+			{
+				"Name": "broadleaf lupine"
+			},
+			{
+				"Name": "silky lupine"
+			},
+			{
+				"Name": "rough menodora"
+			},
+			{
+				"Name": "broadbeard beardtongue"
+			},
+			{
+				"Name": "firecracker penstemon"
+			},
+			{
+				"Name": "Rocky Mountain penstemon"
+			},
+			{
+				"Name": "Whipple's penstemon"
+			},
+			{
+				"Name": "American pokeweed"
+			},
+			{
+				"Name": "upright prairie coneflower"
+			},
+			{
+				"Name": "scarlet globemallow"
+			},
+			{
+				"Name": "gooseberryleaf globemallow"
+			},
+			{
+				"Name": "yellow salsify"
+			},
+			{
+				"Name": "salsify"
+			},
+			{
+				"Name": "cows clover"
+			},
+			{
+				"Name": "narrowleaf cattail"
+			},
+			{
+				"Name": "banana yucca"
+			},
+			{
+				"Name": "soapweed yucca"
+			}
+		],
+		"New York": [{
+				"Name": "Jack in the pulpit"
+			},
+			{
+				"Name": "butterfly milkweed"
+			},
+			{
+				"Name": "bearded beggarticks"
+			},
+			{
+				"Name": "marsh bellflower"
+			},
+			{
+				"Name": "fireweed"
+			},
+			{
+				"Name": "red goosefoot"
+			},
+			{
+				"Name": "lanceleaf tickseed"
+			},
+			{
+				"Name": "bunchberry dogwood"
+			},
+			{
+				"Name": "panicledleaf ticktrefoil"
+			},
+			{
+				"Name": "beach strawberry"
+			},
+			{
+				"Name": "American licorice"
+			},
+			{
+				"Name": "common sunflower"
+			},
+			{
+				"Name": "hyacinthbean"
+			},
+			{
+				"Name": "beach pea"
+			},
+			{
+				"Name": "hairy lespedeza"
+			},
+			{
+				"Name": "Virginia water horehound"
+			},
+			{
+				"Name": "climbing hempvine"
+			},
+			{
+				"Name": "American lotus"
+			},
+			{
+				"Name": "American pokeweed"
+			},
+			{
+				"Name": "upright prairie coneflower"
+			},
+			{
+				"Name": "pinnate prairie coneflower"
+			},
+			{
+				"Name": "cloudberry"
+			},
+			{
+				"Name": "yellow salsify"
+			},
+			{
+				"Name": "salsify"
+			},
+			{
+				"Name": "narrowleaf cattail"
+			},
+			{
+				"Name": "purple vetch"
+			}
+		],
+		"North Carolina": [{
+				"Name": "Jack in the pulpit"
+			},
+			{
+				"Name": "butterfly milkweed"
+			},
+			{
+				"Name": "bearded beggarticks"
+			},
+			{
+				"Name": "marsh bellflower"
+			},
+			{
+				"Name": "lanceleaf tickseed"
+			},
+			{
+				"Name": "showy rattlebox"
+			},
+			{
+				"Name": "panicledleaf ticktrefoil"
+			},
+			{
+				"Name": "dixie ticktrefoil"
+			},
+			{
+				"Name": "common sunflower"
+			},
+			{
+				"Name": "comfortroot"
+			},
+			{
+				"Name": "Caley pea"
+			},
+			{
+				"Name": "hairy lespedeza"
+			},
+			{
+				"Name": "Virginia water horehound"
+			},
+			{
+				"Name": "lanceleaf loosestrife"
+			},
+			{
+				"Name": "climbing hempvine"
+			},
+			{
+				"Name": "American lotus"
+			},
+			{
+				"Name": "yellow passionflower"
+			},
+			{
+				"Name": "American pokeweed"
+			},
+			{
+				"Name": "upright prairie coneflower"
+			},
+			{
+				"Name": "stalkless yellowcress"
+			},
+			{
+				"Name": "yellow salsify"
+			},
+			{
+				"Name": "salsify"
+			},
+			{
+				"Name": "narrowleaf cattail"
+			},
+			{
+				"Name": "smooth yellow vetch"
+			},
+			{
+				"Name": "cowpea"
+			}
+		],
+		"North Dakota": [{
+				"Name": "textile onion"
+			},
+			{
+				"Name": "wild sarsaparilla"
+			},
+			{
+				"Name": "crested pricklypoppy"
+			},
+			{
+				"Name": "Jack in the pulpit"
+			},
+			{
+				"Name": "showy milkweed"
+			},
+			{
+				"Name": "purple milkvetch"
+			},
+			{
+				"Name": "marsh bellflower"
+			},
+			{
+				"Name": "red goosefoot"
+			},
+			{
+				"Name": "bunchberry dogwood"
+			},
+			{
+				"Name": "darkthroat shootingstar"
+			},
+			{
+				"Name": "clasping coneflower"
+			},
+			{
+				"Name": "American licorice"
+			},
+			{
+				"Name": "common sunflower"
+			},
+			{
+				"Name": "Nuttall's sunflower"
+			},
+			{
+				"Name": "Rocky Mountain iris"
+			},
+			{
+				"Name": "silvery lupine"
+			},
+			{
+				"Name": "broadbeard beardtongue"
+			},
+			{
+				"Name": "arrowleaf sweet coltsfoot"
+			},
+			{
+				"Name": "upright prairie coneflower"
+			},
+			{
+				"Name": "scarlet globemallow"
+			},
+			{
+				"Name": "yellow salsify"
+			},
+			{
+				"Name": "narrowleaf cattail"
+			},
+			{
+				"Name": "soapweed yucca"
+			}
+		],
+		"Ohio": [{
+				"Name": "Jack in the pulpit"
+			},
+			{
+				"Name": "butterfly milkweed"
+			},
+			{
+				"Name": "bearded beggarticks"
+			},
+			{
+				"Name": "marsh bellflower"
+			},
+			{
+				"Name": "lanceleaf tickseed"
+			},
+			{
+				"Name": "bunchberry dogwood"
+			},
+			{
+				"Name": "Missouri gourd"
+			},
+			{
+				"Name": "panicledleaf ticktrefoil"
+			},
+			{
+				"Name": "common sunflower"
+			},
+			{
+				"Name": "hyacinthbean"
+			},
+			{
+				"Name": "beach pea"
+			},
+			{
+				"Name": "hairy lespedeza"
+			},
+			{
+				"Name": "Virginia water horehound"
+			},
+			{
+				"Name": "lanceleaf loosestrife"
+			},
+			{
+				"Name": "climbing hempvine"
+			},
+			{
+				"Name": "American lotus"
+			},
+			{
+				"Name": "yellow passionflower"
+			},
+			{
+				"Name": "American pokeweed"
+			},
+			{
+				"Name": "upright prairie coneflower"
+			},
+			{
+				"Name": "pinnate prairie coneflower"
+			},
+			{
+				"Name": "stalkless yellowcress"
+			},
+			{
+				"Name": "yellow salsify"
+			},
+			{
+				"Name": "salsify"
+			},
+			{
+				"Name": "narrowleaf cattail"
+			},
+			{
+				"Name": "cowpea"
+			}
+		],
+		"Oklahoma": [{
+				"Name": "Jack in the pulpit"
+			},
+			{
+				"Name": "showy milkweed"
+			},
+			{
+				"Name": "butterfly milkweed"
+			},
+			{
+				"Name": "bearded beggarticks"
+			},
+			{
+				"Name": "lanceleaf tickseed"
+			},
+			{
+				"Name": "showy rattlebox"
+			},
+			{
+				"Name": "Missouri gourd"
+			},
+			{
+				"Name": "panicledleaf ticktrefoil"
+			},
+			{
+				"Name": "clasping coneflower"
+			},
+			{
+				"Name": "American licorice"
+			},
+			{
+				"Name": "common sunflower"
+			},
+			{
+				"Name": "Nuttall's sunflower"
+			},
+			{
+				"Name": "Caley pea"
+			},
+			{
+				"Name": "hairy lespedeza"
+			},
+			{
+				"Name": "silvery lupine"
+			},
+			{
+				"Name": "tailcup lupine"
+			},
+			{
+				"Name": "Virginia water horehound"
+			},
+			{
+				"Name": "lanceleaf loosestrife"
+			},
+			{
+				"Name": "climbing hempvine"
+			},
+			{
+				"Name": "American lotus"
+			},
+			{
+				"Name": "yellow passionflower"
+			},
+			{
+				"Name": "broadbeard beardtongue"
+			},
+			{
+				"Name": "American pokeweed"
+			},
+			{
+				"Name": "upright prairie coneflower"
+			},
+			{
+				"Name": "pinnate prairie coneflower"
+			},
+			{
+				"Name": "stalkless yellowcress"
+			},
+			{
+				"Name": "scarlet globemallow"
+			},
+			{
+				"Name": "yellow salsify"
+			},
+			{
+				"Name": "salsify"
+			},
+			{
+				"Name": "narrowleaf cattail"
+			},
+			{
+				"Name": "soapweed yucca"
+			}
+		],
+		"Oregon": [{
+				"Name": "pale agoseris"
+			},
+			{
+				"Name": "Douglas' onion"
+			},
+			{
+				"Name": "Tolmie's onion"
+			},
+			{
+				"Name": "Pacific onion"
+			},
+			{
+				"Name": "rush pussytoes"
+			},
+			{
+				"Name": "western columbine"
+			},
+			{
+				"Name": "thrift seapink"
+			},
+			{
+				"Name": "showy milkweed"
+			},
+			{
+				"Name": "purple milkvetch"
+			},
+			{
+				"Name": "curvepod milkvetch"
+			},
+			{
+				"Name": "freckled milkvetch"
+			},
+			{
+				"Name": "red goosefoot"
+			},
+			{
+				"Name": "western water hemlock"
+			},
+			{
+				"Name": "lanceleaf tickseed"
+			},
+			{
+				"Name": "bunchberry dogwood"
+			},
+			{
+				"Name": "Sierra larkspur"
+			},
+			{
+				"Name": "darkthroat shootingstar"
+			},
+			{
+				"Name": "eightpetal mountain-avens"
+			},
+			{
+				"Name": "longbeak stork's bill"
+			},
+			{
+				"Name": "beach strawberry"
+			},
+			{
+				"Name": "Oregon geranium"
+			},
+			{
+				"Name": "sticky purple geranium"
+			},
+			{
+				"Name": "American licorice"
+			},
+			{
+				"Name": "common sunflower"
+			},
+			{
+				"Name": "Nuttall's sunflower"
+			},
+			{
+				"Name": "Rocky Mountain iris"
+			},
+			{
+				"Name": "Caley pea"
+			},
+			{
+				"Name": "beach pea"
+			},
+			{
+				"Name": "silky beach pea"
+			},
+			{
+				"Name": "fernleaf biscuitroot"
+			},
+			{
+				"Name": "sicklekeel lupine"
+			},
+			{
+				"Name": "arctic lupine"
+			},
+			{
+				"Name": "silvery lupine"
+			},
+			{
+				"Name": "tailcup lupine"
+			},
+			{
+				"Name": "broadleaf lupine"
+			},
+			{
+				"Name": "Pacific lupine"
+			},
+			{
+				"Name": "silky lupine"
+			},
+			{
+				"Name": "sulphur lupine"
+			},
+			{
+				"Name": "nodding microseris"
+			},
+			{
+				"Name": "yellow penstemon"
+			},
+			{
+				"Name": "Venus penstemon"
+			},
+			{
+				"Name": "American pokeweed"
+			},
+			{
+				"Name": "Davis' knotweed"
+			},
+			{
+				"Name": "curvepod yellowcress"
+			},
+			{
+				"Name": "scarlet globemallow"
+			},
+			{
+				"Name": "gooseberryleaf globemallow"
+			},
+			{
+				"Name": "yellow salsify"
+			},
+			{
+				"Name": "salsify"
+			},
+			{
+				"Name": "cows clover"
+			},
+			{
+				"Name": "narrowleaf cattail"
+			},
+			{
+				"Name": "smooth yellow vetch"
+			}
+		],
+		"Pennsylvania": [{
+				"Name": "Jack in the pulpit"
+			},
+			{
+				"Name": "thrift seapink"
+			},
+			{
+				"Name": "butterfly milkweed"
+			},
+			{
+				"Name": "bearded beggarticks"
+			},
+			{
+				"Name": "marsh bellflower"
+			},
+			{
+				"Name": "red goosefoot"
+			},
+			{
+				"Name": "lanceleaf tickseed"
+			},
+			{
+				"Name": "bunchberry dogwood"
+			},
+			{
+				"Name": "panicledleaf ticktrefoil"
+			},
+			{
+				"Name": "American licorice"
+			},
+			{
+				"Name": "common sunflower"
+			},
+			{
+				"Name": "hyacinthbean"
+			},
+			{
+				"Name": "beach pea"
+			},
+			{
+				"Name": "hairy lespedeza"
+			},
+			{
+				"Name": "Virginia water horehound"
+			},
+			{
+				"Name": "lanceleaf loosestrife"
+			},
+			{
+				"Name": "climbing hempvine"
+			},
+			{
+				"Name": "American lotus"
+			},
+			{
+				"Name": "yellow passionflower"
+			},
+			{
+				"Name": "American pokeweed"
+			},
+			{
+				"Name": "upright prairie coneflower"
+			},
+			{
+				"Name": "pinnate prairie coneflower"
+			},
+			{
+				"Name": "yellow salsify"
+			},
+			{
+				"Name": "salsify"
+			},
+			{
+				"Name": "narrowleaf cattail"
+			},
+			{
+				"Name": "cowpea"
+			}
+		],
+		"Rhode Island": [{
+				"Name": "Jack in the pulpit"
+			},
+			{
+				"Name": "butterfly milkweed"
+			},
+			{
+				"Name": "marsh bellflower"
+			},
+			{
+				"Name": "red goosefoot"
+			},
+			{
+				"Name": "lanceleaf tickseed"
+			},
+			{
+				"Name": "bunchberry dogwood"
+			},
+			{
+				"Name": "panicledleaf ticktrefoil"
+			},
+			{
+				"Name": "American licorice"
+			},
+			{
+				"Name": "common sunflower"
+			},
+			{
+				"Name": "beach pea"
+			},
+			{
+				"Name": "hairy lespedeza"
+			},
+			{
+				"Name": "Virginia water horehound"
+			},
+			{
+				"Name": "climbing hempvine"
+			},
+			{
+				"Name": "American pokeweed"
+			},
+			{
+				"Name": "yellow salsify"
+			},
+			{
+				"Name": "narrowleaf cattail"
+			}
+		],
+		"South Carolina": [{
+				"Name": "Jack in the pulpit"
+			},
+			{
+				"Name": "butterfly milkweed"
+			},
+			{
+				"Name": "bearded beggarticks"
+			},
+			{
+				"Name": "marsh bellflower"
+			},
+			{
+				"Name": "lanceleaf tickseed"
+			},
+			{
+				"Name": "showy rattlebox"
+			},
+			{
+				"Name": "panicledleaf ticktrefoil"
+			},
+			{
+				"Name": "dixie ticktrefoil"
+			},
+			{
+				"Name": "clasping coneflower"
+			},
+			{
+				"Name": "common sunflower"
+			},
+			{
+				"Name": "comfortroot"
+			},
+			{
+				"Name": "Caley pea"
+			},
+			{
+				"Name": "hairy lespedeza"
+			},
+			{
+				"Name": "Virginia water horehound"
+			},
+			{
+				"Name": "lanceleaf loosestrife"
+			},
+			{
+				"Name": "climbing hempvine"
+			},
+			{
+				"Name": "American lotus"
+			},
+			{
+				"Name": "yellow passionflower"
+			},
+			{
+				"Name": "American pokeweed"
+			},
+			{
+				"Name": "upright prairie coneflower"
+			},
+			{
+				"Name": "pinnate prairie coneflower"
+			},
+			{
+				"Name": "stalkless yellowcress"
+			},
+			{
+				"Name": "narrowleaf cattail"
+			},
+			{
+				"Name": "cowpea"
+			}
+		],
+		"South Dakota": [{
+				"Name": "pale agoseris"
+			},
+			{
+				"Name": "textile onion"
+			},
+			{
+				"Name": "wild sarsaparilla"
+			},
+			{
+				"Name": "crested pricklypoppy"
+			},
+			{
+				"Name": "Jack in the pulpit"
+			},
+			{
+				"Name": "showy milkweed"
+			},
+			{
+				"Name": "butterfly milkweed"
+			},
+			{
+				"Name": "purple milkvetch"
+			},
+			{
+				"Name": "marsh bellflower"
+			},
+			{
+				"Name": "red goosefoot"
+			},
+			{
+				"Name": "bunchberry dogwood"
+			},
+			{
+				"Name": "darkthroat shootingstar"
+			},
+			{
+				"Name": "sticky purple geranium"
+			},
+			{
+				"Name": "American licorice"
+			},
+			{
+				"Name": "common sunflower"
+			},
+			{
+				"Name": "Nuttall's sunflower"
+			},
+			{
+				"Name": "Rocky Mountain iris"
+			},
+			{
+				"Name": "silvery lupine"
+			},
+			{
+				"Name": "tailcup lupine"
+			},
+			{
+				"Name": "silky lupine"
+			},
+			{
+				"Name": "nodding microseris"
+			},
+			{
+				"Name": "broadbeard beardtongue"
+			},
+			{
+				"Name": "arrowleaf sweet coltsfoot"
+			},
+			{
+				"Name": "upright prairie coneflower"
+			},
+			{
+				"Name": "pinnate prairie coneflower"
+			},
+			{
+				"Name": "stalkless yellowcress"
+			},
+			{
+				"Name": "scarlet globemallow"
+			},
+			{
+				"Name": "yellow salsify"
+			},
+			{
+				"Name": "salsify"
+			},
+			{
+				"Name": "narrowleaf cattail"
+			},
+			{
+				"Name": "soapweed yucca"
+			}
+		],
+		"Tennessee": [{
+				"Name": "Jack in the pulpit"
+			},
+			{
+				"Name": "butterfly milkweed"
+			},
+			{
+				"Name": "bearded beggarticks"
+			},
+			{
+				"Name": "marsh bellflower"
+			},
+			{
+				"Name": "lanceleaf tickseed"
+			},
+			{
+				"Name": "showy rattlebox"
+			},
+			{
+				"Name": "panicledleaf ticktrefoil"
+			},
+			{
+				"Name": "common sunflower"
+			},
+			{
+				"Name": "Caley pea"
+			},
+			{
+				"Name": "hairy lespedeza"
+			},
+			{
+				"Name": "Virginia water horehound"
+			},
+			{
+				"Name": "lanceleaf loosestrife"
+			},
+			{
+				"Name": "climbing hempvine"
+			},
+			{
+				"Name": "American lotus"
+			},
+			{
+				"Name": "yellow passionflower"
+			},
+			{
+				"Name": "American pokeweed"
+			},
+			{
+				"Name": "upright prairie coneflower"
+			},
+			{
+				"Name": "pinnate prairie coneflower"
+			},
+			{
+				"Name": "stalkless yellowcress"
+			},
+			{
+				"Name": "yellow salsify"
+			},
+			{
+				"Name": "salsify"
+			},
+			{
+				"Name": "small white clover"
+			},
+			{
+				"Name": "narrowleaf cattail"
+			}
+		],
+		"Texas": [{
+				"Name": "Jack in the pulpit"
+			},
+			{
+				"Name": "showy milkweed"
+			},
+			{
+				"Name": "butterfly milkweed"
+			},
+			{
+				"Name": "freckled milkvetch"
+			},
+			{
+				"Name": "bearded beggarticks"
+			},
+			{
+				"Name": "lanceleaf tickseed"
+			},
+			{
+				"Name": "showy rattlebox"
+			},
+			{
+				"Name": "Missouri gourd"
+			},
+			{
+				"Name": "panicledleaf ticktrefoil"
+			},
+			{
+				"Name": "dixie ticktrefoil"
+			},
+			{
+				"Name": "clasping coneflower"
+			},
+			{
+				"Name": "longbeak stork's bill"
+			},
+			{
+				"Name": "American licorice"
+			},
+			{
+				"Name": "common sunflower"
+			},
+			{
+				"Name": "comfortroot"
+			},
+			{
+				"Name": "Caley pea"
+			},
+			{
+				"Name": "hairy lespedeza"
+			},
+			{
+				"Name": "silvery lupine"
+			},
+			{
+				"Name": "tailcup lupine"
+			},
+			{
+				"Name": "Big Bend bluebonnet"
+			},
+			{
+				"Name": "Virginia water horehound"
+			},
+			{
+				"Name": "lanceleaf loosestrife"
+			},
+			{
+				"Name": "purple bushbean"
+			},
+			{
+				"Name": "rough menodora"
+			},
+			{
+				"Name": "climbing hempvine"
+			},
+			{
+				"Name": "American lotus"
+			},
+			{
+				"Name": "yellow passionflower"
+			},
+			{
+				"Name": "American pokeweed"
+			},
+			{
+				"Name": "upright prairie coneflower"
+			},
+			{
+				"Name": "stalkless yellowcress"
+			},
+			{
+				"Name": "scarlet globemallow"
+			},
+			{
+				"Name": "yellow salsify"
+			},
+			{
+				"Name": "salsify"
+			},
+			{
+				"Name": "cows clover"
+			},
+			{
+				"Name": "smooth yellow vetch"
+			},
+			{
+				"Name": "cowpea"
+			},
+			{
+				"Name": "banana yucca"
+			},
+			{
+				"Name": "soapweed yucca"
+			}
+		],
+		"Utah": [{
+				"Name": "pale agoseris"
+			},
+			{
+				"Name": "textile onion"
+			},
+			{
+				"Name": "rush pussytoes"
+			},
+			{
+				"Name": "western columbine"
+			},
+			{
+				"Name": "crested pricklypoppy"
+			},
+			{
+				"Name": "showy milkweed"
+			},
+			{
+				"Name": "butterfly milkweed"
+			},
+			{
+				"Name": "purple milkvetch"
+			},
+			{
+				"Name": "chickpea milkvetch"
+			},
+			{
+				"Name": "freckled milkvetch"
+			},
+			{
+				"Name": "red goosefoot"
+			},
+			{
+				"Name": "Missouri gourd"
+			},
+			{
+				"Name": "Sierra larkspur"
+			},
+			{
+				"Name": "darkthroat shootingstar"
+			},
+			{
+				"Name": "eightpetal mountain-avens"
+			},
+			{
+				"Name": "sticky purple geranium"
+			},
+			{
+				"Name": "American licorice"
+			},
+			{
+				"Name": "common sunflower"
+			},
+			{
+				"Name": "Nuttall's sunflower"
+			},
+			{
+				"Name": "scarlet gilia"
+			},
+			{
+				"Name": "Rocky Mountain iris"
+			},
+			{
+				"Name": "fernleaf biscuitroot"
+			},
+			{
+				"Name": "silvery lupine"
+			},
+			{
+				"Name": "tailcup lupine"
+			},
+			{
+				"Name": "broadleaf lupine"
+			},
+			{
+				"Name": "silky lupine"
+			},
+			{
+				"Name": "rough menodora"
+			},
+			{
+				"Name": "nodding microseris"
+			},
+			{
+				"Name": "broadbeard beardtongue"
+			},
+			{
+				"Name": "firecracker penstemon"
+			},
+			{
+				"Name": "Rocky Mountain penstemon"
+			},
+			{
+				"Name": "Venus penstemon"
+			},
+			{
+				"Name": "Whipple's penstemon"
+			},
+			{
+				"Name": "upright prairie coneflower"
+			},
+			{
+				"Name": "scarlet globemallow"
+			},
+			{
+				"Name": "gooseberryleaf globemallow"
+			},
+			{
+				"Name": "yellow salsify"
+			},
+			{
+				"Name": "salsify"
+			},
+			{
+				"Name": "cows clover"
+			},
+			{
+				"Name": "banana yucca"
+			}
+		],
+		"Vermont": [{
+				"Name": "Jack in the pulpit"
+			},
+			{
+				"Name": "butterfly milkweed"
+			},
+			{
+				"Name": "marsh bellflower"
+			},
+			{
+				"Name": "lanceleaf tickseed"
+			},
+			{
+				"Name": "bunchberry dogwood"
+			},
+			{
+				"Name": "panicledleaf ticktrefoil"
+			},
+			{
+				"Name": "longbeak stork's bill"
+			},
+			{
+				"Name": "common sunflower"
+			},
+			{
+				"Name": "beach pea"
+			},
+			{
+				"Name": "hairy lespedeza"
+			},
+			{
+				"Name": "Virginia water horehound"
+			},
+			{
+				"Name": "American pokeweed"
+			},
+			{
+				"Name": "pinnate prairie coneflower"
+			},
+			{
+				"Name": "yellow salsify"
+			},
+			{
+				"Name": "salsify"
+			},
+			{
+				"Name": "narrowleaf cattail"
+			}
+		],
+		"Virginia": [{
+				"Name": "Jack in the pulpit"
+			},
+			{
+				"Name": "butterfly milkweed"
+			},
+			{
+				"Name": "bearded beggarticks"
+			},
+			{
+				"Name": "marsh bellflower"
+			},
+			{
+				"Name": "lanceleaf tickseed"
+			},
+			{
+				"Name": "bunchberry dogwood"
+			},
+			{
+				"Name": "showy rattlebox"
+			},
+			{
+				"Name": "Missouri gourd"
+			},
+			{
+				"Name": "panicledleaf ticktrefoil"
+			},
+			{
+				"Name": "American licorice"
+			},
+			{
+				"Name": "common sunflower"
+			},
+			{
+				"Name": "hyacinthbean"
+			},
+			{
+				"Name": "Caley pea"
+			},
+			{
+				"Name": "hairy lespedeza"
+			},
+			{
+				"Name": "Virginia water horehound"
+			},
+			{
+				"Name": "lanceleaf loosestrife"
+			},
+			{
+				"Name": "climbing hempvine"
+			},
+			{
+				"Name": "American lotus"
+			},
+			{
+				"Name": "yellow passionflower"
+			},
+			{
+				"Name": "American pokeweed"
+			},
+			{
+				"Name": "pinnate prairie coneflower"
+			},
+			{
+				"Name": "stalkless yellowcress"
+			},
+			{
+				"Name": "yellow salsify"
+			},
+			{
+				"Name": "salsify"
+			},
+			{
+				"Name": "narrowleaf cattail"
+			},
+			{
+				"Name": "mung bean"
+			},
+			{
+				"Name": "cowpea"
+			}
+		],
+		"Washington": [{
+				"Name": "pale agoseris"
+			},
+			{
+				"Name": "Douglas' onion"
+			},
+			{
+				"Name": "textile onion"
+			},
+			{
+				"Name": "Tolmie's onion"
+			},
+			{
+				"Name": "Pacific onion"
+			},
+			{
+				"Name": "rush pussytoes"
+			},
+			{
+				"Name": "western columbine"
+			},
+			{
+				"Name": "wild sarsaparilla"
+			},
+			{
+				"Name": "crested pricklypoppy"
+			},
+			{
+				"Name": "thrift seapink"
+			},
+			{
+				"Name": "showy milkweed"
+			},
+			{
+				"Name": "purple milkvetch"
+			},
+			{
+				"Name": "chickpea milkvetch"
+			},
+			{
+				"Name": "freckled milkvetch"
+			},
+			{
+				"Name": "marsh bellflower"
+			},
+			{
+				"Name": "fireweed"
+			},
+			{
+				"Name": "red goosefoot"
+			},
+			{
+				"Name": "western water hemlock"
+			},
+			{
+				"Name": "lanceleaf tickseed"
+			},
+			{
+				"Name": "bunchberry dogwood"
+			},
+			{
+				"Name": "Sierra larkspur"
+			},
+			{
+				"Name": "darkthroat shootingstar"
+			},
+			{
+				"Name": "eightpetal mountain-avens"
+			},
+			{
+				"Name": "beach strawberry"
+			},
+			{
+				"Name": "Oregon geranium"
+			},
+			{
+				"Name": "sticky purple geranium"
+			},
+			{
+				"Name": "American licorice"
+			},
+			{
+				"Name": "common sunflower"
+			},
+			{
+				"Name": "Nuttall's sunflower"
+			},
+			{
+				"Name": "scarlet gilia"
+			},
+			{
+				"Name": "Rocky Mountain iris"
+			},
+			{
+				"Name": "beach pea"
+			},
+			{
+				"Name": "silky beach pea"
+			},
+			{
+				"Name": "fernleaf biscuitroot"
+			},
+			{
+				"Name": "sicklekeel lupine"
+			},
+			{
+				"Name": "arctic lupine"
+			},
+			{
+				"Name": "silvery lupine"
+			},
+			{
+				"Name": "tailcup lupine"
+			},
+			{
+				"Name": "broadleaf lupine"
+			},
+			{
+				"Name": "Pacific lupine"
+			},
+			{
+				"Name": "Nootka lupine"
+			},
+			{
+				"Name": "silky lupine"
+			},
+			{
+				"Name": "sulphur lupine"
+			},
+			{
+				"Name": "nodding microseris"
+			},
+			{
+				"Name": "yellow penstemon"
+			},
+			{
+				"Name": "Venus penstemon"
+			},
+			{
+				"Name": "arrowleaf sweet coltsfoot"
+			},
+			{
+				"Name": "American pokeweed"
+			},
+			{
+				"Name": "Davis' knotweed"
+			},
+			{
+				"Name": "curvepod yellowcress"
+			},
+			{
+				"Name": "gooseberryleaf globemallow"
+			},
+			{
+				"Name": "yellow salsify"
+			},
+			{
+				"Name": "salsify"
+			},
+			{
+				"Name": "cows clover"
+			},
+			{
+				"Name": "narrowleaf cattail"
+			}
+		],
+		"West Virginia": [{
+				"Name": "Jack in the pulpit"
+			},
+			{
+				"Name": "butterfly milkweed"
+			},
+			{
+				"Name": "bearded beggarticks"
+			},
+			{
+				"Name": "marsh bellflower"
+			},
+			{
+				"Name": "lanceleaf tickseed"
+			},
+			{
+				"Name": "bunchberry dogwood"
+			},
+			{
+				"Name": "panicledleaf ticktrefoil"
+			},
+			{
+				"Name": "common sunflower"
+			},
+			{
+				"Name": "hyacinthbean"
+			},
+			{
+				"Name": "hairy lespedeza"
+			},
+			{
+				"Name": "Virginia water horehound"
+			},
+			{
+				"Name": "lanceleaf loosestrife"
+			},
+			{
+				"Name": "yellow passionflower"
+			},
+			{
+				"Name": "American pokeweed"
+			},
+			{
+				"Name": "upright prairie coneflower"
+			},
+			{
+				"Name": "pinnate prairie coneflower"
+			},
+			{
+				"Name": "stalkless yellowcress"
+			},
+			{
+				"Name": "yellow salsify"
+			},
+			{
+				"Name": "salsify"
+			},
+			{
+				"Name": "narrowleaf cattail"
+			}
+		],
+		"Wisconsin": [{
+				"Name": "Jack in the pulpit"
+			},
+			{
+				"Name": "showy milkweed"
+			},
+			{
+				"Name": "butterfly milkweed"
+			},
+			{
+				"Name": "chickpea milkvetch"
+			},
+			{
+				"Name": "bearded beggarticks"
+			},
+			{
+				"Name": "marsh bellflower"
+			},
+			{
+				"Name": "red goosefoot"
+			},
+			{
+				"Name": "lanceleaf tickseed"
+			},
+			{
+				"Name": "bunchberry dogwood"
+			},
+			{
+				"Name": "Missouri gourd"
+			},
+			{
+				"Name": "American licorice"
+			},
+			{
+				"Name": "common sunflower"
+			},
+			{
+				"Name": "beach pea"
+			},
+			{
+				"Name": "Virginia water horehound"
+			},
+			{
+				"Name": "lanceleaf loosestrife"
+			},
+			{
+				"Name": "American lotus"
+			},
+			{
+				"Name": "arrowleaf sweet coltsfoot"
+			},
+			{
+				"Name": "American pokeweed"
+			},
+			{
+				"Name": "upright prairie coneflower"
+			},
+			{
+				"Name": "pinnate prairie coneflower"
+			},
+			{
+				"Name": "stalkless yellowcress"
+			},
+			{
+				"Name": "yellow salsify"
+			},
+			{
+				"Name": "salsify"
+			},
+			{
+				"Name": "narrowleaf cattail"
+			}
+		],
+		"Wyoming": [{
+				"Name": "pale agoseris"
+			},
+			{
+				"Name": "textile onion"
+			},
+			{
+				"Name": "rush pussytoes"
+			},
+			{
+				"Name": "western columbine"
+			},
+			{
+				"Name": "wild sarsaparilla"
+			},
+			{
+				"Name": "crested pricklypoppy"
+			},
+			{
+				"Name": "showy milkweed"
+			},
+			{
+				"Name": "purple milkvetch"
+			},
+			{
+				"Name": "chickpea milkvetch"
+			},
+			{
+				"Name": "freckled milkvetch"
+			},
+			{
+				"Name": "marsh bellflower"
+			},
+			{
+				"Name": "fireweed"
+			},
+			{
+				"Name": "red goosefoot"
+			},
+			{
+				"Name": "lanceleaf tickseed"
+			},
+			{
+				"Name": "bunchberry dogwood"
+			},
+			{
+				"Name": "Missouri gourd"
+			},
+			{
+				"Name": "Sierra larkspur"
+			},
+			{
+				"Name": "darkthroat shootingstar"
+			},
+			{
+				"Name": "eightpetal mountain-avens"
+			},
+			{
+				"Name": "sticky purple geranium"
+			},
+			{
+				"Name": "American licorice"
+			},
+			{
+				"Name": "common sunflower"
+			},
+			{
+				"Name": "Nuttall's sunflower"
+			},
+			{
+				"Name": "scarlet gilia"
+			},
+			{
+				"Name": "Rocky Mountain iris"
+			},
+			{
+				"Name": "fernleaf biscuitroot"
+			},
+			{
+				"Name": "silvery lupine"
+			},
+			{
+				"Name": "tailcup lupine"
+			},
+			{
+				"Name": "silky lupine"
+			},
+			{
+				"Name": "nodding microseris"
+			},
+			{
+				"Name": "broadbeard beardtongue"
+			},
+			{
+				"Name": "firecracker penstemon"
+			},
+			{
+				"Name": "Rocky Mountain penstemon"
+			},
+			{
+				"Name": "Whipple's penstemon"
+			},
+			{
+				"Name": "arrowleaf sweet coltsfoot"
+			},
+			{
+				"Name": "upright prairie coneflower"
+			},
+			{
+				"Name": "curvepod yellowcress"
+			},
+			{
+				"Name": "scarlet globemallow"
+			},
+			{
+				"Name": "yellow salsify"
+			},
+			{
+				"Name": "salsify"
+			},
+			{
+				"Name": "cows clover"
+			},
+			{
+				"Name": "narrowleaf cattail"
+			},
+			{
+				"Name": "soapweed yucca"
+			}
+		]
+	},
+	"Moisture": {
+		"Virginia threeseed mercury": [{
+			"Moisture": "Medium"
+		}],
+		"common yarrow": [{
+			"Moisture": "Medium"
+		}],
+		"western yarrow": [{
+			"Moisture": "Medium"
+		}],
+		"Indian ricegrass": [{
+			"Moisture": "Low"
+		}],
+		"Lemmon's needlegrass": [{
+			"Moisture": "Low"
+		}],
+		"Letterman's needlegrass": [{
+			"Moisture": "Low"
+		}],
+		"Dore's needlegrass": [{
+			"Moisture": "Low"
+		}],
+		"western needlegrass": [{
+			"Moisture": "Low"
+		}],
+		"desert needlegrass": [{
+			"Moisture": "Low"
+		}],
+		"Thurber's needlegrass": [{
+			"Moisture": "Low"
+		}],
+		"oppositeleaf spotflower": [{
+			"Moisture": "Medium"
+		}],
+		"Columbian monkshood": [{
+			"Moisture": "High"
+		}],
+		"sweetflag": [{
+			"Moisture": "High"
+		}],
+		"calamus": [{
+			"Moisture": "High"
+		}],
+		"common maidenhair": [{
+			"Moisture": "High"
+		}],
+		"northern maidenhair": [{
+			"Moisture": "Medium"
+		}],
+		"smallleaf giant hyssop": [{
+			"Moisture": "Low"
+		}],
+		"nettleleaf giant hyssop": [{
+			"Moisture": "Medium"
+		}],
+		"American century plant": [{
+			"Moisture": "Low"
+		}],
+		"Utah agave": [{
+			"Moisture": "Low"
+		}],
+		"orange agoseris": [{
+			"Moisture": "Medium"
+		}],
+		"pale agoseris": [{
+			"Moisture": "Medium"
+		}],
+		"bigflower agoseris": [{
+			"Moisture": "Medium"
+		}],
+		"tall hairy agrimony": [{
+			"Moisture": "Medium"
+		}],
+		"harvestlice": [{
+			"Moisture": "High"
+		}],
+		"beaked agrimony": [{
+			"Moisture": "Medium"
+		}],
+		"roadside agrimony": [{
+			"Moisture": "Medium"
+		}],
+		"crested wheatgrass": [{
+			"Moisture": "Medium"
+		}],
+		"desert wheatgrass": [{
+			"Moisture": "Medium"
+		}],
+		"Siberian wheatgrass": [{
+			"Moisture": "Medium"
+		}],
+		"velvet bentgrass": [{
+			"Moisture": "High"
+		}],
+		"colonial bentgrass": [{
+			"Moisture": "High"
+		}],
+		"spike bentgrass": [{
+			"Moisture": "Medium"
+		}],
+		"redtop": [{
+			"Moisture": "Medium"
+		}],
+		"winter bentgrass": [{
+			"Moisture": "High"
+		}],
+		"Idaho bentgrass": [{
+			"Moisture": "Medium"
+		}],
+		"seashore bentgrass": [{
+			"Moisture": "High"
+		}],
+		"upland bentgrass": [{
+			"Moisture": "High"
+		}],
+		"rough bentgrass": [{
+			"Moisture": "Medium"
+		}],
+		"creeping bentgrass": [{
+			"Moisture": "High"
+		}],
+		"common bugle": [{
+			"Moisture": "High"
+		}],
+		"narrowleaf water plantain": [{
+			"Moisture": "High"
+		}],
+		"European water plantain": [{
+			"Moisture": "High"
+		}],
+		"American water plantain": [{
+			"Moisture": "High"
+		}],
+		"tapertip onion": [{
+			"Moisture": "Low"
+		}],
+		"Douglas' onion": [{
+			"Moisture": "Medium"
+		}],
+		"textile onion": [{
+			"Moisture": "Medium"
+		}],
+		"Tolmie's onion": [{
+			"Moisture": "Medium"
+		}],
+		"Pacific onion": [{
+			"Moisture": "High"
+		}],
+		"shortawn foxtail": [{
+			"Moisture": "High"
+		}],
+		"creeping meadow foxtail": [{
+			"Moisture": "Medium"
+		}],
+		"Carolina foxtail": [{
+			"Moisture": "Low"
+		}],
+		"water foxtail": [{
+			"Moisture": "High"
+		}],
+		"slender meadow foxtail": [{
+			"Moisture": "High"
+		}],
+		"meadow foxtail": [{
+			"Moisture": "High"
+		}],
+		"alligatorweed": [{
+			"Moisture": "High"
+		}],
+		"California amaranth": [{
+			"Moisture": "Medium"
+		}],
+		"valley redstem": [{
+			"Moisture": "Medium"
+		}],
+		"European beachgrass": [{
+			"Moisture": "Medium"
+		}],
+		"American beachgrass": [{
+			"Moisture": "Medium"
+		}],
+		"tarweed fiddleneck": [{
+			"Moisture": "Low"
+		}],
+		"pineapple": [{
+			"Moisture": "Medium"
+		}],
+		"western pearly everlasting": [{
+			"Moisture": "Medium"
+		}],
+		"big bluestem": [{
+			"Moisture": "Medium"
+		}],
+		"bushy bluestem": [{
+			"Moisture": "High"
+		}],
+		"sand bluestem": [{
+			"Moisture": "Medium"
+		}],
+		"splitbeard bluestem": [{
+			"Moisture": "Low"
+		}],
+		"broomsedge bluestem": [{
+			"Moisture": "Medium"
+		}],
+		"Pacific anemone": [{
+			"Moisture": "Medium"
+		}],
+		"yerba mansa": [{
+			"Moisture": "High"
+		}],
+		"Lyall's angelica": [{
+			"Moisture": "High"
+		}],
+		"pearly pussytoes": [{
+			"Moisture": "Medium"
+		}],
+		"flat-top pussytoes": [{
+			"Moisture": "High"
+		}],
+		"low pussytoes": [{
+			"Moisture": "Low"
+		}],
+		"rush pussytoes": [{
+			"Moisture": "Medium"
+		}],
+		"littleleaf pussytoes": [{
+			"Moisture": "Low"
+		}],
+		"field pussytoes": [{
+			"Moisture": "Low"
+		}],
+		"groundnut": [{
+			"Moisture": "Medium"
+		}],
+		"Indianhemp": [{
+			"Moisture": "High"
+		}],
+		"western columbine": [{
+			"Moisture": "Medium"
+		}],
+		"spreadingpod rockcress": [{
+			"Moisture": "Low"
+		}],
+		"Drummond's rockcress": [{
+			"Moisture": "Medium"
+		}],
+		"Holboell's rockcress": [{
+			"Moisture": "Medium"
+		}],
+		"rhizoma peanut": [{
+			"Moisture": "Medium"
+		}],
+		"wild sarsaparilla": [{
+			"Moisture": "Medium"
+		}],
+		"wideleaf polargrass": [{
+			"Moisture": "High"
+		}],
+		"King's sandwort": [{
+			"Moisture": "Low"
+		}],
+		"southwestern pricklypoppy": [{
+			"Moisture": "Low"
+		}],
+		"crested pricklypoppy": [{
+			"Moisture": "Low"
+		}],
+		"silverweed cinquefoil": [{
+			"Moisture": "High"
+		}],
+		"Jack in the pulpit": [{
+			"Moisture": "High"
+		}],
+		"Arizona threeawn": [{
+			"Moisture": "Low"
+		}],
+		"poverty threeawn": [{
+			"Moisture": "Low"
+		}],
+		"Fendler threeawn": [{
+			"Moisture": "Low"
+		}],
+		"pineland threeawn": [{
+			"Moisture": "Low"
+		}],
+		"thrift seapink": [{
+			"Moisture": "Medium"
+		}],
+		"rayless arnica": [{
+			"Moisture": "High"
+		}],
+		"clasping arnica": [{
+			"Moisture": "High"
+		}],
+		"Chamisso arnica": [{
+			"Moisture": "High"
+		}],
+		"heartleaf arnica": [{
+			"Moisture": "High"
+		}],
+		"foothill arnica": [{
+			"Moisture": "Medium"
+		}],
+		"broadleaf arnica": [{
+			"Moisture": "High"
+		}],
+		"spearleaf arnica": [{
+			"Moisture": "High"
+		}],
+		"hairy arnica": [{
+			"Moisture": "High"
+		}],
+		"tall oatgrass": [{
+			"Moisture": "Medium"
+		}],
+		"forked wormwood": [{
+			"Moisture": "Low"
+		}],
+		"white sagebrush": [{
+			"Moisture": "Medium"
+		}],
+		"Tilesius' wormwood": [{
+			"Moisture": "Medium"
+		}],
+		"giant cane": [{
+			"Moisture": "Medium"
+		}],
+		"giant reed": [{
+			"Moisture": "High"
+		}],
+		"swamp milkweed": [{
+			"Moisture": "High"
+		}],
+		"showy milkweed": [{
+			"Moisture": "Medium"
+		}],
+		"butterfly milkweed": [{
+			"Moisture": "Low"
+		}],
+		"alpine aster": [{
+			"Moisture": "Medium"
+		}],
+		"purple milkvetch": [{
+			"Moisture": "Low"
+		}],
+		"Canadian milkvetch": [{
+			"Moisture": "Medium"
+		}],
+		"chickpea milkvetch": [{
+			"Moisture": "Medium"
+		}],
+		"curvepod milkvetch": [{
+			"Moisture": "Low"
+		}],
+		"basalt milkvetch": [{
+			"Moisture": "Low"
+		}],
+		"freckled milkvetch": [{
+			"Moisture": "Low"
+		}],
+		"woolly locoweed": [{
+			"Moisture": "Low"
+		}],
+		"woollypod milkvetch": [{
+			"Moisture": "Low"
+		}],
+		"common ladyfern": [{
+			"Moisture": "Medium"
+		}],
+		"Australian saltbush": [{
+			"Moisture": "Low"
+		}],
+		"wild oat": [{
+			"Moisture": "Medium"
+		}],
+		"common oat": [{
+			"Moisture": "Medium"
+		}],
+		"broadleaf carpetgrass": [{
+			"Moisture": "High"
+		}],
+		"disk waterhyssop": [{
+			"Moisture": "High"
+		}],
+		"Carey's balsamroot": [{
+			"Moisture": "Low"
+		}],
+		"Hooker's balsamroot": [{
+			"Moisture": "Medium"
+		}],
+		"hairy balsamroot": [{
+			"Moisture": "Medium"
+		}],
+		"cutleaf balsamroot": [{
+			"Moisture": "High"
+		}],
+		"arrowleaf balsamroot": [{
+			"Moisture": "Medium"
+		}],
+		"serrate balsamroot": [{
+			"Moisture": "Low"
+		}],
+		"common bamboo": [{
+			"Moisture": "Medium"
+		}],
+		"horseflyweed": [{
+			"Moisture": "Low"
+		}],
+		"fivehorn smotherweed": [{
+			"Moisture": "Medium"
+		}],
+		"American sloughgrass": [{
+			"Moisture": "High"
+		}],
+		"lyreleaf greeneyes": [{
+			"Moisture": "Low"
+		}],
+		"cutleaf waterparsnip": [{
+			"Moisture": "High"
+		}],
+		"bearded beggarticks": [{
+			"Moisture": "High"
+		}],
+		"nodding beggartick": [{
+			"Moisture": "High"
+		}],
+		"purplestem beggarticks": [{
+			"Moisture": "High"
+		}],
+		"crowned beggarticks": [{
+			"Moisture": "High"
+		}],
+		"small beggarticks": [{
+			"Moisture": "High"
+		}],
+		"devil's beggartick": [{
+			"Moisture": "Medium"
+		}],
+		"smooth beggartick": [{
+			"Moisture": "High"
+		}],
+		"smallfruit beggarticks": [{
+			"Moisture": "High"
+		}],
+		"threelobe beggarticks": [{
+			"Moisture": "High"
+		}],
+		"deer fern": [{
+			"Moisture": "High"
+		}],
+		"pine dropseed": [{
+			"Moisture": "Low"
+		}],
+		"smallspike false nettle": [{
+			"Moisture": "Medium"
+		}],
+		"white doll's daisy": [{
+			"Moisture": "Medium"
+		}],
+		"cane bluestem": [{
+			"Moisture": "Medium"
+		}],
+		"Caucasian bluestem": [{
+			"Moisture": "Medium"
+		}],
+		"yellow bluestem": [{
+			"Moisture": "Medium"
+		}],
+		"pitted beardgrass": [{
+			"Moisture": "Low"
+		}],
+		"silver bluestem": [{
+			"Moisture": "Medium"
+		}],
+		"lanceleaf grapefern": [{
+			"Moisture": "Medium"
+		}],
+		"common moonwort": [{
+			"Moisture": "Medium"
+		}],
+		"rattlesnake fern": [{
+			"Moisture": "Medium"
+		}],
+		"gypsum grama": [{
+			"Moisture": "Low"
+		}],
+		"sideoats grama": [{
+			"Moisture": "Medium"
+		}],
+		"black grama": [{
+			"Moisture": "Medium"
+		}],
+		"blue grama": [{
+			"Moisture": "Medium"
+		}],
+		"hairy grama": [{
+			"Moisture": "Low"
+		}],
+		"brown mustard": [{
+			"Moisture": "Medium"
+		}],
+		"rape": [{
+			"Moisture": "Medium"
+		}],
+		"field mustard": [{
+			"Moisture": "High"
+		}],
+		"big quakinggrass": [{
+			"Moisture": "Medium"
+		}],
+		"pinguin": [{
+			"Moisture": "Low"
+		}],
+		"nodding brome": [{
+			"Moisture": "Low"
+		}],
+		"field brome": [{
+			"Moisture": "Medium"
+		}],
+		"rattlesnake brome": [{
+			"Moisture": "Low"
+		}],
+		"California brome": [{
+			"Moisture": "Medium"
+		}],
+		"rescuegrass": [{
+			"Moisture": "High"
+		}],
+		"fringed brome": [{
+			"Moisture": "Medium"
+		}],
+		"soft brome": [{
+			"Moisture": "Medium"
+		}],
+		"smooth brome": [{
+			"Moisture": "Medium"
+		}],
+		"arctic brome": [{
+			"Moisture": "Low"
+		}],
+		"mountain brome": [{
+			"Moisture": "High"
+		}],
+		"red brome": [{
+			"Moisture": "Low"
+		}],
+		"Alaska brome": [{
+			"Moisture": "Low"
+		}],
+		"Columbia brome": [{
+			"Moisture": "Low"
+		}],
+		"Carolina fanwort": [{
+			"Moisture": "High"
+		}],
+		"shorthair reedgrass": [{
+			"Moisture": "High"
+		}],
+		"bluejoint": [{
+			"Moisture": "Medium"
+		}],
+		"Nuttall's reedgrass": [{
+			"Moisture": "Medium"
+		}],
+		"pinegrass": [{
+			"Moisture": "Medium"
+		}],
+		"northern reedgrass": [{
+			"Moisture": "High"
+		}],
+		"slimstem reedgrass": [{
+			"Moisture": "High"
+		}],
+		"prairie sandreed": [{
+			"Moisture": "Medium"
+		}],
+		"purple poppymallow": [{
+			"Moisture": "Medium"
+		}],
+		"northern water-starwort": [{
+			"Moisture": "High"
+		}],
+		"twoheaded water-starwort": [{
+			"Moisture": "High"
+		}],
+		"vernal water-starwort": [{
+			"Moisture": "Medium"
+		}],
+		"sagebrush mariposa lily": [{
+			"Moisture": "Low"
+		}],
+		"white marsh marigold": [{
+			"Moisture": "High"
+		}],
+		"yellow marsh marigold": [{
+			"Moisture": "High"
+		}],
+		"small camas": [{
+			"Moisture": "High"
+		}],
+		"Atlantic camas": [{
+			"Moisture": "Medium"
+		}],
+		"marsh bellflower": [{
+			"Moisture": "High"
+		}],
+		"American bellflower": [{
+			"Moisture": "Medium"
+		}],
+		"giant mountain aster": [{
+			"Moisture": "Medium"
+		}],
+		"Brewer's bittercress": [{
+			"Moisture": "Medium"
+		}],
+		"bulbous bittercress": [{
+			"Moisture": "Medium"
+		}],
+		"heartleaf bittercress": [{
+			"Moisture": "High"
+		}],
+		"limestone bittercress": [{
+			"Moisture": "High"
+		}],
+		"little western bittercress": [{
+			"Moisture": "Medium"
+		}],
+		"Pennsylvania bittercress": [{
+			"Moisture": "Medium"
+		}],
+		"thicket sedge": [{
+			"Moisture": "High"
+		}],
+		"greenwhite sedge": [{
+			"Moisture": "Medium"
+		}],
+		"eastern narrowleaf sedge": [{
+			"Moisture": "Medium"
+		}],
+		"Columbian sedge": [{
+			"Moisture": "High"
+		}],
+		"water sedge": [{
+			"Moisture": "High"
+		}],
+		"wheat sedge": [{
+			"Moisture": "High"
+		}],
+		"slenderbeak sedge": [{
+			"Moisture": "High"
+		}],
+		"prickly bog sedge": [{
+			"Moisture": "High"
+		}],
+		"golden sedge": [{
+			"Moisture": "High"
+		}],
+		"Bailey's sedge": [{
+			"Moisture": "High"
+		}],
+		"Bebb's sedge": [{
+			"Moisture": "High"
+		}],
+		"southwestern showy sedge": [{
+			"Moisture": "High"
+		}],
+		"Bicknell's sedge": [{
+			"Moisture": "Low"
+		}],
+		"Bigelow's sedge": [{
+			"Moisture": "Medium"
+		}],
+		"eastern woodland sedge": [{
+			"Moisture": "High"
+		}],
+		"Bush's sedge": [{
+			"Moisture": "Medium"
+		}],
+		"silvery sedge": [{
+			"Moisture": "High"
+		}],
+		"hair-like sedge": [{
+			"Moisture": "Medium"
+		}],
+		"oval-leaf sedge": [{
+			"Moisture": "Low"
+		}],
+		"longhair sedge": [{
+			"Moisture": "High"
+		}],
+		"fringed sedge": [{
+			"Moisture": "Medium"
+		}],
+		"crested sedge": [{
+			"Moisture": "High"
+		}],
+		"ravenfoot sedge": [{
+			"Moisture": "Medium"
+		}],
+		"white edge sedge": [{
+			"Moisture": "High"
+		}],
+		"cypressknee sedge": [{
+			"Moisture": "High"
+		}],
+		"Dewey sedge": [{
+			"Moisture": "Medium"
+		}],
+		"lesser panicled sedge": [{
+			"Moisture": "High"
+		}],
+		"softleaf sedge": [{
+			"Moisture": "High"
+		}],
+		"Douglas' sedge": [{
+			"Moisture": "Medium"
+		}],
+		"star sedge": [{
+			"Moisture": "High"
+		}],
+		"shorthair sedge": [{
+			"Moisture": "Low"
+		}],
+		"threadleaf sedge": [{
+			"Moisture": "Low"
+		}],
+		"thinfruit sedge": [{
+			"Moisture": "High"
+		}],
+		"Frank's sedge": [{
+			"Moisture": "High"
+		}],
+		"Geyer's sedge": [{
+			"Moisture": "Low"
+		}],
+		"southern waxy sedge": [{
+			"Moisture": "High"
+		}],
+		"graceful sedge": [{
+			"Moisture": "Medium"
+		}],
+		"limestone meadow sedge": [{
+			"Moisture": "High"
+		}],
+		"Gray's sedge": [{
+			"Moisture": "High"
+		}],
+		"Hall's sedge": [{
+			"Moisture": "Medium"
+		}],
+		"Henderson's sedge": [{
+			"Moisture": "Medium"
+		}],
+		"shoreline sedge": [{
+			"Moisture": "High"
+		}],
+		"inland sedge": [{
+			"Moisture": "High"
+		}],
+		"greater bladder sedge": [{
+			"Moisture": "High"
+		}],
+		"cypress swamp sedge": [{
+			"Moisture": "High"
+		}],
+		"Japanese sedge": [{
+			"Moisture": "Low"
+		}],
+		"hairy sedge": [{
+			"Moisture": "High"
+		}],
+		"lakeshore sedge": [{
+			"Moisture": "High"
+		}],
+		"Kellogg's sedge": [{
+			"Moisture": "Medium"
+		}],
+		"bristlystalked sedge": [{
+			"Moisture": "High"
+		}],
+		"nerveless woodland sedge": [{
+			"Moisture": "Medium"
+		}],
+		"mud sedge": [{
+			"Moisture": "Medium"
+		}],
+		"hop sedge": [{
+			"Moisture": "Medium"
+		}],
+		"shallow sedge": [{
+			"Moisture": "Medium"
+		}],
+		"woodrush sedge": [{
+			"Moisture": "High"
+		}],
+		"Mariposa sedge": [{
+			"Moisture": "Low"
+		}],
+		"Mertens' sedge": [{
+			"Moisture": "Medium"
+		}],
+		"smallwing sedge": [{
+			"Moisture": "High"
+		}],
+		"troublesome sedge": [{
+			"Moisture": "Medium"
+		}],
+		"Muskingum sedge": [{
+			"Moisture": "High"
+		}],
+		"Nebraska sedge": [{
+			"Moisture": "High"
+		}],
+		"greater straw sedge": [{
+			"Moisture": "High"
+		}],
+		"slough sedge": [{
+			"Moisture": "High"
+		}],
+		"chamisso sedge": [{
+			"Moisture": "Medium"
+		}],
+		"variable sedge": [{
+			"Moisture": "Low"
+		}],
+		"clustered field sedge": [{
+			"Moisture": "Medium"
+		}],
+		"drooping sedge": [{
+			"Moisture": "Medium"
+		}],
+		"necklace sedge": [{
+			"Moisture": "Medium"
+		}],
+		"Raynolds' sedge": [{
+			"Moisture": "Medium"
+		}],
+		"Ross' sedge": [{
+			"Moisture": "Medium"
+		}],
+		"beaked sedge": [{
+			"Moisture": "High"
+		}],
+		"rock sedge": [{
+			"Moisture": "High"
+		}],
+		"eastern rough sedge": [{
+			"Moisture": "High"
+		}],
+		"northern singlespike sedge": [{
+			"Moisture": "Medium"
+		}],
+		"broom sedge": [{
+			"Moisture": "High"
+		}],
+		"mountain sedge": [{
+			"Moisture": "High"
+		}],
+		"Short's sedge": [{
+			"Moisture": "High"
+		}],
+		"analogue sedge": [{
+			"Moisture": "High"
+		}],
+		"bur-reed sedge": [{
+			"Moisture": "High"
+		}],
+		"squarrose sedge": [{
+			"Moisture": "Medium"
+		}],
+		"awlfruit sedge": [{
+			"Moisture": "Medium"
+		}],
+		"eastern straw sedge": [{
+			"Moisture": "High"
+		}],
+		"upright sedge": [{
+			"Moisture": "Medium"
+		}],
+		"quill sedge": [{
+			"Moisture": "Medium"
+		}],
+		"twisted sedge": [{
+			"Moisture": "Medium"
+		}],
+		"blunt broom sedge": [{
+			"Moisture": "Medium"
+		}],
+		"hairyfruit sedge": [{
+			"Moisture": "High"
+		}],
+		"threeseeded sedge": [{
+			"Moisture": "High"
+		}],
+		"cattail sedge": [{
+			"Moisture": "High"
+		}],
+		"Northwest Territory sedge": [{
+			"Moisture": "High"
+		}],
+		"blister sedge": [{
+			"Moisture": "High"
+		}],
+		"little green sedge": [{
+			"Moisture": "High"
+		}],
+		"fox sedge": [{
+			"Moisture": "Medium"
+		}],
+		"hairy chaffhead": [{
+			"Moisture": "Low"
+		}],
+		"northwestern Indian paintbrush": [{
+			"Moisture": "Medium"
+		}],
+		"wavyleaf Indian paintbrush": [{
+			"Moisture": "Low"
+		}],
+		"scarlet Indian paintbrush": [{
+			"Moisture": "Medium"
+		}],
+		"harsh Indian paintbrush": [{
+			"Moisture": "Low"
+		}],
+		"downy paintedcup": [{
+			"Moisture": "Low"
+		}],
+		"false grama": [{
+			"Moisture": "Low"
+		}],
+		"blue cohosh": [{
+			"Moisture": "Medium"
+		}],
+		"desert centaury": [{
+			"Moisture": "Medium"
+		}],
+		"coon's tail": [{
+			"Moisture": "High"
+		}],
+		"Douglas' dustymaiden": [{
+			"Moisture": "Low"
+		}],
+		"partridge pea": [{
+			"Moisture": "Medium"
+		}],
+		"fireweed": [{
+			"Moisture": "High"
+		}],
+		"Indian woodoats": [{
+			"Moisture": "Medium"
+		}],
+		"slender woodoats": [{
+			"Moisture": "Medium"
+		}],
+		"longleaf woodoats": [{
+			"Moisture": "Medium"
+		}],
+		"red goosefoot": [{
+			"Moisture": "High"
+		}],
+		"Rhodes grass": [{
+			"Moisture": "Low"
+		}],
+		"chicory": [{
+			"Moisture": "High"
+		}],
+		"western water hemlock": [{
+			"Moisture": "High"
+		}],
+		"sweet woodreed": [{
+			"Moisture": "Low"
+		}],
+		"drooping woodreed": [{
+			"Moisture": "High"
+		}],
+		"small enchanter's nightshade": [{
+			"Moisture": "Medium"
+		}],
+		"elk thistle": [{
+			"Moisture": "High"
+		}],
+		"Jamaica swamp sawgrass": [{
+			"Moisture": "Medium"
+		}],
+		"slender clarkia": [{
+			"Moisture": "Medium"
+		}],
+		"pinkfairies": [{
+			"Moisture": "Medium"
+		}],
+		"miner's lettuce": [{
+			"Moisture": "Medium"
+		}],
+		"Siberian springbeauty": [{
+			"Moisture": "Medium"
+		}],
+		"yellow spiderflower": [{
+			"Moisture": "Low"
+		}],
+		"golden spiderflower": [{
+			"Moisture": "Medium"
+		}],
+		"Rocky Mountain beeplant": [{
+			"Moisture": "Medium"
+		}],
+		"bluebead": [{
+			"Moisture": "Medium"
+		}],
+		"cylinder jointtail grass": [{
+			"Moisture": "Low"
+		}],
+		"wrinkled jointtail grass": [{
+			"Moisture": "Medium"
+		}],
+		"maiden blue eyed Mary": [{
+			"Moisture": "Medium"
+		}],
+		"climbing dayflower": [{
+			"Moisture": "Medium"
+		}],
+		"Virginia dayflower": [{
+			"Moisture": "Medium"
+		}],
+		"blue mistflower": [{
+			"Moisture": "Medium"
+		}],
+		"European lily of the valley": [{
+			"Moisture": "Medium"
+		}],
+		"Canadian horseweed": [{
+			"Moisture": "Medium"
+		}],
+		"saltmarsh bird's-beak": [{
+			"Moisture": "Medium"
+		}],
+		"bushy bird's beak": [{
+			"Moisture": "Medium"
+		}],
+		"lanceleaf tickseed": [{
+			"Moisture": "Medium"
+		}],
+		"golden tickseed": [{
+			"Moisture": "High"
+		}],
+		"bunchberry dogwood": [{
+			"Moisture": "High"
+		}],
+		"Uruguayan pampas grass": [{
+			"Moisture": "Medium"
+		}],
+		"Sierra fumewort": [{
+			"Moisture": "Medium"
+		}],
+		"yellow fumewort": [{
+			"Moisture": "Medium"
+		}],
+		"tapertip hawksbeard": [{
+			"Moisture": "Low"
+		}],
+		"Modoc hawksbeard": [{
+			"Moisture": "Low"
+		}],
+		"largeflower hawksbeard": [{
+			"Moisture": "Low"
+		}],
+		"fiddleleaf hawksbeard": [{
+			"Moisture": "Medium"
+		}],
+		"spreading alkaliweed": [{
+			"Moisture": "Medium"
+		}],
+		"sunn hemp": [{
+			"Moisture": "High"
+		}],
+		"showy rattlebox": [{
+			"Moisture": "Medium"
+		}],
+		"Missouri gourd": [{
+			"Moisture": "Low"
+		}],
+		"Bermudagrass": [{
+			"Moisture": "Medium"
+		}],
+		"tapertip flatsedge": [{
+			"Moisture": "High"
+		}],
+		"slender flatsedge": [{
+			"Moisture": "Medium"
+		}],
+		"poorland flatsedge": [{
+			"Moisture": "Medium"
+		}],
+		"redroot flatsedge": [{
+			"Moisture": "Medium"
+		}],
+		"yellow nutsedge": [{
+			"Moisture": "Low"
+		}],
+		"yellow flatsedge": [{
+			"Moisture": "Medium"
+		}],
+		"haspan flatsedge": [{
+			"Moisture": "Medium"
+		}],
+		"manyflower flatsedge": [{
+			"Moisture": "Low"
+		}],
+		"fragrant flatsedge": [{
+			"Moisture": "Medium"
+		}],
+		"manyspike flatsedge": [{
+			"Moisture": "Medium"
+		}],
+		"marsh flatsedge": [{
+			"Moisture": "High"
+		}],
+		"strawcolored flatsedge": [{
+			"Moisture": "Medium"
+		}],
+		"orchardgrass": [{
+			"Moisture": "Medium"
+		}],
+		"white prairie clover": [{
+			"Moisture": "Medium"
+		}],
+		"purple prairie clover": [{
+			"Moisture": "Medium"
+		}],
+		"California damsonium": [{
+			"Moisture": "High"
+		}],
+		"California oatgrass": [{
+			"Moisture": "Medium"
+		}],
+		"flattened oatgrass": [{
+			"Moisture": "Medium"
+		}],
+		"timber oatgrass": [{
+			"Moisture": "Low"
+		}],
+		"onespike danthonia": [{
+			"Moisture": "Low"
+		}],
+		"Anderson's larkspur": [{
+			"Moisture": "Low"
+		}],
+		"Sierra larkspur": [{
+			"Moisture": "High"
+		}],
+		"Bering's tufted hairgrass": [{
+			"Moisture": "High"
+		}],
+		"annual hairgrass": [{
+			"Moisture": "Medium"
+		}],
+		"slender hairgrass": [{
+			"Moisture": "Low"
+		}],
+		"wavy hairgrass": [{
+			"Moisture": "Medium"
+		}],
+		"Illinois bundleflower": [{
+			"Moisture": "Medium"
+		}],
+		"wild tantan": [{
+			"Moisture": "Low"
+		}],
+		"variable-leaf ticktrefoil": [{
+			"Moisture": "Medium"
+		}],
+		"zarzabacoa comun": [{
+			"Moisture": "Medium"
+		}],
+		"greenleaf ticktrefoil": [{
+			"Moisture": "Medium"
+		}],
+		"panicledleaf ticktrefoil": [{
+			"Moisture": "Low"
+		}],
+		"perplexed ticktrefoil": [{
+			"Moisture": "Medium"
+		}],
+		"dixie ticktrefoil": [{
+			"Moisture": "Low"
+		}],
+		"Pacific bleeding heart": [{
+			"Moisture": "Low"
+		}],
+		"needleleaf rosette grass": [{
+			"Moisture": "Low"
+		}],
+		"deertongue": [{
+			"Moisture": "Low"
+		}],
+		"variable panicgrass": [{
+			"Moisture": "Low"
+		}],
+		"broadleaf rosette grass": [{
+			"Moisture": "Low"
+		}],
+		"eggleaf rosette grass": [{
+			"Moisture": "Low"
+		}],
+		"woolly rosette grass": [{
+			"Moisture": "Medium"
+		}],
+		"velvet panicum": [{
+			"Moisture": "Medium"
+		}],
+		"Kleberg's bluestem": [{
+			"Moisture": "Medium"
+		}],
+		"Angleton bluestem": [{
+			"Moisture": "Medium"
+		}],
+		"purple foxglove": [{
+			"Moisture": "Medium"
+		}],
+		"Arizona cottontop": [{
+			"Moisture": "Low"
+		}],
+		"southern crabgrass": [{
+			"Moisture": "Medium"
+		}],
+		"digitgrass": [{
+			"Moisture": "Low"
+		}],
+		"saltgrass": [{
+			"Moisture": "Medium"
+		}],
+		"pride of Ohio": [{
+			"Moisture": "Medium"
+		}],
+		"darkthroat shootingstar": [{
+			"Moisture": "Medium"
+		}],
+		"cliff dwarf-primrose": [{
+			"Moisture": "Medium"
+		}],
+		"doublehorn calicoflower": [{
+			"Moisture": "Medium"
+		}],
+		"Great Basin calicoflower": [{
+			"Moisture": "High"
+		}],
+		"clasping coneflower": [{
+			"Moisture": "High"
+		}],
+		"Drummond's mountain-avens": [{
+			"Moisture": "Medium"
+		}],
+		"eightpetal mountain-avens": [{
+			"Moisture": "Low"
+		}],
+		"crested woodfern": [{
+			"Moisture": "High"
+		}],
+		"three-way sedge": [{
+			"Moisture": "High"
+		}],
+		"pale purple coneflower": [{
+			"Moisture": "Medium"
+		}],
+		"eastern purple coneflower": [{
+			"Moisture": "Medium"
+		}],
+		"jungle rice": [{
+			"Moisture": "Medium"
+		}],
+		"billion-dollar grass": [{
+			"Moisture": "Medium"
+		}],
+		"coast cockspur grass": [{
+			"Moisture": "High"
+		}],
+		"false daisy": [{
+			"Moisture": "Medium"
+		}],
+		"perennial veldtgrass": [{
+			"Moisture": "Medium"
+		}],
+		"needle spikerush": [{
+			"Moisture": "Medium"
+		}],
+		"Gulf Coast spikerush": [{
+			"Moisture": "High"
+		}],
+		"flatstem spikerush": [{
+			"Moisture": "High"
+		}],
+		"jointed spikesedge": [{
+			"Moisture": "High"
+		}],
+		"blunt spikerush": [{
+			"Moisture": "Medium"
+		}],
+		"ovate spikerush": [{
+			"Moisture": "Medium"
+		}],
+		"common spikerush": [{
+			"Moisture": "High"
+		}],
+		"dwarf spikerush": [{
+			"Moisture": "Medium"
+		}],
+		"squarestem spikerush": [{
+			"Moisture": "High"
+		}],
+		"beaked spikerush": [{
+			"Moisture": "High"
+		}],
+		"slender spikerush": [{
+			"Moisture": "Low"
+		}],
+		"Carolina elephantsfoot": [{
+			"Moisture": "Medium"
+		}],
+		"Canadian waterweed": [{
+			"Moisture": "High"
+		}],
+		"Canada wildrye": [{
+			"Moisture": "Medium"
+		}],
+		"squirreltail": [{
+			"Moisture": "Low"
+		}],
+		"blue wildrye": [{
+			"Moisture": "Low"
+		}],
+		"thickspike wheatgrass": [{
+			"Moisture": "Medium"
+		}],
+		"quackgrass": [{
+			"Moisture": "Medium"
+		}],
+		"riverbank wildrye": [{
+			"Moisture": "High"
+		}],
+		"Siberian wildrye": [{
+			"Moisture": "Low"
+		}],
+		"slender wheatgrass": [{
+			"Moisture": "Low"
+		}],
+		"Virginia wildrye": [{
+			"Moisture": "Medium"
+		}],
+		"Engelmann's daisy": [{
+			"Moisture": "Medium"
+		}],
+		"purpleleaf willowherb": [{
+			"Moisture": "High"
+		}],
+		"glaucus willowherb": [{
+			"Moisture": "Medium"
+		}],
+		"bog willowherb": [{
+			"Moisture": "High"
+		}],
+		"weeping lovegrass": [{
+			"Moisture": "Medium"
+		}],
+		"teal lovegrass": [{
+			"Moisture": "High"
+		}],
+		"plains lovegrass": [{
+			"Moisture": "Low"
+		}],
+		"Lehmann lovegrass": [{
+			"Moisture": "Medium"
+		}],
+		"purple lovegrass": [{
+			"Moisture": "Low"
+		}],
+		"Wilman lovegrass": [{
+			"Moisture": "Medium"
+		}],
+		"sand lovegrass": [{
+			"Moisture": "Medium"
+		}],
+		"centipede grass": [{
+			"Moisture": "Medium"
+		}],
+		"cutleaf daisy": [{
+			"Moisture": "Low"
+		}],
+		"Eaton's fleabane": [{
+			"Moisture": "Low"
+		}],
+		"threadleaf fleabane": [{
+			"Moisture": "Low"
+		}],
+		"desert yellow fleabane": [{
+			"Moisture": "Low"
+		}],
+		"subalpine fleabane": [{
+			"Moisture": "High"
+		}],
+		"rockloving erigeron": [{
+			"Moisture": "Low"
+		}],
+		"Philadelphia fleabane": [{
+			"Moisture": "Medium"
+		}],
+		"prairie fleabane": [{
+			"Moisture": "Medium"
+		}],
+		"tenangle pipewort": [{
+			"Moisture": "Medium"
+		}],
+		"hidden buckwheat": [{
+			"Moisture": "Low"
+		}],
+		"tall woolly buckwheat": [{
+			"Moisture": "Low"
+		}],
+		"marumleaf buckwheat": [{
+			"Moisture": "Low"
+		}],
+		"snow buckwheat": [{
+			"Moisture": "Low"
+		}],
+		"Blue Mountain buckwheat": [{
+			"Moisture": "Low"
+		}],
+		"thymeleaf buckwheat": [{
+			"Moisture": "Low"
+		}],
+		"sulphur-flower buckwheat": [{
+			"Moisture": "Low"
+		}],
+		"bastardsage": [{
+			"Moisture": "Low"
+		}],
+		"tall cottongrass": [{
+			"Moisture": "High"
+		}],
+		"slender cottongrass": [{
+			"Moisture": "High"
+		}],
+		"tawny cottongrass": [{
+			"Moisture": "Medium"
+		}],
+		"longbeak stork's bill": [{
+			"Moisture": "Medium"
+		}],
+		"sanddune wallflower": [{
+			"Moisture": "Medium"
+		}],
+		"California poppy": [{
+			"Moisture": "Low"
+		}],
+		"brickellbush aster": [{
+			"Moisture": "Low"
+		}],
+		"Engelmann's aster": [{
+			"Moisture": "Medium"
+		}],
+		"gray aster": [{
+			"Moisture": "Medium"
+		}],
+		"thickstem aster": [{
+			"Moisture": "Low"
+		}],
+		"bigleaf aster": [{
+			"Moisture": "Medium"
+		}],
+		"western goldentop": [{
+			"Moisture": "Medium"
+		}],
+		"Tartary buckwheat": [{
+			"Moisture": "Low"
+		}],
+		"Arizona fescue": [{
+			"Moisture": "Low"
+		}],
+		"California fescue": [{
+			"Moisture": "Medium"
+		}],
+		"rough fescue": [{
+			"Moisture": "Low"
+		}],
+		"varioushair fescue": [{
+			"Moisture": "Medium"
+		}],
+		"Idaho fescue": [{
+			"Moisture": "Medium"
+		}],
+		"western fescue": [{
+			"Moisture": "Low"
+		}],
+		"sheep fescue": [{
+			"Moisture": "Low"
+		}],
+		"red fescue": [{
+			"Moisture": "Medium"
+		}],
+		"bearded fescue": [{
+			"Moisture": "High"
+		}],
+		"nodding fescue": [{
+			"Moisture": "Medium"
+		}],
+		"Thurber's fescue": [{
+			"Moisture": "Low"
+		}],
+		"greenleaf fescue": [{
+			"Moisture": "Medium"
+		}],
+		"beach strawberry": [{
+			"Moisture": "Medium"
+		}],
+		"yellow fritillary": [{
+			"Moisture": "Medium"
+		}],
+		"blanketflower": [{
+			"Moisture": "Medium"
+		}],
+		"Indian blanket": [{
+			"Moisture": "Medium"
+		}],
+		"stickywilly": [{
+			"Moisture": "High"
+		}],
+		"rough bedstraw": [{
+			"Moisture": "Medium"
+		}],
+		"northern bedstraw": [{
+			"Moisture": "Medium"
+		}],
+		"bluntleaf bedstraw": [{
+			"Moisture": "High"
+		}],
+		"Oregon bedstraw": [{
+			"Moisture": "Low"
+		}],
+		"stiff marsh bedstraw": [{
+			"Moisture": "High"
+		}],
+		"threepetal bedstraw": [{
+			"Moisture": "High"
+		}],
+		"closed bottle gentian": [{
+			"Moisture": "Medium"
+		}],
+		"Rainier pleated gentian": [{
+			"Moisture": "Medium"
+		}],
+		"bottle gentian": [{
+			"Moisture": "Medium"
+		}],
+		"Oregon geranium": [{
+			"Moisture": "High"
+		}],
+		"Richardson's geranium": [{
+			"Moisture": "High"
+		}],
+		"sticky purple geranium": [{
+			"Moisture": "Low"
+		}],
+		"white avens": [{
+			"Moisture": "Medium"
+		}],
+		"rough avens": [{
+			"Moisture": "Medium"
+		}],
+		"largeleaf avens": [{
+			"Moisture": "Medium"
+		}],
+		"purple avens": [{
+			"Moisture": "High"
+		}],
+		"Ross' avens": [{
+			"Moisture": "Low"
+		}],
+		"old man's whiskers": [{
+			"Moisture": "Medium"
+		}],
+		"spring avens": [{
+			"Moisture": "Medium"
+		}],
+		"sea milkwort": [{
+			"Moisture": "High"
+		}],
+		"small floating mannagrass": [{
+			"Moisture": "High"
+		}],
+		"rattlesnake mannagrass": [{
+			"Moisture": "Medium"
+		}],
+		"melic mannagrass": [{
+			"Moisture": "Medium"
+		}],
+		"Atlantic mannagrass": [{
+			"Moisture": "High"
+		}],
+		"fowl mannagrass": [{
+			"Moisture": "Medium"
+		}],
+		"soybean": [{
+			"Moisture": "Medium"
+		}],
+		"American licorice": [{
+			"Moisture": "High"
+		}],
+		"broom snakeweed": [{
+			"Moisture": "Medium"
+		}],
+		"alpine sweetvetch": [{
+			"Moisture": "Medium"
+		}],
+		"Utah sweetvetch": [{
+			"Moisture": "Medium"
+		}],
+		"white sweetvetch": [{
+			"Moisture": "Low"
+		}],
+		"common sneezeweed": [{
+			"Moisture": "Medium"
+		}],
+		"purplehead sneezeweed": [{
+			"Moisture": "Low"
+		}],
+		"oneflower helianthella": [{
+			"Moisture": "Low"
+		}],
+		"swamp sunflower": [{
+			"Moisture": "Medium"
+		}],
+		"common sunflower": [{
+			"Moisture": "Medium"
+		}],
+		"cucumberleaf sunflower": [{
+			"Moisture": "Medium"
+		}],
+		"sawtooth sunflower": [{
+			"Moisture": "Medium"
+		}],
+		"Maximilian sunflower": [{
+			"Moisture": "Medium"
+		}],
+		"Nuttall's sunflower": [{
+			"Moisture": "Medium"
+		}],
+		"Jerusalem artichoke": [{
+			"Moisture": "Low"
+		}],
+		"smooth oxeye": [{
+			"Moisture": "Low"
+		}],
+		"salt heliotrope": [{
+			"Moisture": "Medium"
+		}],
+		"limpograss": [{
+			"Moisture": "High"
+		}],
+		"common cowparsnip": [{
+			"Moisture": "High"
+		}],
+		"dames rocket": [{
+			"Moisture": "Medium"
+		}],
+		"needle and thread": [{
+			"Moisture": "Low"
+		}],
+		"porcupinegrass": [{
+			"Moisture": "Medium"
+		}],
+		"tanglehead": [{
+			"Moisture": "Low"
+		}],
+		"hairy false goldenaster": [{
+			"Moisture": "Low"
+		}],
+		"roundleaf alumroot": [{
+			"Moisture": "Low"
+		}],
+		"coralbells": [{
+			"Moisture": "Medium"
+		}],
+		"comfortroot": [{
+			"Moisture": "Medium"
+		}],
+		"halberdleaf rosemallow": [{
+			"Moisture": "High"
+		}],
+		"crimsoneyed rosemallow": [{
+			"Moisture": "High"
+		}],
+		"white hawkweed": [{
+			"Moisture": "Low"
+		}],
+		"Scouler's woollyweed": [{
+			"Moisture": "Medium"
+		}],
+		"sweetgrass": [{
+			"Moisture": "High"
+		}],
+		"curly-mesquite": [{
+			"Moisture": "Low"
+		}],
+		"common mare's-tail": [{
+			"Moisture": "High"
+		}],
+		"common velvetgrass": [{
+			"Moisture": "Low"
+		}],
+		"meadow barley": [{
+			"Moisture": "Medium"
+		}],
+		"California barley": [{
+			"Moisture": "Low"
+		}],
+		"little barley": [{
+			"Moisture": "Medium"
+		}],
+		"common barley": [{
+			"Moisture": "Medium"
+		}],
+		"waterpod": [{
+			"Moisture": "High"
+		}],
+		"ballhead waterleaf": [{
+			"Moisture": "High"
+		}],
+		"western waterleaf": [{
+			"Moisture": "Medium"
+		}],
+		"spring spiderlily": [{
+			"Moisture": "Medium"
+		}],
+		"tinker's penny": [{
+			"Moisture": "High"
+		}],
+		"great St Johnswort": [{
+			"Moisture": "Medium"
+		}],
+		"northern St Johnswort": [{
+			"Moisture": "High"
+		}],
+		"roundpod St Johnswort": [{
+			"Moisture": "Medium"
+		}],
+		"coppery St Johnswort": [{
+			"Moisture": "Medium"
+		}],
+		"orangegrass": [{
+			"Moisture": "Low"
+		}],
+		"dwarf St Johnswort": [{
+			"Moisture": "Medium"
+		}],
+		"spotted St Johnswort": [{
+			"Moisture": "Medium"
+		}],
+		"common goldstar": [{
+			"Moisture": "Medium"
+		}],
+		"evergreen candytuft": [{
+			"Moisture": "Medium"
+		}],
+		"streambank wild hollyhock": [{
+			"Moisture": "Medium"
+		}],
+		"jewelweed": [{
+			"Moisture": "Medium"
+		}],
+		"pale touch-me-not": [{
+			"Moisture": "Medium"
+		}],
+		"hairy indigo": [{
+			"Moisture": "Medium"
+		}],
+		"bayhops": [{
+			"Moisture": "Medium"
+		}],
+		"scarlet gilia": [{
+			"Moisture": "Low"
+		}],
+		"Siskiyou iris": [{
+			"Moisture": "Medium"
+		}],
+		"copper iris": [{
+			"Moisture": "High"
+		}],
+		"Rocky Mountain iris": [{
+			"Moisture": "High"
+		}],
+		"toughleaf iris": [{
+			"Moisture": "Medium"
+		}],
+		"Virginia iris": [{
+			"Moisture": "High"
+		}],
+		"Jesuit's bark": [{
+			"Moisture": "High"
+		}],
+		"oval-leaf clustervine": [{
+			"Moisture": "Medium"
+		}],
+		"tapertip rush": [{
+			"Moisture": "High"
+		}],
+		"jointleaf rush": [{
+			"Moisture": "High"
+		}],
+		"bog rush": [{
+			"Moisture": "High"
+		}],
+		"twoflowered rush": [{
+			"Moisture": "High"
+		}],
+		"whiteroot rush": [{
+			"Moisture": "Medium"
+		}],
+		"smallhead rush": [{
+			"Moisture": "High"
+		}],
+		"toad rush": [{
+			"Moisture": "Medium"
+		}],
+		"Canadian rush": [{
+			"Moisture": "Medium"
+		}],
+		"chestnut rush": [{
+			"Moisture": "Medium"
+		}],
+		"Colorado rush": [{
+			"Moisture": "High"
+		}],
+		"forked rush": [{
+			"Moisture": "Medium"
+		}],
+		"Drummond's rush": [{
+			"Moisture": "Medium"
+		}],
+		"common rush": [{
+			"Moisture": "Medium"
+		}],
+		"swordleaf rush": [{
+			"Moisture": "High"
+		}],
+		"inland rush": [{
+			"Moisture": "Medium"
+		}],
+		"longstyle rush": [{
+			"Moisture": "High"
+		}],
+		"grassleaf rush": [{
+			"Moisture": "Medium"
+		}],
+		"bighead rush": [{
+			"Moisture": "High"
+		}],
+		"Mertens' rush": [{
+			"Moisture": "High"
+		}],
+		"Mexican rush": [{
+			"Moisture": "Medium"
+		}],
+		"Sierra rush": [{
+			"Moisture": "High"
+		}],
+		"knotted rush": [{
+			"Moisture": "Medium"
+		}],
+		"Parry's rush": [{
+			"Moisture": "Low"
+		}],
+		"lesser creeping rush": [{
+			"Moisture": "High"
+		}],
+		"needlegrass rush": [{
+			"Moisture": "High"
+		}],
+		"needlepod rush": [{
+			"Moisture": "High"
+		}],
+		"lopsided rush": [{
+			"Moisture": "Low"
+		}],
+		"woodland rush": [{
+			"Moisture": "High"
+		}],
+		"poverty rush": [{
+			"Moisture": "Medium"
+		}],
+		"Torrey's rush": [{
+			"Moisture": "Medium"
+		}],
+		"three-hulled rush": [{
+			"Moisture": "High"
+		}],
+		"roundhead rush": [{
+			"Moisture": "High"
+		}],
+		"American water-willow": [{
+			"Moisture": "Medium"
+		}],
+		"prairie Junegrass": [{
+			"Moisture": "High"
+		}],
+		"Korean clover": [{
+			"Moisture": "Low"
+		}],
+		"Japanese clover": [{
+			"Moisture": "Low"
+		}],
+		"hyacinthbean": [{
+			"Moisture": "Medium"
+		}],
+		"Carolina redroot": [{
+			"Moisture": "Medium"
+		}],
+		"Caley pea": [{
+			"Moisture": "High"
+		}],
+		"beach pea": [{
+			"Moisture": "Medium"
+		}],
+		"perennial pea": [{
+			"Moisture": "Low"
+		}],
+		"silky beach pea": [{
+			"Moisture": "Medium"
+		}],
+		"leafy pea": [{
+			"Moisture": "Medium"
+		}],
+		"flat pea": [{
+			"Moisture": "Low"
+		}],
+		"tuberous sweetpea": [{
+			"Moisture": "Medium"
+		}],
+		"catchfly grass": [{
+			"Moisture": "Medium"
+		}],
+		"rice cutgrass": [{
+			"Moisture": "High"
+		}],
+		"whitegrass": [{
+			"Moisture": "Medium"
+		}],
+		"common duckweed": [{
+			"Moisture": "High"
+		}],
+		"star duckweed": [{
+			"Moisture": "High"
+		}],
+		"valdivia duckweed": [{
+			"Moisture": "High"
+		}],
+		"mountain pepperweed": [{
+			"Moisture": "Low"
+		}],
+		"green sprangletop": [{
+			"Moisture": "Medium"
+		}],
+		"bearded sprangletop": [{
+			"Moisture": "High"
+		}],
+		"shrub lespedeza": [{
+			"Moisture": "Medium"
+		}],
+		"roundhead lespedeza": [{
+			"Moisture": "Low"
+		}],
+		"hairy lespedeza": [{
+			"Moisture": "Low"
+		}],
+		"wand lespedeza": [{
+			"Moisture": "Low"
+		}],
+		"oxeye daisy": [{
+			"Moisture": "Low"
+		}],
+		"sand ryegrass": [{
+			"Moisture": "Medium"
+		}],
+		"basin wildrye": [{
+			"Moisture": "High"
+		}],
+		"giant wildrye": [{
+			"Moisture": "High"
+		}],
+		"yellow wildrye": [{
+			"Moisture": "Medium"
+		}],
+		"American dunegrass": [{
+			"Moisture": "Medium"
+		}],
+		"mammoth wildrye": [{
+			"Moisture": "Medium"
+		}],
+		"saline wildrye": [{
+			"Moisture": "Low"
+		}],
+		"beardless wildrye": [{
+			"Moisture": "Low"
+		}],
+		"dotted blazing star": [{
+			"Moisture": "Medium"
+		}],
+		"prairie blazing star": [{
+			"Moisture": "Medium"
+		}],
+		"dense blazing star": [{
+			"Moisture": "Medium"
+		}],
+		"Appalachian blazing star": [{
+			"Moisture": "Medium"
+		}],
+		"awl-leaf lilaea": [{
+			"Moisture": "High"
+		}],
+		"American spongeplant": [{
+			"Moisture": "High"
+		}],
+		"lavender thrift": [{
+			"Moisture": "High"
+		}],
+		"Lewis flax": [{
+			"Moisture": "Medium"
+		}],
+		"ridged yellow flax": [{
+			"Moisture": "Medium"
+		}],
+		"big blue lilyturf": [{
+			"Moisture": "Low"
+		}],
+		"broadlipped twayblade": [{
+			"Moisture": "High"
+		}],
+		"western stoneseed": [{
+			"Moisture": "Low"
+		}],
+		"cardinalflower": [{
+			"Moisture": "Low"
+		}],
+		"perennial ryegrass": [{
+			"Moisture": "Medium"
+		}],
+		"Italian ryegrass": [{
+			"Moisture": "Medium"
+		}],
+		"Wimmera ryegrass": [{
+			"Moisture": "Medium"
+		}],
+		"Canby's biscuitroot": [{
+			"Moisture": "Low"
+		}],
+		"cous biscuitroot": [{
+			"Moisture": "Low"
+		}],
+		"fernleaf biscuitroot": [{
+			"Moisture": "Low"
+		}],
+		"bigseed biscuitroot": [{
+			"Moisture": "Low"
+		}],
+		"nineleaf biscuitroot": [{
+			"Moisture": "Medium"
+		}],
+		"bird's-foot trefoil": [{
+			"Moisture": "Medium"
+		}],
+		"big deervetch": [{
+			"Moisture": "Medium"
+		}],
+		"big trefoil": [{
+			"Moisture": "Medium"
+		}],
+		"narrowleaf trefoil": [{
+			"Moisture": "Low"
+		}],
+		"Wright's deervetch": [{
+			"Moisture": "Low"
+		}],
+		"wingleaf primrose-willow": [{
+			"Moisture": "High"
+		}],
+		"marsh seedbox": [{
+			"Moisture": "High"
+		}],
+		"Great Basin lupine": [{
+			"Moisture": "Low"
+		}],
+		"sicklekeel lupine": [{
+			"Moisture": "Medium"
+		}],
+		"white lupine": [{
+			"Moisture": "Medium"
+		}],
+		"narrowleaf lupine": [{
+			"Moisture": "Medium"
+		}],
+		"silvery lupine": [{
+			"Moisture": "Low"
+		}],
+		"tailcup lupine": [{
+			"Moisture": "Low"
+		}],
+		"shaggy lupine": [{
+			"Moisture": "High"
+		}],
+		"Elmer's lupine": [{
+			"Moisture": "Medium"
+		}],
+		"Big Bend bluebonnet": [{
+			"Moisture": "Low"
+		}],
+		"broadleaf lupine": [{
+			"Moisture": "High"
+		}],
+		"Pacific lupine": [{
+			"Moisture": "Low"
+		}],
+		"pale yellow lupine": [{
+			"Moisture": "Medium"
+		}],
+		"European yellow lupine": [{
+			"Moisture": "Medium"
+		}],
+		"Nevada lupine": [{
+			"Moisture": "Medium"
+		}],
+		"Nootka lupine": [{
+			"Moisture": "Medium"
+		}],
+		"silky lupine": [{
+			"Moisture": "Low"
+		}],
+		"sulphur lupine": [{
+			"Moisture": "Low"
+		}],
+		"smallflowered woodrush": [{
+			"Moisture": "High"
+		}],
+		"spiked woodrush": [{
+			"Moisture": "High"
+		}],
+		"American water horehound": [{
+			"Moisture": "High"
+		}],
+		"rough bugleweed": [{
+			"Moisture": "High"
+		}],
+		"taperleaf water horehound": [{
+			"Moisture": "High"
+		}],
+		"Virginia water horehound": [{
+			"Moisture": "High"
+		}],
+		"lanceleaf loosestrife": [{
+			"Moisture": "Medium"
+		}],
+		"tufted loosestrife": [{
+			"Moisture": "High"
+		}],
+		"Bigelow's tansyaster": [{
+			"Moisture": "Low"
+		}],
+		"tanseyleaf tansyaster": [{
+			"Moisture": "Medium"
+		}],
+		"purple bushbean": [{
+			"Moisture": "Low"
+		}],
+		"cassava": [{
+			"Moisture": "Medium"
+		}],
+		"roving sailor": [{
+			"Moisture": "Medium"
+		}],
+		"black medick": [{
+			"Moisture": "Medium"
+		}],
+		"burclover": [{
+			"Moisture": "Medium"
+		}],
+		"alfalfa": [{
+			"Moisture": "Medium"
+		}],
+		"snail medick": [{
+			"Moisture": "Medium"
+		}],
+		"oniongrass": [{
+			"Moisture": "Low"
+		}],
+		"California melicgrass": [{
+			"Moisture": "Low"
+		}],
+		"smallflower melicgrass": [{
+			"Moisture": "Low"
+		}],
+		"purple oniongrass": [{
+			"Moisture": "Low"
+		}],
+		"Alaska oniongrass": [{
+			"Moisture": "Medium"
+		}],
+		"sweetclover": [{
+			"Moisture": "Medium"
+		}],
+		"rough menodora": [{
+			"Moisture": "Low"
+		}],
+		"wild mint": [{
+			"Moisture": "Medium"
+		}],
+		"tenpetal blazingstar": [{
+			"Moisture": "Medium"
+		}],
+		"buckbean": [{
+			"Moisture": "High"
+		}],
+		"tall fringed bluebells": [{
+			"Moisture": "High"
+		}],
+		"Virginia bluebells": [{
+			"Moisture": "High"
+		}],
+		"nodding microseris": [{
+			"Moisture": "Medium"
+		}],
+		"climbing hempvine": [{
+			"Moisture": "Medium"
+		}],
+		"sharpwing monkeyflower": [{
+			"Moisture": "High"
+		}],
+		"scarlet monkeyflower": [{
+			"Moisture": "High"
+		}],
+		"coastal monkeyflower": [{
+			"Moisture": "Medium"
+		}],
+		"seep monkeyflower": [{
+			"Moisture": "High"
+		}],
+		"dwarf purple monkeyflower": [{
+			"Moisture": "Low"
+		}],
+		"primrose monkeyflower": [{
+			"Moisture": "High"
+		}],
+		"Suksdorf's monkeyflower": [{
+			"Moisture": "Medium"
+		}],
+		"Colorado four o'clock": [{
+			"Moisture": "Low"
+		}],
+		"Chinese silvergrass": [{
+			"Moisture": "Medium"
+		}],
+		"wild bergamot": [{
+			"Moisture": "High"
+		}],
+		"mintleaf bergamot": [{
+			"Moisture": "Medium"
+		}],
+		"Nuttall's povertyweed": [{
+			"Moisture": "Medium"
+		}],
+		"scratchgrass": [{
+			"Moisture": "High"
+		}],
+		"hairawn muhly": [{
+			"Moisture": "High"
+		}],
+		"plains muhly": [{
+			"Moisture": "Low"
+		}],
+		"wirestem muhly": [{
+			"Moisture": "Medium"
+		}],
+		"spiked muhly": [{
+			"Moisture": "Medium"
+		}],
+		"Mexican muhly": [{
+			"Moisture": "Medium"
+		}],
+		"mountain muhly": [{
+			"Moisture": "Medium"
+		}],
+		"bush muhly": [{
+			"Moisture": "Medium"
+		}],
+		"sandhill muhly": [{
+			"Moisture": "Low"
+		}],
+		"marsh muhly": [{
+			"Moisture": "Medium"
+		}],
+		"creeping muhly": [{
+			"Moisture": "Low"
+		}],
+		"mat muhly": [{
+			"Moisture": "High"
+		}],
+		"deergrass": [{
+			"Moisture": "Low"
+		}],
+		"nimblewill": [{
+			"Moisture": "Low"
+		}],
+		"woodland muhly": [{
+			"Moisture": "Medium"
+		}],
+		"bog muhly": [{
+			"Moisture": "High"
+		}],
+		"spike muhly": [{
+			"Moisture": "Medium"
+		}],
+		"true forget-me-not": [{
+			"Moisture": "High"
+		}],
+		"bristly mousetail": [{
+			"Moisture": "Medium"
+		}],
+		"tiny mousetail": [{
+			"Moisture": "Medium"
+		}],
+		"nodding waternymph": [{
+			"Moisture": "High"
+		}],
+		"southern waternymph": [{
+			"Moisture": "High"
+		}],
+		"brittle waternymph": [{
+			"Moisture": "High"
+		}],
+		"nodding needlegrass": [{
+			"Moisture": "Low"
+		}],
+		"foothill needlegrass": [{
+			"Moisture": "Low"
+		}],
+		"purple needlegrass": [{
+			"Moisture": "Medium"
+		}],
+		"green needlegrass": [{
+			"Moisture": "Low"
+		}],
+		"American lotus": [{
+			"Moisture": "High"
+		}],
+		"fivespot": [{
+			"Moisture": "Medium"
+		}],
+		"perennial soybean": [{
+			"Moisture": "Medium"
+		}],
+		"boraxweed": [{
+			"Moisture": "Medium"
+		}],
+		"Rocky Mountain pond-lily": [{
+			"Moisture": "High"
+		}],
+		"yellow waterlily": [{
+			"Moisture": "High"
+		}],
+		"common evening primrose": [{
+			"Moisture": "Medium"
+		}],
+		"tufted evening primrose": [{
+			"Moisture": "Low"
+		}],
+		"Hooker's evening primrose": [{
+			"Moisture": "High"
+		}],
+		"yellow evening primrose": [{
+			"Moisture": "Medium"
+		}],
+		"narrowleaf evening primrose": [{
+			"Moisture": "High"
+		}],
+		"pale evening primrose": [{
+			"Moisture": "Low"
+		}],
+		"meadow evening primrose": [{
+			"Moisture": "Medium"
+		}],
+		"stiff goldenrod": [{
+			"Moisture": "Medium"
+		}],
+		"Douglas' grasswidow": [{
+			"Moisture": "Medium"
+		}],
+		"sainfoin": [{
+			"Moisture": "Medium"
+		}],
+		"yellow owl's-clover": [{
+			"Moisture": "Low"
+		}],
+		"thinleaved owl's-clover": [{
+			"Moisture": "Low"
+		}],
+		"bluntseed sweetroot": [{
+			"Moisture": "Medium"
+		}],
+		"western sweetroot": [{
+			"Moisture": "Medium"
+		}],
+		"cinnamon fern": [{
+			"Moisture": "Medium"
+		}],
+		"interrupted fern": [{
+			"Moisture": "High"
+		}],
+		"royal fern": [{
+			"Moisture": "High"
+		}],
+		"alpine mountainsorrel": [{
+			"Moisture": "Medium"
+		}],
+		"purple locoweed": [{
+			"Moisture": "Low"
+		}],
+		"showy locoweed": [{
+			"Moisture": "Medium"
+		}],
+		"Japanese pachysandra": [{
+			"Moisture": "High"
+		}],
+		"golden ragwort": [{
+			"Moisture": "High"
+		}],
+		"woolly groundsel": [{
+			"Moisture": "Low"
+		}],
+		"butterweed": [{
+			"Moisture": "High"
+		}],
+		"threetooth ragwort": [{
+			"Moisture": "Medium"
+		}],
+		"Brown's peony": [{
+			"Moisture": "Medium"
+		}],
+		"bitter panicgrass": [{
+			"Moisture": "Medium"
+		}],
+		"blue panicum": [{
+			"Moisture": "High"
+		}],
+		"kleingrass": [{
+			"Moisture": "Medium"
+		}],
+		"fall panicgrass": [{
+			"Moisture": "High"
+		}],
+		"maidencane": [{
+			"Moisture": "High"
+		}],
+		"proso millet": [{
+			"Moisture": "Low"
+		}],
+		"vine mesquite": [{
+			"Moisture": "High"
+		}],
+		"redtop panicgrass": [{
+			"Moisture": "High"
+		}],
+		"switchgrass": [{
+			"Moisture": "Medium"
+		}],
+		"fringed grass of Parnassus": [{
+			"Moisture": "High"
+		}],
+		"marsh grass of Parnassus": [{
+			"Moisture": "High"
+		}],
+		"western wheatgrass": [{
+			"Moisture": "Medium"
+		}],
+		"hilograss": [{
+			"Moisture": "Medium"
+		}],
+		"dallisgrass": [{
+			"Moisture": "High"
+		}],
+		"knotgrass": [{
+			"Moisture": "High"
+		}],
+		"horsetail paspalum": [{
+			"Moisture": "High"
+		}],
+		"field paspalum": [{
+			"Moisture": "Medium"
+		}],
+		"Brunswickgrass": [{
+			"Moisture": "Medium"
+		}],
+		"bahiagrass": [{
+			"Moisture": "Low"
+		}],
+		"brownseed paspalum": [{
+			"Moisture": "Low"
+		}],
+		"seashore paspalum": [{
+			"Moisture": "High"
+		}],
+		"yellow passionflower": [{
+			"Moisture": "Low"
+		}],
+		"lemonscent": [{
+			"Moisture": "Low"
+		}],
+		"Canadian lousewort": [{
+			"Moisture": "Medium"
+		}],
+		"elephanthead lousewort": [{
+			"Moisture": "High"
+		}],
+		"green arrow arum": [{
+			"Moisture": "High"
+		}],
+		"Chinese fountaingrass": [{
+			"Moisture": "Low"
+		}],
+		"buffelgrass": [{
+			"Moisture": "Low"
+		}],
+		"pearl millet": [{
+			"Moisture": "Low"
+		}],
+		"elephant grass": [{
+			"Moisture": "Medium"
+		}],
+		"crimson fountaingrass": [{
+			"Moisture": "Low"
+		}],
+		"sharpleaf penstemon": [{
+			"Moisture": "Low"
+		}],
+		"Alberta beardtongue": [{
+			"Moisture": "Medium"
+		}],
+		"broadbeard beardtongue": [{
+			"Moisture": "Low"
+		}],
+		"yellow penstemon": [{
+			"Moisture": "Medium"
+		}],
+		"Wasatch beardtongue": [{
+			"Moisture": "Medium"
+		}],
+		"scabland penstemon": [{
+			"Moisture": "Low"
+		}],
+		"foxglove beardtongue": [{
+			"Moisture": "Low"
+		}],
+		"firecracker penstemon": [{
+			"Moisture": "Low"
+		}],
+		"Gairdner's beardtongue": [{
+			"Moisture": "Low"
+		}],
+		"sawsepal penstemon": [{
+			"Moisture": "Medium"
+		}],
+		"Purdy's penstemon": [{
+			"Moisture": "Medium"
+		}],
+		"mountain blue penstemon": [{
+			"Moisture": "Medium"
+		}],
+		"Lyall's beardtongue": [{
+			"Moisture": "Medium"
+		}],
+		"mountain pride": [{
+			"Moisture": "Low"
+		}],
+		"Palmer's penstemon": [{
+			"Moisture": "Low"
+		}],
+		"Rydberg's penstemon": [{
+			"Moisture": "Low"
+		}],
+		"royal penstemon": [{
+			"Moisture": "Low"
+		}],
+		"Rocky Mountain penstemon": [{
+			"Moisture": "Medium"
+		}],
+		"Venus penstemon": [{
+			"Moisture": "Medium"
+		}],
+		"Whipple's penstemon": [{
+			"Moisture": "Medium"
+		}],
+		"Wilcox's penstemon": [{
+			"Moisture": "Low"
+		}],
+		"ditch stonecrop": [{
+			"Moisture": "Medium"
+		}],
+		"Gardner's yampah": [{
+			"Moisture": "High"
+		}],
+		"Parish's yampah": [{
+			"Moisture": "High"
+		}],
+		"silverleaf phacelia": [{
+			"Moisture": "Medium"
+		}],
+		"lacy phacelia": [{
+			"Moisture": "Medium"
+		}],
+		"bulbous canarygrass": [{
+			"Moisture": "High"
+		}],
+		"reed canarygrass": [{
+			"Moisture": "High"
+		}],
+		"alpine timothy": [{
+			"Moisture": "Medium"
+		}],
+		"timothy": [{
+			"Moisture": "Medium"
+		}],
+		"spreading phlox": [{
+			"Moisture": "Low"
+		}],
+		"wild blue phlox": [{
+			"Moisture": "Medium"
+		}],
+		"smooth phlox": [{
+			"Moisture": "High"
+		}],
+		"longleaf phlox": [{
+			"Moisture": "Low"
+		}],
+		"wild sweetwilliam": [{
+			"Moisture": "Medium"
+		}],
+		"moss phlox": [{
+			"Moisture": "Medium"
+		}],
+		"common reed": [{
+			"Moisture": "Medium"
+		}],
+		"turkey tangle fogfruit": [{
+			"Moisture": "Low"
+		}],
+		"golden bamboo": [{
+			"Moisture": "Low"
+		}],
+		"American pokeweed": [{
+			"Moisture": "Medium"
+		}],
+		"narrowleaf silkgrass": [{
+			"Moisture": "Medium"
+		}],
+		"common plantain": [{
+			"Moisture": "Medium"
+		}],
+		"woolly plantain": [{
+			"Moisture": "Low"
+		}],
+		"James' galleta": [{
+			"Moisture": "Low"
+		}],
+		"tobosagrass": [{
+			"Moisture": "Low"
+		}],
+		"big galleta": [{
+			"Moisture": "Low"
+		}],
+		"sweetscent": [{
+			"Moisture": "Medium"
+		}],
+		"alpine bluegrass": [{
+			"Moisture": "Low"
+		}],
+		"annual bluegrass": [{
+			"Moisture": "Medium"
+		}],
+		"autumn bluegrass": [{
+			"Moisture": "Medium"
+		}],
+		"bulbous bluegrass": [{
+			"Moisture": "Medium"
+		}],
+		"Canada bluegrass": [{
+			"Moisture": "Medium"
+		}],
+		"muttongrass": [{
+			"Moisture": "Low"
+		}],
+		"glaucous bluegrass": [{
+			"Moisture": "Medium"
+		}],
+		"Leiberg's bluegrass": [{
+			"Moisture": "Medium"
+		}],
+		"marsh bluegrass": [{
+			"Moisture": "High"
+		}],
+		"seashore bluegrass": [{
+			"Moisture": "Low"
+		}],
+		"Wheeler bluegrass": [{
+			"Moisture": "Medium"
+		}],
+		"fowl bluegrass": [{
+			"Moisture": "Medium"
+		}],
+		"Kentucky bluegrass": [{
+			"Moisture": "Medium"
+		}],
+		"Sandberg bluegrass": [{
+			"Moisture": "Medium"
+		}],
+		"woodland bluegrass": [{
+			"Moisture": "High"
+		}],
+		"rough bluegrass": [{
+			"Moisture": "High"
+		}],
+		"western polemonium": [{
+			"Moisture": "High"
+		}],
+		"water knotweed": [{
+			"Moisture": "High"
+		}],
+		"meadow bistort": [{
+			"Moisture": "Medium"
+		}],
+		"American bistort": [{
+			"Moisture": "High"
+		}],
+		"Davis' knotweed": [{
+			"Moisture": "Low"
+		}],
+		"marshpepper knotweed": [{
+			"Moisture": "High"
+		}],
+		"swamp smartweed": [{
+			"Moisture": "Medium"
+		}],
+		"Pennsylvania smartweed": [{
+			"Moisture": "Medium"
+		}],
+		"spotted ladysthumb": [{
+			"Moisture": "Medium"
+		}],
+		"dotted smartweed": [{
+			"Moisture": "Medium"
+		}],
+		"arrowleaf tearthumb": [{
+			"Moisture": "Medium"
+		}],
+		"alpine bistort": [{
+			"Moisture": "High"
+		}],
+		"annual rabbitsfoot grass": [{
+			"Moisture": "High"
+		}],
+		"western swordfern": [{
+			"Moisture": "High"
+		}],
+		"pickerelweed": [{
+			"Moisture": "High"
+		}],
+		"largeleaf pondweed": [{
+			"Moisture": "High"
+		}],
+		"curly pondweed": [{
+			"Moisture": "High"
+		}],
+		"waterthread pondweed": [{
+			"Moisture": "High"
+		}],
+		"ribbonleaf pondweed": [{
+			"Moisture": "High"
+		}],
+		"leafy pondweed": [{
+			"Moisture": "High"
+		}],
+		"variableleaf pondweed": [{
+			"Moisture": "High"
+		}],
+		"floating pondweed": [{
+			"Moisture": "High"
+		}],
+		"longleaf pondweed": [{
+			"Moisture": "High"
+		}],
+		"whitestem pondweed": [{
+			"Moisture": "High"
+		}],
+		"Robbins' pondweed": [{
+			"Moisture": "High"
+		}],
+		"flatstem pondweed": [{
+			"Moisture": "High"
+		}],
+		"tall cinquefoil": [{
+			"Moisture": "Medium"
+		}],
+		"varileaf cinquefoil": [{
+			"Moisture": "Medium"
+		}],
+		"sticky cinquefoil": [{
+			"Moisture": "Low"
+		}],
+		"slender cinquefoil": [{
+			"Moisture": "Low"
+		}],
+		"Platte River cinquefoil": [{
+			"Moisture": "Medium"
+		}],
+		"silvery primrose": [{
+			"Moisture": "High"
+		}],
+		"common selfheal": [{
+			"Moisture": "Medium"
+		}],
+		"Russian wildrye": [{
+			"Moisture": "Low"
+		}],
+		"beardless wheatgrass": [{
+			"Moisture": "Low"
+		}],
+		"bluebunch wheatgrass": [{
+			"Moisture": "Low"
+		}],
+		"western brackenfern": [{
+			"Moisture": "Medium"
+		}],
+		"Sierra false needlegrass": [{
+			"Moisture": "Medium"
+		}],
+		"Nuttall's alkaligrass": [{
+			"Moisture": "Medium"
+		}],
+		"littleleaf buttercup": [{
+			"Moisture": "Medium"
+		}],
+		"plantainleaf buttercup": [{
+			"Moisture": "High"
+		}],
+		"alkali buttercup": [{
+			"Moisture": "High"
+		}],
+		"Eschscholtz's buttercup": [{
+			"Moisture": "Medium"
+		}],
+		"greater creeping spearwort": [{
+			"Moisture": "High"
+		}],
+		"sagebrush buttercup": [{
+			"Moisture": "High"
+		}],
+		"bristly buttercup": [{
+			"Moisture": "Medium"
+		}],
+		"Mississippi buttercup": [{
+			"Moisture": "High"
+		}],
+		"longbeak buttercup": [{
+			"Moisture": "High"
+		}],
+		"Pennsylvania buttercup": [{
+			"Moisture": "High"
+		}],
+		"creeping buttercup": [{
+			"Moisture": "Medium"
+		}],
+		"cursed buttercup": [{
+			"Moisture": "High"
+		}],
+		"upright prairie coneflower": [{
+			"Moisture": "Medium"
+		}],
+		"pinnate prairie coneflower": [{
+			"Moisture": "Medium"
+		}],
+		"green prairie coneflower": [{
+			"Moisture": "Low"
+		}],
+		"shortbristle horned beaksedge": [{
+			"Moisture": "Medium"
+		}],
+		"curvepod yellowcress": [{
+			"Moisture": "High"
+		}],
+		"stalkless yellowcress": [{
+			"Moisture": "High"
+		}],
+		"spreading yellowcress": [{
+			"Moisture": "Medium"
+		}],
+		"creeping yellowcress": [{
+			"Moisture": "High"
+		}],
+		"cloudberry": [{
+			"Moisture": "High"
+		}],
+		"blackeyed Susan": [{
+			"Moisture": "Medium"
+		}],
+		"cutleaf coneflower": [{
+			"Moisture": "Low"
+		}],
+		"great coneflower": [{
+			"Moisture": "High"
+		}],
+		"shiny coneflower": [{
+			"Moisture": "High"
+		}],
+		"fringeleaf wild petunia": [{
+			"Moisture": "Low"
+		}],
+		"limestone wild petunia": [{
+			"Moisture": "Low"
+		}],
+		"golden dock": [{
+			"Moisture": "High"
+		}],
+		"widgeongrass": [{
+			"Moisture": "High"
+		}],
+		"shortbeard plumegrass": [{
+			"Moisture": "Medium"
+		}],
+		"sugarcane plumegrass": [{
+			"Moisture": "Medium"
+		}],
+		"sugarcane": [{
+			"Moisture": "Medium"
+		}],
+		"ravennagrass": [{
+			"Moisture": "Medium"
+		}],
+		"American cupscale": [{
+			"Moisture": "Low"
+		}],
+		"arctic pearlwort": [{
+			"Moisture": "High"
+		}],
+		"arumleaf arrowhead": [{
+			"Moisture": "Medium"
+		}],
+		"broadleaf arrowhead": [{
+			"Moisture": "High"
+		}],
+		"delta arrowhead": [{
+			"Moisture": "High"
+		}],
+		"red swampfire": [{
+			"Moisture": "Medium"
+		}],
+		"pitcher sage": [{
+			"Moisture": "Medium"
+		}],
+		"small burnet": [{
+			"Moisture": "Medium"
+		}],
+		"bouncingbet": [{
+			"Moisture": "Medium"
+		}],
+		"little bluestem": [{
+			"Moisture": "Low"
+		}],
+		"slender little bluestem": [{
+			"Moisture": "Medium"
+		}],
+		"hardstem bulrush": [{
+			"Moisture": "High"
+		}],
+		"California bulrush": [{
+			"Moisture": "High"
+		}],
+		"slender bulrush": [{
+			"Moisture": "High"
+		}],
+		"common threesquare": [{
+			"Moisture": "High"
+		}],
+		"softstem bulrush": [{
+			"Moisture": "High"
+		}],
+		"green bulrush": [{
+			"Moisture": "Medium"
+		}],
+		"woolgrass": [{
+			"Moisture": "High"
+		}],
+		"Georgia bulrush": [{
+			"Moisture": "Medium"
+		}],
+		"panicled bulrush": [{
+			"Moisture": "Medium"
+		}],
+		"cloaked bulrush": [{
+			"Moisture": "Medium"
+		}],
+		"stalked bulrush": [{
+			"Moisture": "High"
+		}],
+		"rufous bulrush": [{
+			"Moisture": "Medium"
+		}],
+		"common rivergrass": [{
+			"Moisture": "High"
+		}],
+		"cereal rye": [{
+			"Moisture": "High"
+		}],
+		"tall groundsel": [{
+			"Moisture": "High"
+		}],
+		"lambstongue ragwort": [{
+			"Moisture": "Medium"
+		}],
+		"arrowleaf ragwort": [{
+			"Moisture": "High"
+		}],
+		"old-man-in-the-Spring": [{
+			"Moisture": "Medium"
+		}],
+		"Maryland senna": [{
+			"Moisture": "Low"
+		}],
+		"foxtail millet": [{
+			"Moisture": "Low"
+		}],
+		"yellow foxtail": [{
+			"Moisture": "Low"
+		}],
+		"plains bristlegrass": [{
+			"Moisture": "Medium"
+		}],
+		"salt spring checkerbloom": [{
+			"Moisture": "High"
+		}],
+		"Oregon checkerbloom": [{
+			"Moisture": "High"
+		}],
+		"narrowleaf blue-eyed grass": [{
+			"Moisture": "Medium"
+		}],
+		"Idaho blue-eyed grass": [{
+			"Moisture": "High"
+		}],
+		"garden tomato": [{
+			"Moisture": "High"
+		}],
+		"eggplant": [{
+			"Moisture": "High"
+		}],
+		"wreath goldenrod": [{
+			"Moisture": "Medium"
+		}],
+		"Canada goldenrod": [{
+			"Moisture": "Medium"
+		}],
+		"pine barren goldenrod": [{
+			"Moisture": "High"
+		}],
+		"zigzag goldenrod": [{
+			"Moisture": "Medium"
+		}],
+		"giant goldenrod": [{
+			"Moisture": "Medium"
+		}],
+		"Missouri goldenrod": [{
+			"Moisture": "Low"
+		}],
+		"gray goldenrod": [{
+			"Moisture": "Medium"
+		}],
+		"roundleaf goldenrod": [{
+			"Moisture": "High"
+		}],
+		"wrinkleleaf goldenrod": [{
+			"Moisture": "Medium"
+		}],
+		"seaside goldenrod": [{
+			"Moisture": "Low"
+		}],
+		"bog goldenrod": [{
+			"Moisture": "High"
+		}],
+		"Indiangrass": [{
+			"Moisture": "Medium"
+		}],
+		"sorghum": [{
+			"Moisture": "Medium"
+		}],
+		"grain sorghum": [{
+			"Moisture": "Medium"
+		}],
+		"Sudangrass": [{
+			"Moisture": "Low"
+		}],
+		"Johnsongrass": [{
+			"Moisture": "High"
+		}],
+		"American bur-reed": [{
+			"Moisture": "High"
+		}],
+		"broadfruit bur-reed": [{
+			"Moisture": "High"
+		}],
+		"smooth cordgrass": [{
+			"Moisture": "High"
+		}],
+		"sand cordgrass": [{
+			"Moisture": "High"
+		}],
+		"big cordgrass": [{
+			"Moisture": "High"
+		}],
+		"alkali cordgrass": [{
+			"Moisture": "Medium"
+		}],
+		"saltmeadow cordgrass": [{
+			"Moisture": "Medium"
+		}],
+		"prairie cordgrass": [{
+			"Moisture": "High"
+		}],
+		"gulf cordgrass": [{
+			"Moisture": "Medium"
+		}],
+		"desert globemallow": [{
+			"Moisture": "Low"
+		}],
+		"scarlet globemallow": [{
+			"Moisture": "Low"
+		}],
+		"gooseberryleaf globemallow": [{
+			"Moisture": "Low"
+		}],
+		"Munro's globemallow": [{
+			"Moisture": "Low"
+		}],
+		"prairie wedgescale": [{
+			"Moisture": "Medium"
+		}],
+		"nodding lady's tresses": [{
+			"Moisture": "High"
+		}],
+		"hooded lady's tresses": [{
+			"Moisture": "High"
+		}],
+		"common duckmeat": [{
+			"Moisture": "High"
+		}],
+		"alkali sacaton": [{
+			"Moisture": "Low"
+		}],
+		"composite dropseed": [{
+			"Moisture": "Low"
+		}],
+		"sand dropseed": [{
+			"Moisture": "Low"
+		}],
+		"mesa dropseed": [{
+			"Moisture": "Low"
+		}],
+		"prairie dropseed": [{
+			"Moisture": "Low"
+		}],
+		"black dropseed": [{
+			"Moisture": "Low"
+		}],
+		"seashore dropseed": [{
+			"Moisture": "Low"
+		}],
+		"big sacaton": [{
+			"Moisture": "Medium"
+		}],
+		"marsh hedgenettle": [{
+			"Moisture": "High"
+		}],
+		"smooth hedgenettle": [{
+			"Moisture": "High"
+		}],
+		"longleaf starwort": [{
+			"Moisture": "High"
+		}],
+		"longstalk starwort": [{
+			"Moisture": "High"
+		}],
+		"shiny chickweed": [{
+			"Moisture": "Medium"
+		}],
+		"umbrella starwort": [{
+			"Moisture": "High"
+		}],
+		"St Augustine grass": [{
+			"Moisture": "Medium"
+		}],
+		"thrift mock goldenweed": [{
+			"Moisture": "Low"
+		}],
+		"fineleaf pondweed": [{
+			"Moisture": "High"
+		}],
+		"Pacific aster": [{
+			"Moisture": "Medium"
+		}],
+		"common blue wood aster": [{
+			"Moisture": "Low"
+		}],
+		"alpine leafybract aster": [{
+			"Moisture": "Medium"
+		}],
+		"smooth blue aster": [{
+			"Moisture": "Medium"
+		}],
+		"white panicle aster": [{
+			"Moisture": "High"
+		}],
+		"calico aster": [{
+			"Moisture": "Medium"
+		}],
+		"New York aster": [{
+			"Moisture": "High"
+		}],
+		"late purple aster": [{
+			"Moisture": "Medium"
+		}],
+		"hairy white oldfield aster": [{
+			"Moisture": "Medium"
+		}],
+		"crookedstem aster": [{
+			"Moisture": "Medium"
+		}],
+		"purplestem aster": [{
+			"Moisture": "High"
+		}],
+		"Douglas aster": [{
+			"Moisture": "High"
+		}],
+		"eastern annual saltmarsh aster": [{
+			"Moisture": "Medium"
+		}],
+		"skunk cabbage": [{
+			"Moisture": "High"
+		}],
+		"common dandelion": [{
+			"Moisture": "Medium"
+		}],
+		"Canada germander": [{
+			"Moisture": "High"
+		}],
+		"New York fern": [{
+			"Moisture": "Low"
+		}],
+		"intermediate wheatgrass": [{
+			"Moisture": "Medium"
+		}],
+		"tall wheatgrass": [{
+			"Moisture": "Medium"
+		}],
+		"Spanish moss": [{
+			"Moisture": "Medium"
+		}],
+		"Virginia spiderwort": [{
+			"Moisture": "Medium"
+		}],
+		"yellow salsify": [{
+			"Moisture": "Low"
+		}],
+		"salsify": [{
+			"Moisture": "Medium"
+		}],
+		"purpletop tridens": [{
+			"Moisture": "Low"
+		}],
+		"longspike tridens": [{
+			"Moisture": "Low"
+		}],
+		"Egyptian clover": [{
+			"Moisture": "Medium"
+		}],
+		"Kura clover": [{
+			"Moisture": "Medium"
+		}],
+		"strawberry clover": [{
+			"Moisture": "High"
+		}],
+		"rose clover": [{
+			"Moisture": "Medium"
+		}],
+		"alsike clover": [{
+			"Moisture": "High"
+		}],
+		"crimson clover": [{
+			"Moisture": "Medium"
+		}],
+		"longstalk clover": [{
+			"Moisture": "Medium"
+		}],
+		"largehead clover": [{
+			"Moisture": "Low"
+		}],
+		"small white clover": [{
+			"Moisture": "Medium"
+		}],
+		"red clover": [{
+			"Moisture": "Medium"
+		}],
+		"white clover": [{
+			"Moisture": "Medium"
+		}],
+		"subterranean clover": [{
+			"Moisture": "Medium"
+		}],
+		"arrowleaf clover": [{
+			"Moisture": "Medium"
+		}],
+		"cows clover": [{
+			"Moisture": "Medium"
+		}],
+		"eastern gamagrass": [{
+			"Moisture": "Medium"
+		}],
+		"tall trisetum": [{
+			"Moisture": "Medium"
+		}],
+		"spike trisetum": [{
+			"Moisture": "Medium"
+		}],
+		"largeflower triteleia": [{
+			"Moisture": "Medium"
+		}],
+		"common wheat": [{
+			"Moisture": "Low"
+		}],
+		"narrowleaf cattail": [{
+			"Moisture": "High"
+		}],
+		"broadleaf cattail": [{
+			"Moisture": "High"
+		}],
+		"seaoats": [{
+			"Moisture": "Low"
+		}],
+		"palisade grass": [{
+			"Moisture": "Low"
+		}],
+		"guineagrass": [{
+			"Moisture": "Medium"
+		}],
+		"para grass": [{
+			"Moisture": "Medium"
+		}],
+		"broadleaf signalgrass": [{
+			"Moisture": "Medium"
+		}],
+		"browntop millet": [{
+			"Moisture": "Medium"
+		}],
+		"lesser bladderwort": [{
+			"Moisture": "High"
+		}],
+		"western valerian": [{
+			"Moisture": "High"
+		}],
+		"American eelgrass": [{
+			"Moisture": "High"
+		}],
+		"California false hellebore": [{
+			"Moisture": "High"
+		}],
+		"golden crownbeard": [{
+			"Moisture": "Medium"
+		}],
+		"Missouri ironweed": [{
+			"Moisture": "Medium"
+		}],
+		"New York ironweed": [{
+			"Moisture": "Medium"
+		}],
+		"American speedwell": [{
+			"Moisture": "High"
+		}],
+		"American alpine speedwell": [{
+			"Moisture": "High"
+		}],
+		"vetivergrass": [{
+			"Moisture": "Low"
+		}],
+		"American vetch": [{
+			"Moisture": "Low"
+		}],
+		"bird vetch": [{
+			"Moisture": "Low"
+		}],
+		"large yellow vetch": [{
+			"Moisture": "Medium"
+		}],
+		"smooth yellow vetch": [{
+			"Moisture": "Medium"
+		}],
+		"garden vetch": [{
+			"Moisture": "High"
+		}],
+		"winter vetch": [{
+			"Moisture": "Medium"
+		}],
+		"mung bean": [{
+			"Moisture": "Medium"
+		}],
+		"cowpea": [{
+			"Moisture": "Medium"
+		}],
+		"common periwinkle": [{
+			"Moisture": "Low"
+		}],
+		"small white violet": [{
+			"Moisture": "High"
+		}],
+		"downy yellow violet": [{
+			"Moisture": "Medium"
+		}],
+		"common blue violet": [{
+			"Moisture": "High"
+		}],
+		"annual fescue": [{
+			"Moisture": "Low"
+		}],
+		"mule-ears": [{
+			"Moisture": "Medium"
+		}],
+		"woolly mule-ears": [{
+			"Moisture": "Low"
+		}],
+		"common beargrass": [{
+			"Moisture": "Low"
+		}],
+		"banana yucca": [{
+			"Moisture": "Low"
+		}],
+		"soapweed yucca": [{
+			"Moisture": "Low"
+		}],
+		"corn": [{
+			"Moisture": "High"
+		}],
+		"foothill deathcamas": [{
+			"Moisture": "Medium"
+		}],
+		"annual wildrice": [{
+			"Moisture": "High"
+		}],
+		"giant cutgrass": [{
+			"Moisture": "High"
+		}],
+		"Korean lawngrass": [{
+			"Moisture": "Medium"
+		}],
+		"Manila grass": [{
+			"Moisture": "Medium"
+		}]
+	}
+}
