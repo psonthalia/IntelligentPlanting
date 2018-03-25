@@ -17,6 +17,7 @@
 		894840B02066D5F10012BB27 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894840AF2066D5F10012BB27 /* HomeViewController.swift */; };
 		894840B42066DAFE0012BB27 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894840B32066DAFE0012BB27 /* Constants.swift */; };
 		894840B6206725010012BB27 /* ServerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894840B5206725010012BB27 /* ServerService.swift */; };
+		89F191B82067AF6300D9B5CB /* PlantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F191B72067AF6300D9B5CB /* PlantTableViewCell.swift */; };
 		A2800B752067852600AE25D1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A2800B742067852500AE25D1 /* GoogleService-Info.plist */; };
 		A2800B7C2067AFAE00AE25D1 /* demo-image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A2800B7B2067AFAE00AE25D1 /* demo-image.jpg */; };
 		A2800B7E2067B0E200AE25D1 /* VisionAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2800B7D2067B0E200AE25D1 /* VisionAPI.swift */; };
@@ -34,6 +35,7 @@
 		894840AF2066D5F10012BB27 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = IntelligentPlanting/Controllers/HomeViewController.swift; sourceTree = SOURCE_ROOT; };
 		894840B32066DAFE0012BB27 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = IntelligentPlanting/Supporting/Constants.swift; sourceTree = "<group>"; };
 		894840B5206725010012BB27 /* ServerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerService.swift; sourceTree = "<group>"; };
+		89F191B72067AF6300D9B5CB /* PlantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantTableViewCell.swift; sourceTree = "<group>"; };
 		A2800B73206781E400AE25D1 /* IntelligentPlanting.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IntelligentPlanting.entitlements; sourceTree = "<group>"; };
 		A2800B742067852500AE25D1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A2800B7B2067AFAE00AE25D1 /* demo-image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "demo-image.jpg"; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				A2800B73206781E400AE25D1 /* IntelligentPlanting.entitlements */,
 				8948408E2066CA540012BB27 /* AppDelegate.swift */,
 				894840B5206725010012BB27 /* ServerService.swift */,
+				89F191B62067AF4A00D9B5CB /* Models */,
 				894840A62066D5310012BB27 /* Controllers */,
 				894840A92066D5670012BB27 /* Storyboard */,
 				894840AA2066D5920012BB27 /* Supporting */,
@@ -118,6 +121,14 @@
 			);
 			name = Supporting;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		89F191B62067AF4A00D9B5CB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				89F191B72067AF6300D9B5CB /* PlantTableViewCell.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		A36440D7506E492120BBDE84 /* Pods */ = {
@@ -284,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8948408F2066CA540012BB27 /* AppDelegate.swift in Sources */,
+				89F191B82067AF6300D9B5CB /* PlantTableViewCell.swift in Sources */,
 				894840B6206725010012BB27 /* ServerService.swift in Sources */,
 				A2800B7E2067B0E200AE25D1 /* VisionAPI.swift in Sources */,
 				894840A82066D5550012BB27 /* ARViewController.swift in Sources */,

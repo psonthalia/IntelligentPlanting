@@ -13,6 +13,8 @@ import UserNotifications
 
 class HomeViewController: UIViewController {
     
+    @IBOutlet weak var tableView: UITableView!
+    
     var locationManager = CLLocationManager()
     
     var plantData = [String]()
@@ -102,6 +104,13 @@ class HomeViewController: UIViewController {
                 }
             })
         }
+        
+        // Register the table view cell class and its reuse id
+        self.tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
+        
+        // This view controller itself will provide the delegate methods and row data for the table view.
+        tableView.delegate = self
+        tableView.dataSource = self
     }
 
     override func didReceiveMemoryWarning() {
@@ -148,7 +157,9 @@ extension HomeViewController: CLLocationManagerDelegate {
                         print(self.plantData)
                     }
                     
+                    self.tableView.reloadData()
                 }
+                
             }
         }
     }
@@ -170,6 +181,22 @@ extension HomeViewController: CLLocationManagerDelegate {
     
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
         print("Error: \(error)")
+    }
+    
+}
+
+extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return self.plantData.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell: UITableViewCell = self.tableView.dequeueReusableCell(withIdentifier: "cell") as UITableViewCell!
+        
+        cell.textLabel?.text = self.plantData[indexPath.row]
+        
+        return cell
     }
     
 }

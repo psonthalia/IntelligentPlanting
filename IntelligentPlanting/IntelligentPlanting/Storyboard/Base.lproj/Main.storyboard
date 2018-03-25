@@ -34,7 +34,19 @@
                     <view key="view" contentMode="scaleToFill" id="MLP-sc-HsH">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="pua-J8-LEp">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" red="0.31372549019607843" green="0.6470588235294118" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="pua-J8-LEp" firstAttribute="top" secondItem="y5u-4K-Aya" secondAttribute="top" id="4lq-z0-1ny"/>
+                            <constraint firstItem="pua-J8-LEp" firstAttribute="bottom" secondItem="y5u-4K-Aya" secondAttribute="bottom" id="ohr-pV-5iK"/>
+                            <constraint firstItem="pua-J8-LEp" firstAttribute="leading" secondItem="y5u-4K-Aya" secondAttribute="leading" id="wKM-FP-Yd3"/>
+                            <constraint firstItem="pua-J8-LEp" firstAttribute="trailing" secondItem="y5u-4K-Aya" secondAttribute="trailing" id="y1T-6l-3K5"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="y5u-4K-Aya"/>
                     </view>
                     <navigationItem key="navigationItem" id="esr-uc-xp1">
@@ -52,6 +64,7 @@
                         </rightBarButtonItems>
                     </navigationItem>
                     <connections>
+                        <outlet property="tableView" destination="pua-J8-LEp" id="rw0-iL-jub"/>
                         <segue destination="BV1-FR-VrT" kind="show" identifier="toAR" id="EaI-VD-8j5"/>
                     </connections>
                 </viewController>
