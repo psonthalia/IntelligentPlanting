@@ -201,6 +201,7 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print("Tapped \(self.plantData[indexPath.row])")
         ARViewController.plant = self.plantData[indexPath.row]
+        AppDelegate.myPlants.append(ARViewController.plant!)
         self.performSegue(withIdentifier: Constants.toAR, sender: nil)
     }
     

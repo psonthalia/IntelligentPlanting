@@ -14,4 +14,5 @@ struct Constants {
     
     static let moisture = "Moisture"
     static let plants = "Plants"
+    static let toLesson = "toLesson"
 }

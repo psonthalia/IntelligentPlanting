@@ -14,6 +14,13 @@ class MyPlantsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+//        print(AppDelegate.myPlants)
+        
+        self.tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
+        
+        // This view controller itself will provide the delegate methods and row data for the table view.
+        tableView.delegate = self
+        tableView.dataSource = self
 
         // Do any additional setup after loading the view.
     }
@@ -53,8 +60,6 @@ extension MyPlantsViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print("Tapped \(AppDelegate.myPlants[indexPath.row])")
-        ARViewController.plant = AppDelegate.myPlants[indexPath.row]
-        self.performSegue(withIdentifier: Constants.toAR, sender: nil)
     }
     
 }
