@@ -173,7 +173,7 @@
             </objects>
             <point key="canvasLocation" x="-562.39999999999998" y="107.49625187406298"/>
         </scene>
-        <!--My Plants View Controller-->
+        <!--My Plants-->
         <scene sceneID="xv3-wF-wn9">
             <objects>
                 <viewController id="R4o-Zm-Igg" customClass="MyPlantsViewController" customModule="RoBotany" customModuleProvider="target" sceneMemberID="viewController">
@@ -190,6 +190,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="ePq-oI-HfG"/>
                     </view>
+                    <navigationItem key="navigationItem" title="My Plants" id="Hnh-CT-I3k"/>
                     <connections>
                         <outlet property="tableView" destination="uXp-LN-wfS" id="E9N-A9-PbV"/>
                     </connections>
