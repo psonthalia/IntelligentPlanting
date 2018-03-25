@@ -9,24 +9,28 @@
 import Foundation
 import UIKit
 import UserNotifications
+import Firebase
 
 class NotificationSender: UIViewController {
-    override func viewDidLoad() {
-        var dateComponents = DateComponents()
-        dateComponents.hour = Int(12)
-        dateComponents.minute = Int(30)
-        let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: true)
+    override func viewDidAppear(_ animated: Bool) {
+        var ref: DatabaseReference!
         
-        let content = UNMutableNotificationContent()
-        content.title = "Medication Reminder"
-        content.body = "Please take "
-        content.sound = UNNotificationSound.default()
-        let request = UNNotificationRequest(identifier: "test", content: content, trigger: trigger)
+        ref = Database.database().reference().child("SID").child("111111111111")
         
-        UNUserNotificationCenter.current().add(request) {(error) in
-            if let error = error {
-                print("Uh oh! We had an error: \(error)")
-            }
+        DispatchQueue.global(qos: .background).async {
+            ref.observe(DataEventType.value, with: { (snapshot) in
+                if let postDict = snapshot.value as? [String] {
+                    if(Int(postDict[postDict.count - 1])! > 280) {
+                        let calendar = Calendar.current
+                        let selectedDate = calendar.date(byAdding: .minute, value: 1, to: Date())
+                        let delegate = UIApplication.shared.delegate as? AppDelegate
+                        delegate?.scheduleNotification(at: selectedDate!)
+                    }
+                }
+            })
         }
+
+        
+        
     }
 }
