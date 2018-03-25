@@ -11,9 +11,23 @@
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
     <link rel="icon" href="./ui/thumbnail.png"/>
+    <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyDa3QyPla2Uz1z5KIboXSoVrU10_Wfr1TM",
+        authDomain: "intelligent-planting-5f489.firebaseapp.com",
+        databaseURL: "https://intelligent-planting-5f489.firebaseio.com",
+        projectId: "intelligent-planting-5f489",
+        storageBucket: "intelligent-planting-5f489.appspot.com",
+        messagingSenderId: "792695132959"
+      };
+      firebase.initializeApp(config);
+    </script>
 </head>
 <body style="background-color:#F4FFF5">
-<br><br><br><br><br>
+<br>
+<br><br><br><br>
 <div style="margin:auto">
     <div class="row">
         <div class="columns medium-12 text-center">
@@ -28,7 +42,7 @@
             <form name = "robotanist number:">
                 <input style="margin:auto;width:30%" type = "text" id = "serialNum" name = "textie">
             </form>
-            <p id="disclaimer">Enter in your MoisturePod™ SID(Serial Identifier)</p>
+            <p id="disclaimer">Enter in your RoBotanist™ SID(Serial Identifier)</p>
         </div>
 
     </div>
@@ -36,10 +50,13 @@
 
 
     <div class="row">
-        <div class="columns medium-12">
+        <div class="medium-12 columns">
             <br><br><br>
-            <div style="display:flex; justify-content:center">
-                <a id = "start" id="test" onclick="runclick()" class="button large" style="background-color:#007800; color:#F4FFF5">View My Plant</a>
+            <div class="row" style="display:flex;justify-content: center; margin:auto">
+                <div style="display:flex; justify-content:center" class="medium-12 columns">
+                    <div>
+                    <a href="viewer.html" id = "start" id="test" onclick="runclick()" class="button large" style="background-color:#007800; color:#F4FFF5">View My Plant</a></div>
+                </div>
             </div>
         </div>
     </div>
@@ -51,8 +68,13 @@
         <br>
         <h1 style="display:flex;justify-content:center">About Us</h1>
         <hr style="width:30%;margin-top:-12px">
-        <p style="line-height:200%">RoBotany is a non-profit organization devoted to fostering an appreciation for nature by helping end climate change in the United States and encouraging domestic farming. RoBotany MoisturePods™ are propietary moisture-sensing devices that are built with the capability of tracking water consumption based on statistics for over 1,500 American plants, which are gathered from the United States Department of Agrigulture's P.L.A.N.T.S. database. Robotany MoisturePods™ connect to the RoBotany app(compatible with iPhones) which allows for real-time water consumption tracking on any plant. The app will alert the user when watering is required. The RoBotany app also counsels the user on which plants are optimal for growing based on the climate conditions of the user's location.</p>
+        <p style="line-height:200%">RoBotany is a non-profit organization devoted to fostering an appreciation for nature by helping end climate change in the United States and encouraging domestic farming. RoBotany RoBotanist™ are propietary moisture-sensing devices that are built with the capability of tracking water consumption based on statistics for over 1,500 American plants, which are gathered from the United States Department of Agrigulture's P.L.A.N.T.S. database. Robotany RoBotanists™ connect to the RoBotany app(compatible with iPhones) which allows for real-time water consumption tracking on any plant. The app will alert the user when watering is required. The RoBotany app also counsels the user on which plants are optimal for growing based on the climate conditions of the user's location.</p>
         <br>
+    </div>
+</div>
+<div class="row" style="display:flex;justify-content:right;">
+    <div class="medium-12 columns" style="margin-top:2%;position:relative;right:-90%">
+        <a href="addForm.html" id="addPlant" onclick="runclick()" class="button large" style="background-color:#007800; color:#F4FFF5">Add Plant...</a></div>
     </div>
 </div>
 
@@ -60,11 +82,35 @@
 
 <script type="text/javascript"> 
 
+database = firebase.database();
+
+function snapshotToArray(snapshot) {
+  let returnArr = [];
+
+  snapshot.forEach(childSnapshot => {
+      let item = childSnapshot.val(); 
+      item.key = childSnapshot.key;
+      returnArr.push(item);
+  });
+
+  return returnArr;
+};
+
+window.onload = function() {
+    var database = firebase.database();
+    firebase.database().ref('SID/' + $("#serialNum").val()+'/0/').once('value').then(function(snapshot) {
+      month = snapshotToArray(snapshot);
+      localStorage.setItem("sid",$("#serialNum").val());
+      //localStorage.setItem("sid",$("#serialNum").val());
+      //targetCollegeList = snapshotToArray(snapshot.child("target"));
+      //safetyCollegeList = snapshotToArray(snapshot.child("safety");
+      
+    }); 
+}
+
 $( "#start" ).click(function() {
-    var j = $("#serialNum").value();
-    alert(j);
-    if(j!="");
-    $("#disclaimer").text("Invalid SID. Please enter a valid SID.");
+    var j = $("#serialNum").val();
+    
 });
 
 </script>
@@ -75,8 +121,7 @@ $( "#start" ).click(function() {
         padding: 0;
     }
     h1, h3, p {
-        fo
-        nt-family: "Helvetica Neue";
+        font-family: "Helvetica Neue";
         font-weight: 100;
     }
     p {

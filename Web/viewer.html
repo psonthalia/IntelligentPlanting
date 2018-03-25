@@ -1,0 +1,145 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+<head>
+
+  <script type="text/javascript"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RoBotany</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="icon" href="./ui/thumbnail.png"/>
+    <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyDa3QyPla2Uz1z5KIboXSoVrU10_Wfr1TM",
+        authDomain: "intelligent-planting-5f489.firebaseapp.com",
+        databaseURL: "https://intelligent-planting-5f489.firebaseio.com",
+        projectId: "intelligent-planting-5f489",
+        storageBucket: "intelligent-planting-5f489.appspot.com",
+        messagingSenderId: "792695132959"
+      };
+      firebase.initializeApp(config);
+    </script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+
+        function snapshotToArray(snapshot) {
+              let returnArr = [];
+
+              snapshot.forEach(childSnapshot => {
+                  let item = childSnapshot.val(); 
+                  item.key = childSnapshot.key;
+                  returnArr.push(parseFloat(item));
+              });
+
+              return returnArr;
+            };
+
+        var sid = localStorage.getItem("sid");
+        alert(sid);
+        var database = firebase.database();
+        var month = [];
+        firebase.database().ref('SID/' + sid +'/').once('value').then(function(snapshot) {
+            localStorage.setItem("array",snapshotToArray(snapshot));
+            $("#textDisplay").text("SID: "+sid);
+            //alert(localStorage.getItem("array"));
+        }); 
+        month = localStorage.getItem("array");
+        months = month.split(",");
+        monthdays = [];
+        for(var i = 0; i<months.length;i++){
+            monthdays.push(parseFloat(months[i]));
+        }
+        console.log(monthdays);
+        //alert(month);
+        google.charts.load('current', {packages: ['corechart']});
+        google.charts.setOnLoadCallback(drawChart);
+        var dataMonth = [['Day','Moisture']];
+        for(var i = 0; i<30; i++){
+            //console.log(month[i]);
+            dataMonth.push([i,300-Math.min(parseFloat(monthdays[i]),300)]);
+        }
+
+        function drawChart() {
+        var data = google.visualization.arrayToDataTable(dataMonth);
+
+            var options = {
+              title: 'Plant Water Consumption',
+              hAxis: {title: 'Day',  titleTextStyle: {color: '#333'}},
+              vAxis: {title: 'Moisture',minValue: 0, maxValue: 1},
+              legend: {position:'none'}
+            };
+
+            var chart = new google.visualization.AreaChart(document.getElementById('chart_div'));
+            chart.draw(data, options);
+          }
+    </script>
+</head>
+<body style="background-color:#F4FFF5">
+<div>
+    <h1 style="display:flex;justify-content: center" >Your RoBotanist</h1>
+    <p style="display:flex;justify-content: center" id="textDisplay"/>
+    <hr>
+</div>
+<div style="display:flex;justify-content:center">
+    <div style="display:flex;justify-content:center;width:50%;height:100%" id="chart_div"/>
+</div>
+</body>
+
+<script type="text/javascript"> 
+
+</script>
+
+<style>
+    div {
+        border: 0px solid black;
+        padding: 0;
+    }
+    h1, h3, p {
+        font-family: "Helvetica Neue";
+        font-weight: 100;
+    }
+    p {
+        font-family: "Helvetica Neue";
+        font-weight: 200;
+    }
+
+    #signup, #signup2 {
+        border-radius: 0;
+        padding-top: 2em;
+        padding-bottom: 2em;
+        padding-left: 4em;
+        padding-right: 4em;
+        margin: 0.5em;
+        min-width: 200px;
+    }
+
+    .page {
+        height: 100%;
+    }
+
+    #mentor {
+        width: 50%;
+        font-size: 1.25em;
+        pading: 1em;
+        border-top-left-radius: 1.5em;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 1.5em;
+        border-bottom-right-radius: 0;
+    }
+
+    #student {
+        width: 50%;
+        font-size: 1.25em;
+        padding: 1em;
+        border-top-left-radius: 0;
+        border-top-right-radius: 1.5em;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 1.5em;
+    }
+</style>
+</html>
