@@ -121,9 +121,6 @@ class HomeViewController: UIViewController {
     @IBAction func cameraButtonTapped(_ sender: Any) {
         self.performSegue(withIdentifier: Constants.toAR, sender: nil)
     }
-    @IBAction func notificationButtonTapped(_ sender: Any) {
-        self.performSegue(withIdentifier: "toNotification", sender: nil)
-    }
     
 }
 
@@ -197,6 +194,12 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
         cell.textLabel?.text = self.plantData[indexPath.row]
         
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print("Tapped \(self.plantData[indexPath.row])")
+        ARViewController.plant = self.plantData[indexPath.row]
+        self.performSegue(withIdentifier: Constants.toAR, sender: nil)
     }
     
 }

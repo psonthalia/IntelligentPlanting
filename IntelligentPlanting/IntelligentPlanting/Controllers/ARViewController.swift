@@ -15,8 +15,7 @@ class ARViewController: UIViewController {
     @IBOutlet var sceneView: ARSCNView!
     
     @IBOutlet weak var brightnessLabel: UILabel!
-    
-    @IBOutlet weak var colorTemperatureLabel: UILabel!
+    @IBOutlet weak var plantNameLabel: UILabel!
     
     var displayPlane = true
 
@@ -26,6 +25,8 @@ class ARViewController: UIViewController {
     var originalX:Float = 0.0
     
     var timer = Timer()
+    
+    static var plant: String?
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
@@ -91,15 +92,18 @@ class ARViewController: UIViewController {
         configureLighting()
         
         timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(self.updateCounting), userInfo: nil, repeats: true)
+        
+        if let name = ARViewController.plant {
+            plantNameLabel.text = name
+        }
     }
     
     @objc func updateCounting() {
         if let estimate = self.sceneView.session.currentFrame?.lightEstimate {
             let brightness = estimate.ambientIntensity
-            let colorTemperature = estimate.ambientColorTemperature
+            //let colorTemperature = estimate.ambientColorTemperature
             
             brightnessLabel.text = "Brightness: \(brightness)"
-            colorTemperatureLabel.text = "Color Temperature: \(colorTemperature)"
             
             //print("Light estimation: ")
             //print(estimate)
