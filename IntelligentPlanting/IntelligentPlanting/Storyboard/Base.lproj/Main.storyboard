@@ -59,10 +59,10 @@
             </objects>
             <point key="canvasLocation" x="-1311.2" y="108.39580209895054"/>
         </scene>
-        <!--VisionAPI Test-->
+        <!--VisionAPI-->
         <scene sceneID="HbU-Mc-U0z">
             <objects>
-                <viewController id="gQu-4t-FEM" customClass="VisionAPITest" sceneMemberID="viewController">
+                <viewController id="gQu-4t-FEM" customClass="VisionAPI" customModule="IntelligentPlanting" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WAU-5C-gXb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
