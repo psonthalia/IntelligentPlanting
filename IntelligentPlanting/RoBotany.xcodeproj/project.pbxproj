@@ -25,7 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8948408B2066CA540012BB27 /* IntelligentPlanting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntelligentPlanting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8948408B2066CA540012BB27 /* RoBotany.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoBotany.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8948408E2066CA540012BB27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		894840902066CA540012BB27 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		894840952066CA540012BB27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -72,7 +72,7 @@
 		8948408C2066CA540012BB27 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8948408B2066CA540012BB27 /* IntelligentPlanting.app */,
+				8948408B2066CA540012BB27 /* RoBotany.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -154,9 +154,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8948408A2066CA540012BB27 /* IntelligentPlanting */ = {
+		8948408A2066CA540012BB27 /* RoBotany */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8948409F2066CA540012BB27 /* Build configuration list for PBXNativeTarget "IntelligentPlanting" */;
+			buildConfigurationList = 8948409F2066CA540012BB27 /* Build configuration list for PBXNativeTarget "RoBotany" */;
 			buildPhases = (
 				91DF407A77556DD5D961A691 /* [CP] Check Pods Manifest.lock */,
 				894840872066CA540012BB27 /* Sources */,
@@ -169,9 +169,9 @@
 			);
 			dependencies = (
 			);
-			name = IntelligentPlanting;
+			name = RoBotany;
 			productName = IntelligentPlanting;
-			productReference = 8948408B2066CA540012BB27 /* IntelligentPlanting.app */;
+			productReference = 8948408B2066CA540012BB27 /* RoBotany.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -198,7 +198,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 894840862066CA540012BB27 /* Build configuration list for PBXProject "IntelligentPlanting" */;
+			buildConfigurationList = 894840862066CA540012BB27 /* Build configuration list for PBXProject "RoBotany" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -211,7 +211,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8948408A2066CA540012BB27 /* IntelligentPlanting */,
+				8948408A2066CA540012BB27 /* RoBotany */,
 			);
 		};
 /* End PBXProject section */
@@ -474,7 +474,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		894840862066CA540012BB27 /* Build configuration list for PBXProject "IntelligentPlanting" */ = {
+		894840862066CA540012BB27 /* Build configuration list for PBXProject "RoBotany" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8948409D2066CA540012BB27 /* Debug */,
@@ -483,7 +483,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8948409F2066CA540012BB27 /* Build configuration list for PBXNativeTarget "IntelligentPlanting" */ = {
+		8948409F2066CA540012BB27 /* Build configuration list for PBXNativeTarget "RoBotany" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				894840A02066CA540012BB27 /* Debug */,
