@@ -15,7 +15,7 @@ class QRScannerViewController: UIViewController, AVCaptureMetadataOutputObjectsD
     var videoPreviewLayer: AVCaptureVideoPreviewLayer?
     var qrCodeFrameView: UIView?
     var addedData = false
-        
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

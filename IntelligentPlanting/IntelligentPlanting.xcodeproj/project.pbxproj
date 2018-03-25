@@ -441,7 +441,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FB26856CE1D98340E94D7598 /* Pods-IntelligentPlanting.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_ENTITLEMENTS = IntelligentPlanting/IntelligentPlanting.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 65777GTD95;
@@ -458,7 +458,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D5667683CD6E9622A889C174 /* Pods-IntelligentPlanting.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_ENTITLEMENTS = IntelligentPlanting/IntelligentPlanting.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 65777GTD95;
