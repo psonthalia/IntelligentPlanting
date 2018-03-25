@@ -55,7 +55,8 @@
             <div class="row" style="display:flex;justify-content: center; margin:auto">
                 <div style="display:flex; justify-content:center" class="medium-12 columns">
                     <div>
-                    <a href="viewer.html" id = "start" id="test" onclick="runclick()" class="button large" style="background-color:#007800; color:#F4FFF5">View My Plant</a></div>
+                    <a id = "start" class="button large" style="background-color:#007800; color:#F4FFF5">View My Plant</a></div>
+                            <!--href="viewer.html" -->
                 </div>
             </div>
         </div>
@@ -75,6 +76,7 @@
 <div class="row" style="display:flex;justify-content:right;">
     <div class="medium-12 columns" style="margin-top:2%;position:relative;right:-90%">
         <a href="addForm.html" id="addPlant" onclick="runclick()" class="button large" style="background-color:#007800; color:#F4FFF5">Add Plant...</a></div>
+        <!--href="addForm.html" -->
     </div>
 </div>
 
@@ -97,19 +99,23 @@ function snapshotToArray(snapshot) {
 };
 
 window.onload = function() {
+    
+}
+
+$( "#start" ).click(function() {
+    //alert("hi");
     var database = firebase.database();
-    firebase.database().ref('SID/' + $("#serialNum").val()+'/0/').once('value').then(function(snapshot) {
+    firebase.database().ref('SID/' + $("#serialNum").val()+'/').once('value').then(function(snapshot) {
       month = snapshotToArray(snapshot);
+      var sn = $("#serialNum").val();
+      alert(sn);
       localStorage.setItem("sid",$("#serialNum").val());
+      window.location = "viewer.html";
       //localStorage.setItem("sid",$("#serialNum").val());
       //targetCollegeList = snapshotToArray(snapshot.child("target"));
       //safetyCollegeList = snapshotToArray(snapshot.child("safety");
       
     }); 
-}
-
-$( "#start" ).click(function() {
-    var j = $("#serialNum").val();
     
 });
 
