@@ -75,9 +75,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ir2-Fn-JlY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-681" y="108"/>
+            <point key="canvasLocation" x="-1055" y="111"/>
         </scene>
-        <!--Choose a Plant-->
+        <!--Plant Chooser View Controller-->
         <scene sceneID="c0a-Dq-mSt">
             <objects>
                 <viewController id="wwR-Pq-kGA" customClass="PlantChooserViewController" customModule="IntelligentPlanting" customModuleProvider="target" sceneMemberID="viewController">
@@ -85,7 +85,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="itX-WR-ref">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="vi5-Wz-Ub2">
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -94,7 +94,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="fgK-N8-SCm"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Choose a Plant" id="KCK-h1-HlO">
+                    <navigationItem key="navigationItem" id="KCK-h1-HlO">
                         <barButtonItem key="rightBarButtonItem" systemItem="camera" id="pTV-42-N9N">
                             <connections>
                                 <action selector="cameraButtonTapped:" destination="wwR-Pq-kGA" id="pHu-mR-bpV"/>
@@ -102,12 +102,12 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <segue destination="BV1-FR-VrT" kind="showDetail" identifier="toAR" id="Vou-ih-xoa"/>
+                        <segue destination="BV1-FR-VrT" kind="show" identifier="toAR" id="7np-jg-GBv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C7c-HM-kOB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="116" y="108.39580209895054"/>
+            <point key="canvasLocation" x="-552.5" y="110.5"/>
         </scene>
         <!--ARViewController-->
         <scene sceneID="tXr-a1-R10">
@@ -117,9 +117,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BkL-EY-X1c">
-                                <rect key="frame" x="0.0" y="20" width="375" height="547"/>
-                            </arscnView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o56-EG-O3y">
                                 <rect key="frame" x="0.0" y="567" width="375" height="100"/>
                                 <subviews>
@@ -143,14 +140,17 @@
                                     <constraint firstAttribute="height" constant="100" id="MDd-Th-hWz"/>
                                 </constraints>
                             </view>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BkL-EY-X1c">
+                                <rect key="frame" x="0.0" y="64" width="375" height="503"/>
+                            </arscnView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="o56-EG-O3y" firstAttribute="top" secondItem="BkL-EY-X1c" secondAttribute="bottom" id="TS7-pN-h4A"/>
+                            <constraint firstItem="BkL-EY-X1c" firstAttribute="top" secondItem="8qb-bN-Lib" secondAttribute="top" id="FUg-hn-FK9"/>
+                            <constraint firstItem="BkL-EY-X1c" firstAttribute="trailing" secondItem="8qb-bN-Lib" secondAttribute="trailing" id="Ohc-fz-NYu"/>
+                            <constraint firstItem="o56-EG-O3y" firstAttribute="top" secondItem="BkL-EY-X1c" secondAttribute="bottom" id="WvE-hy-1tN"/>
                             <constraint firstItem="o56-EG-O3y" firstAttribute="trailing" secondItem="8qb-bN-Lib" secondAttribute="trailing" id="bpR-bU-nFd"/>
-                            <constraint firstItem="BkL-EY-X1c" firstAttribute="top" secondItem="8qb-bN-Lib" secondAttribute="top" id="cHa-rq-iqu"/>
-                            <constraint firstItem="BkL-EY-X1c" firstAttribute="trailing" secondItem="8qb-bN-Lib" secondAttribute="trailing" id="k9K-rf-DsF"/>
-                            <constraint firstItem="BkL-EY-X1c" firstAttribute="leading" secondItem="8qb-bN-Lib" secondAttribute="leading" id="nY3-te-Zyd"/>
+                            <constraint firstItem="BkL-EY-X1c" firstAttribute="leading" secondItem="8qb-bN-Lib" secondAttribute="leading" id="cxx-uW-QSm"/>
                             <constraint firstItem="o56-EG-O3y" firstAttribute="bottom" secondItem="8qb-bN-Lib" secondAttribute="bottom" id="pqd-U9-QsJ"/>
                             <constraint firstItem="o56-EG-O3y" firstAttribute="leading" secondItem="8qb-bN-Lib" secondAttribute="leading" id="xQY-QT-S9J"/>
                         </constraints>
@@ -164,7 +164,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="943" y="110"/>
+            <point key="canvasLocation" x="-70" y="111"/>
         </scene>
     </scenes>
 </document>

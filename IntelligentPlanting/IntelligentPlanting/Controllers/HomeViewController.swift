@@ -26,12 +26,10 @@ class HomeViewController: UIViewController {
         locationManager = CLLocationManager()
         locationManager.delegate = self
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
-        //locationManager.requestWhenInUseAuthorization()
+        locationManager.requestWhenInUseAuthorization()
         locationManager.distanceFilter = 50
         
-        //locationManager.requestLocation()
-        
-        
+        locationManager.requestLocation()
         
         
     }
@@ -52,9 +50,17 @@ extension HomeViewController: CLLocationManagerDelegate {
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         let location: CLLocation = locations.last!
         
-        print(location)
-        print("\n\n\n")
         //use location to determine state
+        CLGeocoder().reverseGeocodeLocation(location) { (placemarks, error) -> Void in
+            if let error = error {
+                print(error)
+            } else {
+                let pm = CLPlacemark(placemark: placemarks![0] as CLPlacemark)
+                
+                let state = pm.administrativeArea
+                print(state)
+            }
+        }
     }
     
     func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
