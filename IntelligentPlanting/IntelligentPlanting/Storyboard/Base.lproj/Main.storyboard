@@ -273,9 +273,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="ePq-oI-HfG"/>
                     </view>
-                    <navigationItem key="navigationItem" title="My Plants" id="Hnh-CT-I3k">
-                        <barButtonItem key="rightBarButtonItem" title="Next" id="gGG-26-pf6"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="My Plants" id="Hnh-CT-I3k"/>
                     <connections>
                         <outlet property="tableView" destination="uXp-LN-wfS" id="E9N-A9-PbV"/>
                     </connections>
