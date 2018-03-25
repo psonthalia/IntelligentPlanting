@@ -123,10 +123,6 @@ class HomeViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func cameraButtonTapped(_ sender: Any) {
-        self.performSegue(withIdentifier: Constants.toAR, sender: nil)
-    }
-    
 }
 
 extension HomeViewController: CLLocationManagerDelegate {
@@ -197,6 +193,7 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
         let cell: UITableViewCell = self.tableView.dequeueReusableCell(withIdentifier: "cell") as UITableViewCell!
         
         cell.textLabel?.text = self.plantData[indexPath.row]
+        cell.backgroundColor = UIColor(red: (130 / 255), green: (216 / 255), blue: (49 / 255), alpha: 0.5)
         
         return cell
     }

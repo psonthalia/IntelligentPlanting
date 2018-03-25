@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
-        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -27,7 +26,7 @@
             </objects>
             <point key="canvasLocation" x="-2076" y="109"/>
         </scene>
-        <!--Home View Controller-->
+        <!--Choose a Plant-->
         <scene sceneID="W6S-94-2kI">
             <objects>
                 <viewController id="96A-DF-2Hf" customClass="HomeViewController" customModule="RoBotany" customModuleProvider="target" sceneMemberID="viewController">
@@ -49,24 +48,17 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="y5u-4K-Aya"/>
                     </view>
-                    <navigationItem key="navigationItem" id="esr-uc-xp1">
-                        <rightBarButtonItems>
-                            <barButtonItem systemItem="camera" id="pTV-42-N9N">
-                                <connections>
-                                    <action selector="cameraButtonTapped:" destination="96A-DF-2Hf" id="kfq-D3-lRE"/>
-                                </connections>
-                            </barButtonItem>
-                            <barButtonItem title="Check Plant" id="h87-Wy-Lqg">
-                                <connections>
-                                    <segue destination="gQu-4t-FEM" kind="presentation" id="Fwl-u4-AjP"/>
-                                </connections>
-                            </barButtonItem>
-                            <barButtonItem title="Scan new Plant" id="6K4-dr-14u">
-                                <connections>
-                                    <segue destination="0qs-1H-e3L" kind="presentation" id="AzY-hP-Bfq"/>
-                                </connections>
-                            </barButtonItem>
-                        </rightBarButtonItems>
+                    <navigationItem key="navigationItem" title="Choose a Plant" id="esr-uc-xp1">
+                        <barButtonItem key="leftBarButtonItem" title="Check Plant" id="h87-Wy-Lqg">
+                            <connections>
+                                <segue destination="gQu-4t-FEM" kind="presentation" id="Fwl-u4-AjP"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Scan QR" id="6K4-dr-14u">
+                            <connections>
+                                <segue destination="0qs-1H-e3L" kind="presentation" id="AzY-hP-Bfq"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="pua-J8-LEp" id="rw0-iL-jub"/>
@@ -90,7 +82,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nRh-lj-CNG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1323" y="-536"/>
+            <point key="canvasLocation" x="-1311" y="-584"/>
         </scene>
         <!--VisionAPI-->
         <scene sceneID="HbU-Mc-U0z">
