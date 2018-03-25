@@ -34,6 +34,7 @@
 		894840B5206725010012BB27 /* ServerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerService.swift; sourceTree = "<group>"; };
 		A2800B73206781E400AE25D1 /* IntelligentPlanting.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IntelligentPlanting.entitlements; sourceTree = "<group>"; };
 		A2800B742067852500AE25D1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A2800B7A2067A81100AE25D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Base; path = IntelligentPlanting/Storyboard/Base.lproj/VisionAPITest.swift; sourceTree = SOURCE_ROOT; };
 		D5667683CD6E9622A889C174 /* Pods-IntelligentPlanting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntelligentPlanting.release.xcconfig"; path = "Pods/Target Support Files/Pods-IntelligentPlanting/Pods-IntelligentPlanting.release.xcconfig"; sourceTree = "<group>"; };
 		EFCD18FB142E5DB24B8A1C8B /* Pods_IntelligentPlanting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IntelligentPlanting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB26856CE1D98340E94D7598 /* Pods-IntelligentPlanting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntelligentPlanting.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IntelligentPlanting/Pods-IntelligentPlanting.debug.xcconfig"; sourceTree = "<group>"; };
@@ -89,6 +90,7 @@
 			children = (
 				894840A72066D5550012BB27 /* ARViewController.swift */,
 				894840AF2066D5F10012BB27 /* HomeViewController.swift */,
+				A2800B792067A81100AE25D1 /* VisionAPITest.swift */,
 			);
 			name = Controllers;
 			path = "New Group";
@@ -252,12 +254,14 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-IntelligentPlanting/Pods-IntelligentPlanting-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
@@ -299,6 +303,14 @@
 				8948409A2066CA540012BB27 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A2800B792067A81100AE25D1 /* VisionAPITest.swift */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2800B7A2067A81100AE25D1 /* Base */,
+			);
+			name = VisionAPITest.swift;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
