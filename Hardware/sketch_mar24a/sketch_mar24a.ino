@@ -66,5 +66,5 @@ void loop() {
 //  }
   Serial.println(analogRead(A0));
   client.loop();
-  delay(1000);
+  delay(10000);
 }
