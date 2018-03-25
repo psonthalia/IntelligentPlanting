@@ -10,20 +10,30 @@ import UIKit
 import CoreLocation
 
 class HomeViewController: UIViewController {
+    
+    @IBOutlet weak var statePickerView: UIPickerView!
+    @IBOutlet weak var nextButton: UIButton!
+    
+    var statePickerData: [String] = [String]()
+    
     var locationManager = CLLocationManager()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        nextButton.layer.cornerRadius = 10
+        
         locationManager = CLLocationManager()
         locationManager.delegate = self
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
-        locationManager.requestWhenInUseAuthorization()
+        //locationManager.requestWhenInUseAuthorization()
         locationManager.distanceFilter = 50
         
-        locationManager.requestLocation()
+        //locationManager.requestLocation()
         
-        // Do any additional setup after loading the view.
+        
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -31,8 +41,8 @@ class HomeViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func cameraButtonTapped(_ sender: Any) {
-        self.performSegue(withIdentifier: Constants.toAR, sender: nil)
+    @IBAction func nextButtonTapped(_ sender: Any) {
+        self.performSegue(withIdentifier: Constants.toPlantChooser, sender: nil)
     }
 
 }
