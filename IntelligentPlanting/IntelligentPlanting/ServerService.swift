@@ -10,16 +10,14 @@ import FirebaseDatabase
 
 struct ServerService {
     
-    static func retrivePlantData(completion: @escaping ([String: Any?]) -> Void) {
+    static func retrivePlantData(completion: @escaping ([String: Any]) -> Void) {
         let ref = Database.database().reference().child(Constants.plants)
         
         ref.observeSingleEvent(of: .value) { (snapshot) in
-            guard let plantDict = snapshot.value as? [String: Any?] else {
+            guard let plantDict = snapshot.value as? [String: Any] else {
                 return
             }
-            
-            print(plantDict)
-            
+            completion(plantDict)
         }
         
         
