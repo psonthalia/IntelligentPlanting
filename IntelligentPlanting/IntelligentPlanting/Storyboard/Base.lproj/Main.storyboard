@@ -125,7 +125,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" red="0.60392156862745094" green="1" blue="0.23921568627450979" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="MDd-Th-hWz"/>
                                 </constraints>
@@ -158,7 +158,6 @@
                         <outlet property="brightnessLabel" destination="Uu7-wL-itj" id="2OH-dS-90A"/>
                         <outlet property="plantNameLabel" destination="8X8-sx-mMG" id="f8x-K3-7Fq"/>
                         <outlet property="sceneView" destination="BkL-EY-X1c" id="tdu-gR-I2T"/>
-                        <segue destination="R4o-Zm-Igg" kind="show" identifier="toMyPlants" id="wJq-Op-oYP"/>
                         <segue destination="phy-48-2P7" kind="show" identifier="toLesson" id="Wbm-r5-NHv"/>
                     </connections>
                 </viewController>
@@ -246,7 +245,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MZa-Sn-C58" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="540" y="-214"/>
+            <point key="canvasLocation" x="529" y="108"/>
         </scene>
         <!--My Plants-->
         <scene sceneID="xv3-wF-wn9">
@@ -272,10 +271,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g0X-xO-aES" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1791" y="127"/>
+            <point key="canvasLocation" x="1697" y="108"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="jP0-nj-Lq1"/>
-    </inferredMetricsTieBreakers>
 </document>
