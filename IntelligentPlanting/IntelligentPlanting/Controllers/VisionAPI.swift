@@ -41,7 +41,7 @@ class VisionAPI: UIViewController, UIImagePickerControllerDelegate {
                     "content": imageBase64
                 ],
                 "features": [
-                    "type": "DOCUMENT_TEXT_DETECTION"
+                    "type": "IMAGE_PROPERTIES"
                 ]
             ]
         ]
@@ -57,9 +57,44 @@ class VisionAPI: UIViewController, UIImagePickerControllerDelegate {
                         print("")
                     }
                 }
+//                let json = try JSONSerialization.jsonObject(with: response) as? [String: Any]
                 
-                let responseLowecased = response.description.lowercased()
-                print(responseLowecased)
+//                let responseLowecased = response.description.lowercased()
+//                resp
+//                do {
+//                    if let data = response.description.data(using: String.Encoding.utf8),
+//                        let json = try JSONSerialization.jsonObject(with: data) as? [String: Any],
+//                        let blogs = json["responses"] as? [[String: Any]] {
+//                        for blog in blogs {
+//                            print(blog)
+////                            if let name = blog["name"] as? String {
+////                                names.append(name)
+////                            }
+//                        }
+//                    }
+//                } catch {
+//                    print("Error deserializing JSON: \(error)")
+//                }
+                
+                if let result = response.result.value {
+                    let JSON = result as! Dictionary<String, Any>
+                    let responses:Array = JSON["responses"] as! Array<Any>
+                    let imageProps:Dictionary = responses[0] as! Dictionary<String, Any>
+                    let next = imageProps["imagePropertiesAnnotation"] as! Dictionary<String, Any>
+                    let asdf = next["dominantColors"] as! Dictionary<String, Any>
+                    let colors = asdf["colors"] as! Array<Any>
+                    let firstColor = colors[0] as! Dictionary<String, Any>
+                    let cool = firstColor["color"] as! Dictionary<String, Any>
+                    print(cool["blue"]!)
+                    print(cool["red"]!)
+                    print(cool["green"]!)
+
+//                    let imageProps = responses["imagePropertiesAnnotation"] as! NSDictionary
+//                    let domColors = imageProps["dominantColors"] as! NSDictionary
+//                    let colors = domColors["colors"] as! NSArray
+//                    print(colors[0])
+                }
+//                print(responseLowecased)
         }
     }
 }
