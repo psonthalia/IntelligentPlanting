@@ -42,7 +42,7 @@ class ARViewController: UIViewController {
     
     @IBAction func addButtonTapped(_ sender: Any) {
         //add plant to MyPlants
-        self.performSegue(withIdentifier: "toMyPlants", sender: nil)
+        self.performSegue(withIdentifier: "toLesson", sender: nil)
     }
     
     func setUpSceneView() {
