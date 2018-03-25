@@ -39,33 +39,39 @@
               return returnArr;
             };
 
-        var sid = localStorage.getItem("sid");
-        alert(sid);
-        var database = firebase.database();
-        var month = [];
-        firebase.database().ref('SID/' + sid +'/').once('value').then(function(snapshot) {
-            localStorage.setItem("array",snapshotToArray(snapshot));
-            $("#textDisplay").text("SID: "+sid);
-            //alert(localStorage.getItem("array"));
-        }); 
-        month = localStorage.getItem("array");
-        months = month.split(",");
-        monthdays = [];
-        for(var i = 0; i<months.length;i++){
-            monthdays.push(parseFloat(months[i]));
-        }
-        console.log(monthdays);
-        //alert(month);
-        google.charts.load('current', {packages: ['corechart']});
-        google.charts.setOnLoadCallback(drawChart);
-        var dataMonth = [['Day','Moisture']];
-        for(var i = 0; i<30; i++){
-            //console.log(month[i]);
-            dataMonth.push([i,300-Math.min(parseFloat(monthdays[i]),300)]);
-        }
+            var sid = localStorage.getItem("sid");
+            //alert(sid);
+            var database = firebase.database();
+            var month = "";
+            var dataMonth = [[]];
+            firebase.database().ref('SID/' + sid +'/').once('value').then(function(snapshot) {
+                localStorage.setItem("array",snapshotToArray(snapshot));
+                month = snapshotToArray(snapshot);
+                //alert(month);
+                $("#textDisplay").text("SID: "+sid);
+                //alert(localStorage.getItem("array"));
+
+                month = localStorage.getItem("array");
+                //alert(month);
+                months = month.split(",");
+                monthdays = [];
+                for(var i = 0; i<months.length;i++){
+                    monthdays.push(parseFloat(months[i]));
+                }
+                console.log(monthdays);
+                //alert(month);
+                dataMonth = [['Day','Moisture']];
+                for(var i = 0; i<30; i++){
+                    //console.log(month[i]);
+                    dataMonth.push([i,300-Math.min(parseFloat(monthdays[i]),300)]);
+                }
+                google.charts.load('current', {packages: ['corechart']});
+            google.charts.setOnLoadCallback(drawChart);
+            }); 
+            
 
         function drawChart() {
-        var data = google.visualization.arrayToDataTable(dataMonth);
+            var data = google.visualization.arrayToDataTable(dataMonth);
 
             var options = {
               title: 'Plant Water Consumption',
@@ -77,6 +83,14 @@
             var chart = new google.visualization.AreaChart(document.getElementById('chart_div'));
             chart.draw(data, options);
           }
+
+
+          
+
+            window.onload = function() {
+}
+    </script>
+    <script type="text/javascript">
     </script>
 </head>
 <body style="background-color:#F4FFF5">
@@ -91,7 +105,10 @@
 </body>
 
 <script type="text/javascript"> 
-
+if(!window.location.hash) {
+            window.location = window.location + '#loaded';
+            window.location.reload();
+        }
 </script>
 
 <style>

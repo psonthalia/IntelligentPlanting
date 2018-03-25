@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -49,11 +50,18 @@
                         <viewLayoutGuide key="safeArea" id="y5u-4K-Aya"/>
                     </view>
                     <navigationItem key="navigationItem" id="esr-uc-xp1">
-                        <barButtonItem key="rightBarButtonItem" systemItem="camera" id="pTV-42-N9N">
-                            <connections>
-                                <action selector="cameraButtonTapped:" destination="96A-DF-2Hf" id="kfq-D3-lRE"/>
-                            </connections>
-                        </barButtonItem>
+                        <rightBarButtonItems>
+                            <barButtonItem systemItem="camera" id="pTV-42-N9N">
+                                <connections>
+                                    <action selector="cameraButtonTapped:" destination="96A-DF-2Hf" id="kfq-D3-lRE"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="Track" id="h87-Wy-Lqg">
+                                <connections>
+                                    <segue destination="gQu-4t-FEM" kind="presentation" id="Fwl-u4-AjP"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
                     </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="pua-J8-LEp" id="rw0-iL-jub"/>
@@ -63,6 +71,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ir2-Fn-JlY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1311.2" y="108.39580209895054"/>
+        </scene>
+        <!--VisionAPI-->
+        <scene sceneID="HbU-Mc-U0z">
+            <objects>
+                <viewController id="gQu-4t-FEM" customClass="VisionAPI" customModule="IntelligentPlanting" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WAU-5C-gXb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="97P-lZ-S2f"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cfs-dH-Wun" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-561" y="-584"/>
         </scene>
         <!--ARViewController-->
         <scene sceneID="tXr-a1-R10">
