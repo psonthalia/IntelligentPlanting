@@ -1,0 +1,121 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+<head>
+
+	<script type="text/javascript"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RoBotany</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="icon" href="./ui/thumbnail.png"/>
+</head>
+<body style="background-color:#F4FFF5">
+<br><br><br><br><br>
+<div style="margin:auto">
+    <div class="row">
+        <div class="columns medium-12 text-center">
+            <img src="ui/logo2.png" style="width:400px;height:100px">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="columns medium-12 text-center">
+            <p style="color:#102F05"><b>INTELLIGENT PLANTING</b></p>
+            <br>
+            <form name = "robotanist number:">
+                <input style="margin:auto;width:30%" type = "text" id = "serialNum" name = "textie">
+            </form>
+            <p id="disclaimer">Enter in your MoisturePod™ SID(Serial Identifier)</p>
+        </div>
+
+    </div>
+
+
+
+    <div class="row">
+        <div class="columns medium-12">
+            <br><br><br>
+            <div style="display:flex; justify-content:center">
+                <a id = "start" id="test" onclick="runclick()" class="button large" style="background-color:#007800; color:#F4FFF5">View My Plant</a>
+            </div>
+        </div>
+    </div>
+</div>
+<br><br><br><br>
+<hr>
+<div style="height:100%;justify-content:center;background-color:#FFFFFF;color:#102F05;">
+    <div style="position:absolute;top:125%;left:25%;width:50%;height:100%; margin:auto">
+        <br>
+        <h1 style="display:flex;justify-content:center">About Us</h1>
+        <hr style="width:30%;margin-top:-12px">
+        <p style="line-height:200%">RoBotany is a non-profit organization devoted to fostering an appreciation for nature by helping end climate change in the United States and encouraging domestic farming. RoBotany MoisturePods™ are propietary moisture-sensing devices that are built with the capability of tracking water consumption based on statistics for over 1,500 American plants, which are gathered from the United States Department of Agrigulture's P.L.A.N.T.S. database. Robotany MoisturePods™ connect to the RoBotany app(compatible with iPhones) which allows for real-time water consumption tracking on any plant. The app will alert the user when watering is required. The RoBotany app also counsels the user on which plants are optimal for growing based on the climate conditions of the user's location.</p>
+        <br>
+    </div>
+</div>
+
+</body>
+
+<script type="text/javascript"> 
+
+$( "#start" ).click(function() {
+    var j = $("#serialNum").value();
+    alert(j);
+    if(j!="");
+    $("#disclaimer").text("Invalid SID. Please enter a valid SID.");
+});
+
+</script>
+
+<style>
+    div {
+        border: 0px solid black;
+        padding: 0;
+    }
+    h1, h3, p {
+        fo
+        nt-family: "Helvetica Neue";
+        font-weight: 100;
+    }
+    p {
+        font-family: "Helvetica Neue";
+        font-weight: 200;
+    }
+
+    #signup, #signup2 {
+        border-radius: 0;
+        padding-top: 2em;
+        padding-bottom: 2em;
+        padding-left: 4em;
+        padding-right: 4em;
+        margin: 0.5em;
+        min-width: 200px;
+    }
+
+    .page {
+        height: 100%;
+    }
+
+    #mentor {
+        width: 50%;
+        font-size: 1.25em;
+        pading: 1em;
+        border-top-left-radius: 1.5em;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 1.5em;
+        border-bottom-right-radius: 0;
+    }
+
+    #student {
+        width: 50%;
+        font-size: 1.25em;
+        padding: 1em;
+        border-top-left-radius: 0;
+        border-top-right-radius: 1.5em;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 1.5em;
+    }
+</style>
+</html>
