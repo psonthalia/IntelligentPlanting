@@ -1,7 +1,6 @@
 import paho.mqtt.client as mqttClient
 import time
 from firebase import firebase
-
 def on_connect(client, userdata, flags, rc):
     
     if rc == 0:
@@ -14,15 +13,13 @@ def on_connect(client, userdata, flags, rc):
     else:
         
         print("Connection failed")
-
+firebase = firebase.FirebaseApplication('https://intelligent-planting-5f489.firebaseio.com/SID', None)
+index = 1
 def on_message(client, userdata, message):
     print "Message received: "  + message.payload
-    firebase = firebase.FirebaseApplication('https://intelligent-planting-5f489.firebaseio.com', None)
-    result = firebase.get('/Moisture', None)
-    index = 0
-    firebase.post('/SID', {index: message.payload})
-    index = index + 1
-#    print result
+    firebase.patch('https://intelligent-planting-5f489.firebaseio.com/SID' + '/111111111111', {index: message.payload})
+    global index
+    index += 1
 
 
 Connected = False   #global variable for the state of the connection
