@@ -113,9 +113,9 @@ class ARViewController: UIViewController {
             brightnessLabel.text = "Brightness: \(brightness)"
             
             if brightness > 1000 {
-                addButton.isEnabled = false
-            } else {
                 addButton.isEnabled = true
+            } else {
+                addButton.isEnabled = false
             }
             
             //print("Light estimation: ")
