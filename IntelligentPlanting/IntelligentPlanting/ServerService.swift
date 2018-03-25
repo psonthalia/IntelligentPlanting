@@ -10,7 +10,7 @@ import FirebaseDatabase
 
 struct ServerService {
     
-    static func updateStates(completion: @escaping ([String]) -> Void) {
+    static func retrivePlantData(completion: @escaping ([String: Any?]) -> Void) {
         let ref = Database.database().reference().child(Constants.plants)
         
         ref.observeSingleEvent(of: .value) { (snapshot) in
@@ -18,7 +18,7 @@ struct ServerService {
                 return
             }
             
-            
+            print(plantDict)
             
         }
         

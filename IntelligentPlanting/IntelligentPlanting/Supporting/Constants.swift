@@ -11,7 +11,6 @@
 struct Constants {
     
     static let toAR = "toAR"
-    static let toPlantChooser = "toPlantChooser"
     
     static let moisture = "Moisture"
     static let plants = "Plants"
