@@ -27,4 +27,4 @@ RoBotany can best be improved by refining the intelligence of our Augmented Real
 `raspberry-pi`, `nodemcu`, `breadboard`, `solar`, `zurb-foundation`, `xcode`, `arkit`, `firebase`, `mqtt`, `google-cloud-vision`, `jquery`, `google-chart`
 
 # Try it out
-[ro-botany.github.io](ro-botany.github.io)
+[ro-botany.github.io](https://ro-botany.github.io)
