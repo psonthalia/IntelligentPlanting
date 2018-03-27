@@ -10,7 +10,9 @@ RoBotany is composed of two architectural realms - that of the hardware(the RoBo
 
 # How we built it
 It starts with the moisture sensor which we built by hand. We have 2 probes that are connected to a voltage divider and we measure the resistance in the soil. Based on the resistance in the soil, we can tell how moist the soil is. This data is then transmitted to a nodeMCU which reads the data and then uploads the data to a mosquitto server. This data is read by the raspberry pi which then uploads it to Firebase. The data from Firebase is read by the web app and the iOS app.
+
 The web app uses the google charts api to take the data from Firebase and show it when you log in. We also used a QR code generator to create the QR code for a custom plant.
+
 The iOS App reads from firebase and sends a push notification if the moisture level goes too low. The iOS app also gets your current location and suggests plants that you can grow. Then it uses ARKit to find the brightness outside. Then it used the Google Vision API to check up on your plant’s status.
 
 # Challenges we ran into
