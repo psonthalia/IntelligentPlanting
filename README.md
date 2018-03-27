@@ -1,5 +1,5 @@
 # IntelligentPlanting - 1st Place at Los Altos Hacks
-###### The smart way to plant your plants at home
+#### The smart way to plant your plants at home
 
 
 # Inspiration
