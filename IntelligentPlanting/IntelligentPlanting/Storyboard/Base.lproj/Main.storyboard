@@ -77,13 +77,34 @@
                     <view key="view" contentMode="scaleToFill" id="13C-E3-GuT">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yii-az-eXP">
+                                <rect key="frame" x="20" y="597" width="75" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="95c-wb-vth"/>
+                                    <constraint firstAttribute="height" constant="50" id="ANR-Ld-0CG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Cancel"/>
+                                <connections>
+                                    <action selector="cancelButtonTapped:" destination="0qs-1H-e3L" eventType="touchUpInside" id="O34-fW-KcV"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="yii-az-eXP" firstAttribute="leading" secondItem="Tke-wA-YiG" secondAttribute="leading" constant="20" id="9D1-S5-Jb7"/>
+                            <constraint firstItem="Tke-wA-YiG" firstAttribute="bottom" secondItem="yii-az-eXP" secondAttribute="bottom" constant="20" id="iPT-4u-VUn"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Tke-wA-YiG"/>
                     </view>
+                    <connections>
+                        <outlet property="cancelButton" destination="yii-az-eXP" id="dzf-Sh-n3z"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nRh-lj-CNG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-929" y="-654"/>
+            <point key="canvasLocation" x="-930.39999999999998" y="-654.42278860569718"/>
         </scene>
         <!--VisionAPI-->
         <scene sceneID="HbU-Mc-U0z">

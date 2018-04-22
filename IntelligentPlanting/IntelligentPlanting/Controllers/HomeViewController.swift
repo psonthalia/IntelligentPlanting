@@ -81,8 +81,8 @@ class HomeViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         self.plantData = [String]()
         if(HomeViewController.array.count > 0) {
-            for var i in 0...HomeViewController.array.count-1 {
-                self.plantData.append(HomeViewController.array[i])
+            for plant in HomeViewController.array {
+                self.plantData.append(plant)
             }
         }
         
