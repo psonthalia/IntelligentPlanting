@@ -120,7 +120,6 @@
 		894840AA2066D5920012BB27 /* Supporting */ = {
 			isa = PBXGroup;
 			children = (
-				A2132CD32067DB600001A275 /* logo2.png */,
 				A2800B7B2067AFAE00AE25D1 /* demo-image.jpg */,
 				A2800B742067852500AE25D1 /* GoogleService-Info.plist */,
 				894840AB2066D5A60012BB27 /* Info.plist */,
@@ -228,7 +227,6 @@
 				894840912066CA540012BB27 /* art.scnassets in Resources */,
 				8948409B2066CA540012BB27 /* LaunchScreen.storyboard in Resources */,
 				A2800B752067852600AE25D1 /* GoogleService-Info.plist in Resources */,
-				A2132CD42067DB600001A275 /* logo2.png in Resources */,
 				894840982066CA540012BB27 /* Assets.xcassets in Resources */,
 				A2800B7C2067AFAE00AE25D1 /* demo-image.jpg in Resources */,
 				894840962066CA540012BB27 /* Main.storyboard in Resources */,
@@ -450,10 +448,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_ENTITLEMENTS = IntelligentPlanting/IntelligentPlanting.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 65777GTD95;
+				DEVELOPMENT_TEAM = 349WNMJ8N6;
 				INFOPLIST_FILE = "$(SRCROOT)/IntelligentPlanting/Supporting/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.MangoApps.IntelligentPlanting;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hwang.IntelligentPlanting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -467,10 +465,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_ENTITLEMENTS = IntelligentPlanting/IntelligentPlanting.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 65777GTD95;
+				DEVELOPMENT_TEAM = 349WNMJ8N6;
 				INFOPLIST_FILE = "$(SRCROOT)/IntelligentPlanting/Supporting/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.MangoApps.IntelligentPlanting;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hwang.IntelligentPlanting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
