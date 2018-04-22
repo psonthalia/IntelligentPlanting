@@ -159,7 +159,7 @@ extension HomeViewController: CLLocationManagerDelegate {
                             }
                         }
                         self.plantData = HomeViewController.array
-                        print(self.plantData)
+                        //print(self.plantData)
                     }
                     
                     self.tableView.reloadData()
@@ -206,7 +206,7 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print("Tapped \(self.plantData[indexPath.row])")
+        //print("Tapped \(self.plantData[indexPath.row])")
         ARViewController.plant = self.plantData[indexPath.row]
         AppDelegate.myPlants.append(ARViewController.plant!)
         self.performSegue(withIdentifier: Constants.toAR, sender: nil)

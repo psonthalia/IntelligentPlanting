@@ -83,7 +83,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nRh-lj-CNG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1311" y="-584"/>
+            <point key="canvasLocation" x="-929" y="-654"/>
         </scene>
         <!--VisionAPI-->
         <scene sceneID="HbU-Mc-U0z">
@@ -98,7 +98,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cfs-dH-Wun" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-561" y="-584"/>
+            <point key="canvasLocation" x="-1834" y="-654"/>
         </scene>
         <!--ARViewController-->
         <scene sceneID="tXr-a1-R10">
@@ -164,7 +164,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-562.39999999999998" y="107.49625187406298"/>
+            <point key="canvasLocation" x="-394" y="108"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="GTa-9q-RRP">
@@ -246,7 +246,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MZa-Sn-C58" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="529" y="108"/>
+            <point key="canvasLocation" x="446" y="107"/>
         </scene>
         <!--My Plants-->
         <scene sceneID="xv3-wF-wn9">
@@ -272,7 +272,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g0X-xO-aES" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1697" y="108"/>
+            <point key="canvasLocation" x="1284" y="107"/>
         </scene>
     </scenes>
 </document>

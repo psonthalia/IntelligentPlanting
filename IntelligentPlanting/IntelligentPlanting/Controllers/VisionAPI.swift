@@ -41,6 +41,8 @@ class VisionAPI: UIViewController, UIImagePickerControllerDelegate, UINavigation
 //        callAPI(with: binaryImageData)
     }
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
+        //print("Dismiss Image Picker")
+        self.dismiss(animated: true, completion: nil)
         self.dismiss(animated: true, completion: nil)
     }
     @objc func resizeImage(_ imageSize: CGSize, image: UIImage) -> Data {
