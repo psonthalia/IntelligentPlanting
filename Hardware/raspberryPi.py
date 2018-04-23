@@ -15,7 +15,7 @@ def on_connect(client, userdata, flags, rc):
         print("Connection failed")
 firebase = firebase.FirebaseApplication('https://intelligent-planting-5f489.firebaseio.com/SID', None)
 index = 1
-firebase.patch('https://intelligent-planting-5f489.firebaseio.com/SID/111111111111', None)
+firebase.patch('https://intelligent-planting-5f489.firebaseio.com/SID/111111111111/', None)
 
 def on_message(client, userdata, message):
     print "Message received: "  + message.payload

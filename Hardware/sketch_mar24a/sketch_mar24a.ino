@@ -2,8 +2,8 @@
 #include <ESP8266WiFi.h> // Enables the ESP8266 to connect to the local network (via WiFi)
 
  
-const char* ssid = "Los Altos Hacks Hackathon";
-const char* password =  "ReachNewHeights";
+const char* ssid = "PAS";
+const char* password =  "alok123456";
 const char* mqttServer = "m12.cloudmqtt.com";
 const int mqttPort = 19471;
 const char* mqttUser = "titfboib";
