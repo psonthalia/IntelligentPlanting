@@ -77,13 +77,31 @@
                     <view key="view" contentMode="scaleToFill" id="13C-E3-GuT">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yii-az-eXP">
+                                <rect key="frame" x="20" y="611" width="80" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Cancel"/>
+                                <connections>
+                                    <action selector="cancelButtonTapped:" destination="0qs-1H-e3L" eventType="touchUpInside" id="O34-fW-KcV"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="yii-az-eXP" firstAttribute="leading" secondItem="Tke-wA-YiG" secondAttribute="leading" constant="20" id="9D1-S5-Jb7"/>
+                            <constraint firstItem="Tke-wA-YiG" firstAttribute="trailing" secondItem="yii-az-eXP" secondAttribute="trailing" constant="275" id="YcD-QY-iy7"/>
+                            <constraint firstItem="Tke-wA-YiG" firstAttribute="bottom" secondItem="yii-az-eXP" secondAttribute="bottom" constant="20" id="iPT-4u-VUn"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Tke-wA-YiG"/>
                     </view>
+                    <connections>
+                        <outlet property="cancelButton" destination="yii-az-eXP" id="dzf-Sh-n3z"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nRh-lj-CNG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1311" y="-584"/>
+            <point key="canvasLocation" x="-930.39999999999998" y="-654.42278860569718"/>
         </scene>
         <!--VisionAPI-->
         <scene sceneID="HbU-Mc-U0z">
@@ -98,7 +116,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cfs-dH-Wun" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-561" y="-584"/>
+            <point key="canvasLocation" x="-1834" y="-654"/>
         </scene>
         <!--ARViewController-->
         <scene sceneID="tXr-a1-R10">
@@ -164,89 +182,136 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-562.39999999999998" y="107.49625187406298"/>
+            <point key="canvasLocation" x="-394" y="108"/>
         </scene>
-        <!--View Controller-->
+        <!--Instructions View Controller-->
         <scene sceneID="GTa-9q-RRP">
             <objects>
-                <viewController id="phy-48-2P7" sceneMemberID="viewController">
+                <viewController id="phy-48-2P7" customClass="InstructionsViewController" customModule="RoBotany" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6ku-QK-lGw">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How to Plant" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w9b-a9-rUK">
-                                <rect key="frame" x="60" y="104" width="254" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How to Place Moisture Sensor" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4sG-Ml-wpd">
-                                <rect key="frame" x="-37" y="334" width="448" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1. Dig 5 inches down in the soil" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B5L-gv-lZt">
-                                <rect key="frame" x="16" y="179" width="343" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1. Find 2 metal leads" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jID-CM-zIB">
-                                <rect key="frame" x="16" y="394" width="343" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2. Place your plant in the hole" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bUA-j0-wdV">
-                                <rect key="frame" x="16" y="221" width="343" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2. Place 2 leads into soil within 2 inches of plant" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WDo-hd-dXX">
-                                <rect key="frame" x="16" y="436" width="343" height="47"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3. Turn on moisture sensor" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qek-fg-XYZ">
-                                <rect key="frame" x="16" y="491" width="343" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3. Cover the remaining hole with soil and water with 3 cups of water" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Ho-Vw-mef">
-                                <rect key="frame" x="16" y="266" width="343" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qTl-Rg-Log">
-                                <rect key="frame" x="147" y="546" width="81" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
-                                <state key="normal" title="Next"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="yeI-c2-YhZ">
+                                <rect key="frame" x="0.0" y="64" width="375" height="495"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How to Plant" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w9b-a9-rUK">
+                                        <rect key="frame" x="85" y="0.0" width="205.5" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="eOA-bT-iGs"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1. Dig 5 inches down in the soil" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B5L-gv-lZt">
+                                        <rect key="frame" x="20" y="75" width="335" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="cOU-Ok-7Sk"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2. Place your plant in the hole" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bUA-j0-wdV">
+                                        <rect key="frame" x="20" y="130" width="335" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="ZUf-2F-Zws"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3. Cover the remaining hole with soil and water with 3 cups of water" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Ho-Vw-mef">
+                                        <rect key="frame" x="20" y="185" width="335" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="qrk-Rt-xMO"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How to Place Moisture Sensor" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4sG-Ml-wpd">
+                                        <rect key="frame" x="27" y="260" width="321.5" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="yRh-Cc-Blp"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1. Find 2 metal leads" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jID-CM-zIB">
+                                        <rect key="frame" x="20" y="335" width="335" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="d25-04-Ufk"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2. Place 2 leads into soil within 2 inches of plant" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WDo-hd-dXX">
+                                        <rect key="frame" x="20" y="390" width="335" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="HOZ-F0-yKx"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3. Turn on moisture sensor" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qek-fg-XYZ">
+                                        <rect key="frame" x="20" y="465" width="335" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="iQo-ZW-VQr"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="B5L-gv-lZt" firstAttribute="leading" secondItem="yeI-c2-YhZ" secondAttribute="leading" constant="20" id="21O-gA-zNA"/>
+                                    <constraint firstAttribute="trailing" secondItem="jID-CM-zIB" secondAttribute="trailing" constant="20" id="AxG-MT-Gsi"/>
+                                    <constraint firstItem="jID-CM-zIB" firstAttribute="leading" secondItem="yeI-c2-YhZ" secondAttribute="leading" constant="20" id="Yhm-Q4-gP1"/>
+                                    <constraint firstItem="2Ho-Vw-mef" firstAttribute="leading" secondItem="yeI-c2-YhZ" secondAttribute="leading" constant="20" id="hl4-jD-Yjb"/>
+                                    <constraint firstItem="WDo-hd-dXX" firstAttribute="leading" secondItem="yeI-c2-YhZ" secondAttribute="leading" constant="20" id="kJB-u0-DXv"/>
+                                    <constraint firstItem="bUA-j0-wdV" firstAttribute="leading" secondItem="yeI-c2-YhZ" secondAttribute="leading" constant="20" id="nwp-oY-sek"/>
+                                    <constraint firstItem="Qek-fg-XYZ" firstAttribute="leading" secondItem="yeI-c2-YhZ" secondAttribute="leading" constant="20" id="xk9-HH-FcR"/>
+                                </constraints>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qTl-Rg-Log">
+                                <rect key="frame" x="240" y="592" width="120" height="60"/>
+                                <color key="backgroundColor" red="0.00012355042416983177" green="0.64264752538071068" blue="0.19480649563499999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="120" id="GII-m9-qBb"/>
+                                    <constraint firstAttribute="height" constant="60" id="gIU-Q5-caa"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" red="0.60392156862745094" green="1" blue="0.23921568627450979" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="R4o-Zm-Igg" kind="show" id="jP0-nj-Lq1"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="1" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="PKG-03-IWO" firstAttribute="trailing" secondItem="yeI-c2-YhZ" secondAttribute="trailing" id="46o-BL-MGV"/>
+                            <constraint firstItem="PKG-03-IWO" firstAttribute="trailing" secondItem="qTl-Rg-Log" secondAttribute="trailing" constant="15" id="E8h-Gv-raC"/>
+                            <constraint firstItem="PKG-03-IWO" firstAttribute="bottom" secondItem="qTl-Rg-Log" secondAttribute="bottom" constant="15" id="ENQ-pF-uRg"/>
+                            <constraint firstItem="PKG-03-IWO" firstAttribute="top" secondItem="yeI-c2-YhZ" secondAttribute="top" id="hir-KY-cWZ"/>
+                            <constraint firstItem="qTl-Rg-Log" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6ku-QK-lGw" secondAttribute="leading" constant="200" id="kf9-k0-M5f"/>
+                            <constraint firstItem="yeI-c2-YhZ" firstAttribute="leading" secondItem="PKG-03-IWO" secondAttribute="leading" id="qA8-2I-2C2"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="PKG-03-IWO"/>
                     </view>
+                    <connections>
+                        <outlet property="nextButton" destination="qTl-Rg-Log" id="KLM-43-jvT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MZa-Sn-C58" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="529" y="108"/>
+            <point key="canvasLocation" x="446" y="107"/>
         </scene>
         <!--My Plants-->
         <scene sceneID="xv3-wF-wn9">
@@ -272,7 +337,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g0X-xO-aES" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1697" y="108"/>
+            <point key="canvasLocation" x="1284" y="107"/>
         </scene>
     </scenes>
 </document>

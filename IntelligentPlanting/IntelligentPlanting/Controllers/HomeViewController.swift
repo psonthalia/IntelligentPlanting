@@ -81,8 +81,8 @@ class HomeViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         self.plantData = [String]()
         if(HomeViewController.array.count > 0) {
-            for var i in 0...HomeViewController.array.count-1 {
-                self.plantData.append(HomeViewController.array[i])
+            for plant in HomeViewController.array {
+                self.plantData.append(plant)
             }
         }
         
@@ -159,7 +159,7 @@ extension HomeViewController: CLLocationManagerDelegate {
                             }
                         }
                         self.plantData = HomeViewController.array
-                        print(self.plantData)
+                        //print(self.plantData)
                     }
                     
                     self.tableView.reloadData()
@@ -206,7 +206,7 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print("Tapped \(self.plantData[indexPath.row])")
+        //print("Tapped \(self.plantData[indexPath.row])")
         ARViewController.plant = self.plantData[indexPath.row]
         AppDelegate.myPlants.append(ARViewController.plant!)
         self.performSegue(withIdentifier: Constants.toAR, sender: nil)
