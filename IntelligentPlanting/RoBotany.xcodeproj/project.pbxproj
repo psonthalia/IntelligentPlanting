@@ -17,6 +17,7 @@
 		894840B02066D5F10012BB27 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894840AF2066D5F10012BB27 /* HomeViewController.swift */; };
 		894840B42066DAFE0012BB27 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894840B32066DAFE0012BB27 /* Constants.swift */; };
 		894840B6206725010012BB27 /* ServerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894840B5206725010012BB27 /* ServerService.swift */; };
+		89C4EFAB208D62F600F98176 /* InstructionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C4EFAA208D62F600F98176 /* InstructionsViewController.swift */; };
 		89F191B82067AF6300D9B5CB /* PlantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F191B72067AF6300D9B5CB /* PlantTableViewCell.swift */; };
 		89F191BA2067DC8800D9B5CB /* MyPlantsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F191B92067DC8800D9B5CB /* MyPlantsViewController.swift */; };
 		A2800B752067852600AE25D1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A2800B742067852500AE25D1 /* GoogleService-Info.plist */; };
@@ -37,6 +38,7 @@
 		894840AF2066D5F10012BB27 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = IntelligentPlanting/Controllers/HomeViewController.swift; sourceTree = SOURCE_ROOT; };
 		894840B32066DAFE0012BB27 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = IntelligentPlanting/Supporting/Constants.swift; sourceTree = "<group>"; };
 		894840B5206725010012BB27 /* ServerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerService.swift; sourceTree = "<group>"; };
+		89C4EFAA208D62F600F98176 /* InstructionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InstructionsViewController.swift; path = IntelligentPlanting/Controllers/InstructionsViewController.swift; sourceTree = SOURCE_ROOT; };
 		89F191B72067AF6300D9B5CB /* PlantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantTableViewCell.swift; sourceTree = "<group>"; };
 		89F191B92067DC8800D9B5CB /* MyPlantsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MyPlantsViewController.swift; path = IntelligentPlanting/Controllers/MyPlantsViewController.swift; sourceTree = SOURCE_ROOT; };
 		A2800B73206781E400AE25D1 /* IntelligentPlanting.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IntelligentPlanting.entitlements; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				A2800B7D2067B0E200AE25D1 /* VisionAPI.swift */,
 				A2800B7F2067D11000AE25D1 /* QRScannerViewController.swift */,
 				89F191B92067DC8800D9B5CB /* MyPlantsViewController.swift */,
+				89C4EFAA208D62F600F98176 /* InstructionsViewController.swift */,
 			);
 			name = Controllers;
 			path = "New Group";
@@ -304,6 +307,7 @@
 				89F191B82067AF6300D9B5CB /* PlantTableViewCell.swift in Sources */,
 				894840B6206725010012BB27 /* ServerService.swift in Sources */,
 				A2800B7E2067B0E200AE25D1 /* VisionAPI.swift in Sources */,
+				89C4EFAB208D62F600F98176 /* InstructionsViewController.swift in Sources */,
 				89F191BA2067DC8800D9B5CB /* MyPlantsViewController.swift in Sources */,
 				A2800B802067D11000AE25D1 /* QRScannerViewController.swift in Sources */,
 				894840A82066D5550012BB27 /* ARViewController.swift in Sources */,
