@@ -2,8 +2,8 @@
 #include <ESP8266WiFi.h> // Enables the ESP8266 to connect to the local network (via WiFi)
 
  
-const char* ssid = "PAS";
-const char* password =  "alok123456";
+const char* ssid = "Paran iPhone";
+const char* password =  "paran123456";
 const char* mqttServer = "m12.cloudmqtt.com";
 const int mqttPort = 19471;
 const char* mqttUser = "titfboib";
@@ -55,16 +55,20 @@ void setup() {
 void loop() {
   
 //  if(abs(analogRead(A0) - val) > 10) {
-    val = analogRead(A0);
-    
-    String str;
-    str=String(val*10);
-    char charBuf[50];
-    str.toCharArray(charBuf, 50);
-    
-    client.publish("esp/test", charBuf);
+  
+    val = analogRead(A0) * 5;
+    if(val != 0) {
+      String str;
+      str=String(val);
+      char charBuf[50];
+      str.toCharArray(charBuf, 50);
+      
+      client.publish("esp/test", charBuf);
 //  }
-  Serial.println(analogRead(A0)*10);
+  Serial.println(val);
+    }
+    
+    
   client.loop();
-  delay(10000);
+  delay(1000);
 }

@@ -63,7 +63,7 @@
                 dataMonth = [['Day','Moisture']];
                 for(var i = 0; i<30; i++){
                     //console.log(month[i]);
-                    dataMonth.push([i,300-Math.min(parseFloat(monthdays[i]),300)]);
+                    dataMonth.push([i,Math.min(parseFloat(monthdays[i]),300)]);
                 }
                 google.charts.load('current', {packages: ['corechart']});
             google.charts.setOnLoadCallback(drawChart);
