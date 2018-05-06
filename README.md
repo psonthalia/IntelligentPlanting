@@ -1,6 +1,7 @@
 # IntelligentPlanting - 1st Place at Los Altos Hacks
 #### The smart way to plant your plants at home
 
+Built by: Howard Wang, Paran Sonthalia, David Sillman, and Gabriel Hull
 
 # Inspiration
 We are ardent supporters of the movement to help stall global warming. To help make this dream practical, we have developed a multi-faceted network of devices known as RoBotany to equip consumers with the ability to farm and grow flowering plants in their backyard with ease and convenient control/tracking systems. By using RoBotany, almost anyone can help do their part in reducing climate change by making the world just a little bit greener.
@@ -26,6 +27,10 @@ We learned a great deal about organizing communication between devices to build 
 
 # What's next for RoBotany
 RoBotany can best be improved by refining the intelligence of our Augmented Reality feature, which is used to determine the health and lighting conditions for a given plant. In addition, we would like to provide better and more diverse statistics about the user's plant's growth in the web app. Finally, we plan to design a smaller, solar-powered PCB chip that would replace our modest prototype for the RoBotanist and a sleek/ergonomic outer casing for that PCB.
+
+# VMware Presentation
+The Robotany team was invited to present as part of the opening ceremony of VMware's Borathon, a hackathon attended by VP's and engineers alike. There, we presented our project to VMware and heard feedback from their employees.
+Check out VMware's blog at: https://octo.vmware.com/our-first-themed-borathon-on-sustainability/
 
 # Built With
 `raspberry-pi`, `nodemcu`, `breadboard`, `solar`, `zurb-foundation`, `xcode`, `arkit`, `firebase`, `mqtt`, `google-cloud-vision`, `jquery`, `google-chart`
