@@ -1,4 +1,4 @@
-# IntelligentPlanting - 1st Place at Los Altos Hacks
+# Robotany - 1st Place at Los Altos Hacks
 #### The smart way to plant your plants at home
 
 Built by: Howard Wang, Paran Sonthalia, David Sillman, and Gabriel Hull
